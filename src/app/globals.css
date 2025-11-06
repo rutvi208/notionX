@@ -1,0 +1,63 @@
+
+/* @import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Source+Sans+Pro:wght@300;400;600;700&display=swap'); */
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #0F0A08;
+  --cta: #FF4E18;
+  --stroke: #E8D5CB;
+  --pastelbrown: #FDF8F5;
+  --mudbrown: #6E4C40;
+  --font-bricolage: 'Bricolage Grotesque', sans-serif;
+  --font-source-sans-pro: 'Source Sans Pro', sans-serif;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-bricolage), var(--font-source-sans-pro), sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+.heading-font {
+  font-family: var(--font-bricolage);
+}
+
+.content-font {
+  font-family: var(--font-source-sans-pro);
+  line-height: 1.2;
+  letter-spacing: -0.01em;
+}
+
+.custom-gradient {
+  background: 
+    radial-gradient(circle at top left, #FFF0E0 0%, #FCD0D4 20%, transparent 50%),
+    radial-gradient(circle at bottom right, #FFF0E0 0%, #FCD0D4 20%, transparent 50%),
+    white;
+}
+
+/* Target only Safari/iOS */
+@supports (-webkit-touch-callout: none) {
+  img[data-nimg] {
+    color: inherit !important; /* force override */
+    background-color: transparent !important; /* ensure no bg leaks */
+  }
+}
+
+summary {
+  cursor: pointer;
+  list-style: none;
+  position: relative;
+  padding-left: 1.5rem;
+}
