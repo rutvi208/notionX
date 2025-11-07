@@ -1,5 +1,6 @@
 import Navbar from '@/app/components/Navbar';
 import Footer from '@/app/components/Footer';
+import BlogFAQ from '@/app/components/BlogFAQ';
 import { HiMiniShare, HiMiniArrowSmallRight } from "react-icons/hi2";
 import BlackArrow from '@/../public/images/Blog-page/Black-Arrow.svg';
 import Link from "next/link";
@@ -46,6 +47,34 @@ const blogPosts = [
   },
 ];
 
+const faqs = [
+  {
+    question: "How do you rank your website in Chat GPT?",
+    answer:
+      "Focus on - content quality, structured data, and brand mentions. Make sure your website is easy for AI to - understand and reference.",
+  },
+  {
+    question: "How to rank a brand on Chat GPT?",
+    answer:
+        "Use PR, influencer marketing, and monitor sentiment. Consistent brand visibility across online platforms helps - boost recognition.",
+  },
+  {
+    question: "How to rank on Chat GPT for products?",
+    answer:
+      "Implement product schema and encourage user-generated content. Clear product details and reviews make it easier for Chat GPT to feature you.",
+  },
+  {
+    question: "How to track Chat GPT visibility in search results?",
+    answer:
+      "Use brand monitoring tools and citation trackers. Regular audits can help you. Better spot gaps and improve performance.",
+  },
+  {
+    question: "How to rank on Chat GPT in 2025?",
+    answer:
+      "Stay updated with - AI trends. Optimize for conversational relevance. Adapt as Chat GPT's algorithms evolve.",
+  }
+];
+
 const Blog1 = () => {
 
   return (
@@ -85,7 +114,7 @@ const Blog1 = () => {
                                 </div>
                             </div>
                             <div className="px-[1px] pt-0 pb-[1px] rounded-b-xl sm:rounded-b-[20px] bg-[radial-gradient(circle_at_center,#FF4E18_40%,#FEE7DF)]">
-                                <div className="py-3 sm:py-5 sm:px-16 rounded-b-xl sm:rounded-b-[20px] bg-[#FAF7F5]">
+                                <div className="py-3 sm:py-5 px-4 sm:px-16 rounded-b-xl sm:rounded-b-[20px] bg-[#FAF7F5]">
                                     <p className="content-font text-lg sm:text-xl text-center">
                                         Showing up in its responses can even greatly increase your visibility and trust. This shift calls for a new kind of SEO that goes beyond - keywords and backlinks. You need to combine traditional techniques with new strategies tailored for AI-driven search. This guide explores how to rank in ChatGPT search using the latest strategies in - SEO, GEO targeting, and AI optimization.
                                     </p>
@@ -138,7 +167,7 @@ const Blog1 = () => {
                             </div>
 
                             {/* core-signals */}
-                            <div className='mb-10 sm:mb-16 scroll-mt-10 sm:scroll-mt-16' id="core-signals">
+                            <div id="core-signals" className='mb-10 sm:mb-16 scroll-mt-10 sm:scroll-mt-16'>
                                 <h2 className="heading-font font-semibold text-2xl sm:text-3xl tracking-[-0.05rem]">Core Signals to Rank Higher on Chat GPT Search!</h2>
                                 <p className="mt-2.5 content-font text-lg lg:text-xl tracking-[-0.05rem]">Structured data helps Chat GPT understand your content better. To improve your visibility - focus on these core signals -</p>
                                 <ul className="ms-10 lg:ms-16 mt-2 space-y-2 content-font list-disc list-outside text-lg lg:text-xl tracking-[-0.05rem]">
@@ -150,24 +179,141 @@ const Blog1 = () => {
                                     <li>Schema Markup and Structured Data - Precisely use the - FAQ schema, product schema, and review schema. This will increase the chances of - being cited.</li>
                                 </ul>
                             </div>
+
+                            {/* how-to-optimize */}
+                            <div id="how-to-optimize" className='mb-10 sm:mb-16 scroll-mt-10 sm:scroll-mt-16'>
+                                <h2 className="heading-font font-semibold text-2xl sm:text-3xl tracking-[-0.05rem]">How to Optimize on Brand Visibility in Chat GPT?</h2>
+                                <p className="mt-2.5 content-font text-lg lg:text-xl tracking-[-0.05rem]">Brand visibility in Chat GPT depends on - content coverage. Reviews, sentiment, and engagement levels play a critical role.</p>
+                                <div className='my-5'>
+                                    <h2 className="flex flex-row items-center heading-font text-[#222222] font-medium text-xl sm:text-2xl tracking-[-0.05rem]"><Image src={BlackArrow} alt="Black Arrow icon" className='me-2'/>How to Rank a Brand on Chat GPT.</h2>
+                                    <p className="ms-5 mt-2.5 content-font text-lg lg:text-xl tracking-[-0.05rem]">For ranking a brand on Chat GPT, ensure you -</p>
+                                    <ul className="ms-10 lg:ms-16 mt-2 space-y-2 content-font list-disc list-outside text-lg lg:text-xl tracking-[-0.05rem]">
+                                        <li>Encourage PR coverage - Get featured in news articles and blogs.</li>
+                                        <li>Leverage influencers - Collaborations can boost brand mentions.</li>
+                                        <li>Monitor reviews - Positive feedback increases trust signals.</li>
+                                        <li>Track sentiment - Use tools to analyze how your brand is perceived.</li>
+                                    </ul>
+                                </div>
+                                <div className='my-5'>
+                                    <h2 className="flex flex-row items-center heading-font text-[#222222] font-medium text-xl sm:text-2xl tracking-[-0.05rem]"><Image src={BlackArrow} alt="Black Arrow icon" className='me-2'/>How to Rank on Chat GPT for Brand Mentions.</h2>
+                                    <p className="ms-5 mt-2.5 content-font text-lg lg:text-xl tracking-[-0.05rem]">Mention your brand naturally in content across platforms. Use conversational language and build trust.</p>                                    
+                                </div>
+                            </div>
+
+                            {/* how-geo-targeted */}
+                            <div id="how-geo-targeted" className='mb-10 sm:mb-16 scroll-mt-10 sm:scroll-mt-16'>
+                                <h2 className="heading-font font-semibold text-2xl sm:text-3xl tracking-[-0.05rem]">How Geo-Targeted Strategies Help You Rank in Chat GPT Search Results.</h2>
+                                <p className="mt-2.5 content-font text-lg lg:text-xl tracking-[-0.05rem]">How Geo-Targeted Strategies Help You Rank in Chat GPT Search Results.</p>
+                                <div className='my-5'>
+                                    <h2 className="flex flex-row items-center heading-font text-[#222222] font-medium text-xl sm:text-2xl tracking-[-0.05rem]"><Image src={BlackArrow} alt="Black Arrow icon" className='me-2'/>To Rank Locally -</h2>
+                                    <ul className="ms-10 lg:ms-16 mt-2 space-y-2 content-font list-disc list-outside text-lg lg:text-xl tracking-[-0.05rem]">
+                                        <li>Use location-based keywords - Include city, region, or neighborhood.</li>
+                                        <li>Optimize google business profile - Keep it updated and accurate.</li>
+                                        <li>Build local citations - Get listed in regional directories.</li>
+                                        <li>Create regional content - Write blogs or guides specific to your area.</li>
+                                    </ul>
+                                </div>
+                                <div className='my-5'>
+                                    <h2 className="flex flex-row items-center heading-font text-[#222222] font-medium text-xl sm:text-2xl tracking-[-0.05rem]"><Image src={BlackArrow} alt="Black Arrow icon" className='me-2'/>SEO + GEO for Chat GPT.</h2>
+                                    <p className="ms-5 mt-2.5 content-font text-lg lg:text-xl tracking-[-0.05rem]">SEO + GEO blends traditional local SEO with AI optimization. It helps how to rank website on Chat GPT for regional queries. It also increases your chances of appearing in Chat GPT search results.</p>                                    
+                                </div>
+                            </div>
+
+                            {/* how-to-rank-products */}
+                            <div id="how-to-rank-products" className='mb-10 sm:mb-16 scroll-mt-10 sm:scroll-mt-16'>
+                                <h2 className="heading-font font-semibold text-2xl sm:text-3xl tracking-[-0.05rem]">How to Rank Products and Services in Chat GPT Search!</h2>
+                                <p className="mt-2.5 content-font text-lg lg:text-xl tracking-[-0.05rem]">Structured data helps Chat GPT understand your offerings. User-generated content enhances relevance.</p>
+                                <div className='my-5'>
+                                    <h2 className="flex flex-row items-center heading-font text-[#222222] font-medium text-xl sm:text-2xl tracking-[-0.05rem]"><Image src={BlackArrow} alt="Black Arrow icon" className='me-2'/>How Products and Services Appear in Chat GPT Search Results.</h2>
+                                    <p className="ms-5 mt-2.5 content-font text-lg lg:text-xl tracking-[-0.05rem]">Visibility of products and services in Chat GPT relies on structured data. Here is how to appear in Chat GPT search results:</p>
+                                    <ul className="ms-10 lg:ms-16 mt-2 space-y-2 content-font list-disc list-outside text-lg lg:text-xl tracking-[-0.05rem]">
+                                        <li>Leverage product schema - Use price, availability, and reviews.</li>
+                                        <li>Encourage UGC - Work on - reviews, testimonials, and social proof.</li>
+                                        <li>Get cited in buying guides - Have partnerships with - bloggers and reviewers.</li>
+                                        <li>Optimize product descriptions - Use natural language and answer common questions.</li>
+                                    </ul>
+                                </div>
+                                <div className='my-5'>
+                                    <h2 className="flex flex-row items-center heading-font text-[#222222] font-medium text-xl sm:text-2xl tracking-[-0.05rem]"><Image src={BlackArrow} alt="Black Arrow icon" className='me-2'/>How to Rank in Chat GPT Search Results for Products and Services.</h2>
+                                    <p className="ms-5 mt-2.5 content-font text-lg lg:text-xl tracking-[-0.05rem]">Ensure your - products and services pages are AI-friendly. Use FAQs, specs, and structured markup. This will help Chat GPT cite your offerings.</p>                                    
+                                </div>
+                            </div>
+
+                            {/* how-to-track */}
+                            <div id="how-to-track" className='mb-10 sm:mb-16 scroll-mt-10 sm:scroll-mt-16'>
+                                <h2 className="heading-font font-semibold text-2xl sm:text-3xl tracking-[-0.05rem]">How to Track Chat GPT Visibility and Improve Rankings!</h2>
+                                <p className="mt-2.5 content-font text-lg lg:text-xl tracking-[-0.05rem]">Tracking visibility and performance in Chat GPT is different from traditional SEO.</p>
+                                <div className='my-5'>
+                                    <h2 className="flex flex-row items-center heading-font text-[#222222] font-medium text-xl sm:text-2xl tracking-[-0.05rem]"><Image src={BlackArrow} alt="Black Arrow icon" className='me-2'/>Tools to Track Chat GPT Visibility in Search Results.</h2>
+                                    <p className="ms-5 mt-2.5 content-font text-lg lg:text-xl tracking-[-0.05rem]">Brands can use structured data validators and prompt performance dashboards to monitor visibility.</p>
+                                    <ul className="ms-10 lg:ms-16 mt-2 space-y-2 content-font list-disc list-outside text-lg lg:text-xl tracking-[-0.05rem]">
+                                        <li>Monitor brand mentions - Use tools like - Brand24 or Mention.</li>
+                                        <li>Track citations - Check if your content is being referenced.</li>
+                                        <li>Audit content - Ensure it is optimized for AI readability.</li>
+                                        <li>Set KPIs - Define goals for mentions, citations, and engagement.</li>
+                                    </ul>
+                                </div>
+                                <div className='my-5'>
+                                    <h2 className="flex flex-row items-center heading-font text-[#222222] font-medium text-xl sm:text-2xl tracking-[-0.05rem]"><Image src={BlackArrow} alt="Black Arrow icon" className='me-2'/>Tools to Monitor Chat GPT Performance.</h2>
+                                    <p className="ms-5 mt-2.5 content-font text-lg lg:text-xl tracking-[-0.05rem]">Use AI analytics platforms that track - performance and conversational visibility. These tools help you answer questions like - “where does my brand rank in Chat GPT?” To improve rankings, brands should focus on - messaging and engagement.</p>                                    
+                                </div>
+                            </div>
+
+                            {/* future-proofing */}
+                            <div id="future-proofing" className='mb-10 sm:mb-16 scroll-mt-10 sm:scroll-mt-16'>
+                                <h2 className="heading-font font-semibold text-2xl sm:text-3xl tracking-[-0.05rem]">Future-Proofing Your Chat GPT Search Strategies in 2025!</h2>
+                                <p className="mt-2.5 content-font text-lg lg:text-xl tracking-[-0.05rem]">As AI evolves - so should your strategy. Let us explore how to future-proof your search strategy.</p>
+                                <div className='my-5'>
+                                    <h2 className="flex flex-row items-center heading-font text-[#222222] font-medium text-xl sm:text-2xl tracking-[-0.05rem]"><Image src={BlackArrow} alt="Black Arrow icon" className='me-2'/>How to Rank on Chat GPT in 2025. </h2>
+                                    <p className="ms-5 mt-2.5 content-font text-lg lg:text-xl tracking-[-0.05rem]">Ranking on Chat GPT requires to -</p>
+                                    <ul className="ms-10 lg:ms-16 mt-2 space-y-2 content-font list-disc list-outside text-lg lg:text-xl tracking-[-0.05rem]">
+                                        <li>Follow AI algorithm updates - Stay informed about changes.</li>
+                                        <li>Blend Chat GPT optimization into SEO - Do not treat them separately.</li>
+                                        <li>Continuously learn and adapt - Test new formats and monitor results.</li>
+                                        <li>Set KPIs - Define goals for mentions, citations, and engagement.</li>
+                                    </ul>
+                                </div>
+                                <div className='my-5'>
+                                    <h2 className="flex flex-row items-center heading-font text-[#222222] font-medium text-xl sm:text-2xl tracking-[-0.05rem]"><Image src={BlackArrow} alt="Black Arrow icon" className='me-2'/>How to Rank on Chat GPT for Brands in 2025.</h2>
+                                    <p className="ms-5 mt-2.5 content-font text-lg lg:text-xl tracking-[-0.05rem]">Focus on - brand engagement, content clarity, and structured data. These elements will define - how to rank brand on Chat GPT in 2025 and beyond.</p>                                    
+                                </div>
+                            </div>
+
+                            {/* moving-forward */}
+                            <div className='mb-10 sm:mb-16 scroll-mt-10 sm:scroll-mt-16' id="moving-forward">
+                                <h2 className="heading-font font-semibold text-2xl sm:text-3xl tracking-[-0.05rem]">Moving Forward: Your Roadmap to Chat GPT Ranking Success!</h2>
+                                <p className="mt-2.5 content-font text-lg lg:text-xl tracking-[-0.05rem]">Start optimizing today! Whether you are a startup or an established brand - visibility in Chat GPT can drive - traffic, trust, and conversions.</p>
+                                <p className="mt-2.5 content-font text-lg lg:text-xl tracking-[-0.05rem]">If you need professional help? Explore our consulting services at notionX to build a custom Chat GPT SEO + GEO strategy.</p>
+                                <p className="mt-2.5 content-font text-lg lg:text-xl tracking-[-0.05rem]">You can even try our AI-Powered GEO Auditor (Beta Version) tool to analyze your website performance for traditional search engines and AI-steered platforms.</p>
+                            </div>
                         </div>
 
                         {/* pro-tips */}
                         <div className='flex flex-col lg:max-w-5xl sm:w-[45rem] mx-auto container'>
                             <div className="p-[1px] rounded-t-xl sm:rounded-t-[20px] bg-[radial-gradient(circle_at_center,#FF4E18_40%,#FEE7DF)]">
-                                <div className="py-3 sm:py-5 rounded-t-xl sm:rounded-t-[20px] bg-white">
+                                <div className="py-3 sm:pt-5 sm:pb-2.5 rounded-t-xl sm:rounded-t-[20px] bg-white">
                                     <p className="heading-font font-semibold text-xl sm:text-2xl text-center tracking-[-0.05rem]">
                                         Pro Tips</p>
                                 </div>
                             </div>
                             <div className="px-[1px] pt-0 pb-[1px] rounded-b-xl sm:rounded-b-[20px] bg-[radial-gradient(circle_at_center,#FF4E18_40%,#FEE7DF)]">
-                                <div className="py-3 sm:py-5 sm:px-10 rounded-b-xl sm:rounded-b-[20px] bg-[#FAF7F5]">
+                                <div className="py-3 sm:py-5 px-4 sm:px-10 rounded-b-xl sm:rounded-b-[20px] bg-[#FAF7F5] space-y-3 sm:space-y-5">
+                                    <div className='flex flex-col space-y-2 border-l-[2px] border-l-[var(--cta)] pb-[1px] ps-2 lg:ps-4'>
+                                        <span className="heading-font font-bold text-2xl sm:text-[28px]">Checklist</span>
+                                        <h3 className="content-font font-semibold text-lg sm:text-xl">How to Rank on Chat GPT in 2025 and Beyond.</h3>
+                                    </div>
                                     <p className="content-font text-sm sm:text-base">
                                         So, to rank in Chat GPT search, begin with clear and helpful content that answers real questions. Get your brand mentioned by trusted sources. And build authority through backlinks.
+                                    </p>
+                                    <p className="content-font text-sm sm:text-base">
+                                        Leverage natural language and structured data. Better make your content AI-friendly. Keep your brand active across digital platforms. So, Chat GPT can easily recognize and recommend you.
                                     </p>
                                 </div>
                             </div>
                         </div>
+
+                        {/* faq */}
+                        <BlogFAQ/>
                     </div>
 
                     {/* read more blogs */}
