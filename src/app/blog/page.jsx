@@ -104,9 +104,9 @@ const KnowledgeHub = () => {
 
                                     <div className='flex sm:flex-col sm:space-y-1 lg:space-y-0 lg:flex-row justify-between mt-auto'>
                                         <p className='text-[#878483] content-font text-xs'>{blog.date} &nbsp; | &nbsp; {blog.readTime}</p>
-                                        <p className='cursor-pointer group text-[var(--cta)] content-font text-xs flex items-center font-bold hover:text-[var(--cta)] transition duration-300'>
+                                        <p className='cursor-pointer group text-[var(--cta)] content-font text-xs sm:text-sm flex items-center font-bold hover:text-[var(--cta)] transition duration-300'>
                                         Read More
-                                        <span className='text-[var(--cta)] ps-1 text-sm transition-transform duration-300 ease-out group-hover:translate-x-1'>
+                                        <span className='text-[var(--cta)] ps-1 text-sm sm:text-lg transition-transform duration-300 ease-out group-hover:translate-x-1'>
                                             <HiMiniArrowSmallRight />
                                         </span>
                                         </p>

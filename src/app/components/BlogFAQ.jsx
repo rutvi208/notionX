@@ -40,11 +40,11 @@ setOpenIndex(openIndex === index ? null : index);
 
   return (
     <div>
-        <div className="container mx-auto place-items-center py-20 px-5 lg:px-8 2xl:px-0">
+        <div className="container mx-auto place-items-center pt-20 px-5 lg:px-8 2xl:px-0">
             <h1 className="heading-font text-center font-semibold text-3xl sm:text-4xl lg:text-5xl tracking-[-0.06rem]">Quick Answers</h1>
             <p className="text-lg lg:text-xl text-center content-font mt-3">Everything you need to know about GEO and AI search optimization.</p>
                 
-            <div className="grid grid-cols-1 gap-3 lg:gap-5 my-16 lg:my-20 lg:max-w-5xl sm:w-[56.25rem]">
+            <div className="grid grid-cols-1 gap-3 lg:gap-5 my-16 lg:my-20 lg:w-[56.25rem]">
                 {faqs.map((faq, index) => (
                     <div key={index} className="self-start">
                     <div className="rounded-lg border border-[var(--stroke)] text-lg lg:text-xl px-6">
