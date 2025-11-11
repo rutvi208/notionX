@@ -2,6 +2,7 @@ import Navbar from '@/app/components/Navbar';
 import Footer from '@/app/components/Footer';
 import BlogFAQ from '@/app/components/BlogFAQ';
 import { HiMiniShare, HiMiniArrowSmallRight } from "react-icons/hi2";
+import { GiCheckMark } from "react-icons/gi";
 import BlackArrow from '@/../public/images/Blog-page/Black-Arrow.svg';
 import Link from "next/link";
 import Image from 'next/image';
@@ -302,9 +303,9 @@ const Blog1 = () => {
                             </div>
                             <div className="px-[1px] pt-0 pb-[1px] rounded-b-xl sm:rounded-b-[20px] bg-[radial-gradient(circle_at_center,#FF4E18_40%,#FEE7DF)]">
                                 <div className="py-3 sm:py-5 px-4 sm:px-10 rounded-b-xl sm:rounded-b-[20px] bg-[#FAF7F5] space-y-3 sm:space-y-5">
-                                    <div className='flex flex-col space-y-2 border-l-[2px] border-l-[var(--cta)] pb-[1px] ps-2 lg:ps-4'>
-                                        <span className="heading-font font-bold text-2xl sm:text-[28px]">Checklist</span>
-                                        <h3 className="content-font font-semibold text-lg sm:text-xl">How to Rank on Chat GPT in 2025 and Beyond.</h3>
+                                    <div className='flex flex-col space-y-1.5 border-l-[2px] border-l-[var(--cta)] ps-2 lg:ps-4'>
+                                        <div className="content-font text-sm text-left text-[#222222] flex flex-row space-x-1 items-center"><p>Checklist</p>  <GiCheckMark /></div>
+                                        <h3 className="heading-font font-bold text-2xl sm:text-[28px]">How to Rank on Chat GPT in 2025 and Beyond.</h3>
                                     </div>
                                     <p className="content-font text-sm sm:text-base">
                                         So, to rank in Chat GPT search, begin with clear and helpful content that answers real questions. Get your brand mentioned by trusted sources. And build authority through backlinks.
@@ -363,8 +364,8 @@ const Blog1 = () => {
                                         <Link href={blog.href} rel="noopener noreferrer"
                                         className='bg-white flex flex-col justify-between flex-grow p-3 lg:p-4 rounded-b-xl sm:rounded-b-[0.875rem]'>
                                         
-                                        <span className="text-sm text-left text-[var(--cta)] content-font">{blog.tag}</span>
-                                        <h2 className="heading-font font-medium text-lg lg:text-xl leading-5 sm:leading-6 tracking-[-0.06rem] my-2">{blog.title}</h2>
+                                        <span className="text-sm text-left text-[var(--foreground)] content-font">{blog.tag}</span>
+                                        <h2 className="heading-font font-medium text-lg lg:text-xl leading-5 sm:leading-6 tracking-[-0.06rem] my-2 hover:text-[var(--cta)]">{blog.title}</h2>
                                         <p className="text-sm sm:text-base text-[#0f0a08c1] content-font mb-2 lg:mb-4">{blog.desc}</p>
 
                                         <div className='flex sm:flex-col sm:space-y-1 lg:space-y-0 lg:flex-row justify-between items-center mt-auto'>

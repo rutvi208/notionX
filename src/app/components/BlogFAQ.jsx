@@ -53,7 +53,9 @@ setOpenIndex(openIndex === index ? null : index);
                         onClick={() => toggleFAQ(index)}
                         className="w-full flex flex-row items-center justify-between py-4 text-left cursor-pointer"
                         >
-                        <p className="content-font">{faq.question}</p>
+                        <p className={`header-font transition-colors duration-300 ${
+                            openIndex === index ? "text-[var(--cta)]" : "text-[var(--foreground)]"
+                          }`}>{faq.question}</p>
                         <span className="text-[#AD8775] text-2xl 2xl:text-3xl">
                             {openIndex === index ? "-" : "+"}
                         </span>
@@ -66,7 +68,7 @@ setOpenIndex(openIndex === index ? null : index);
                         }`}
                         >
                         <div className="pb-4">
-                            <p className="text-base lg:text-lg xl:text-xl text-[#333]">
+                            <p className="content-font text-lg lg:text-xl text-[#333]">
                             {faq.answer}
                             </p>
                         </div>
