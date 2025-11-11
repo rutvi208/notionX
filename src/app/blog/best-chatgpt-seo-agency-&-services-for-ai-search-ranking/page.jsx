@@ -1,0 +1,550 @@
+import Navbar from '@/app/components/Navbar';
+import Footer from '@/app/components/Footer';
+import { HiMiniShare, HiMiniArrowSmallRight } from "react-icons/hi2";
+import Link from "next/link";
+import Image from 'next/image';
+import DemoImg from '@/../public/images/Blog-page/demo.webp';
+import NotionXLogo from '@/../public/images/Blog-page/NotionX.png';
+import NoGoodLogo from '@/../public/images/Blog-page/NoGood.png';
+import BirdMarketingLogo from '@/../public/images/Blog-page/Bird.png';
+import WOWBixLogo from '@/../public/images/Blog-page/WOWBix.png';
+import EmbarqueLogo from '@/../public/images/Blog-page/Embarque.png';
+import PricingTable from '@/../public/images/Blog-page/GEO-Service-Plans.png';
+import Grammarly from '@/../public/images/Blog-page/Blog3-grammarly.png';
+import HumanWritten from '@/../public/images/Blog-page/Blog3-HumanWritten.png';
+import AuthorImage from '@/../public/images/Blog-page/AuthorImage.jpg';
+import SharePopup from '@/app/components/SharePopup';
+
+export const metadata = {
+  title: "Best ChatGPT SEO Agency & Services for AI Search Ranking | NotionX",
+  keywords: ["best ChatGPT SEO agencies to rank in ai search", "best ChatGPT SEO rank tracking software", "ChatGPT SEO rank tracking tools", "best ChatGPT SEO rank tracking", "best ChatGPT SEO rank tracker", "ChatGPT SEO rank tracking", "best SEO tool to rank in ChatGPT"],
+};
+
+const blogPosts = [
+  {
+    id: 1,
+    href: "how-to-rank-your-website-or-brand-in-chatgpt-latest-strategy-guide",
+    image: DemoImg,
+    tag: "#trending",
+    title: "How to Rank Your Website or Brand in ChatGPT : Latest Strategy Guide",
+    desc: "This post explains the fundamental shift happening in search behavior and why businesses need to adapt.",
+    date: "Oct 25, 2025",
+    readTime: "2 mins read",
+  },
+  {
+    id: 2,
+    href: "complete-guide-to-chatgpt-rank-tracking-tools-in-2025",
+    image: DemoImg,
+    tag: "#trending",
+    title: "Complete Guide to ChatGPT Rank Tracking Tools in 2025!",
+    desc: "This post explains the fundamental shift happening in search behavior and why businesses need to adapt.",
+    date: "Oct 25, 2025",
+    readTime: "3 mins read",
+  },
+  {
+    id: 3,
+    href: "how-ai-overviews-are-stealing-your-traffic-recovery-&-ranking-strategies-for-2025",
+    image: DemoImg,
+    tag: "#trending",
+    title: "How AI Overviews Are Stealing Your Traffic: Recovery & Ranking Strategies for 2025!",
+    desc: "This post explains the fundamental shift happening in search behavior and why businesses need to adapt.",
+    date: "Oct 25, 2025",
+    readTime: "3 mins read",
+  },
+];
+
+const Blog2 = () => {
+
+  return (
+    <div>
+        <div className='h-screen bg-[radial-gradient(circle_at_top,rgba(246,238,234)_0%,rgba(246,239,235)_60%,white_70%)]'>
+            
+            <div className=''>
+                <Navbar />
+                    <div className="my-10 sm:my-12 lg:my-20 2xl:my-24 container mx-auto justify-center place-items-center text-center ">
+                        <h1 className="heading-font text-3xl lg:text-4xl xl:text-5xl sm:w-10/12 lg:w-10/12 2xl:w-8/12">Best ChatGPT SEO Agency & Services for AI Search Ranking</h1>
+                        <div className='flex flex-row justify-between items-center mt-4 sm:mt-8'>
+                            <p className='text-[#878483] content-font text-xs'>Author Name</p>
+                            <p className='text-[#878483] mx-4 text-2xl sm:text-3xl'> · </p>
+                            <p className='text-[#878483] content-font text-xs'>Oct 25, 2025 &nbsp; | &nbsp; 2 mins read</p>
+                            <p className='text-[#878483] mx-4 text-2xl sm:text-3xl'> · </p>
+                            {/* <Link href="https://geo.notionx.ai/" 
+                                target="_blank" 
+                                rel="noopener noreferrer"
+                                className='cursor-pointer group text-[var(--cta)] content-font text-base flex items-center font-bold hover:underline'>
+                                Share <span className='text-[var(--cta)] ps-1 text-sm'><HiMiniShare /></span></Link> */}
+                                <div className="flex items-center gap-1 text-[var(--cta)]">
+                                <SharePopup
+                                    title="Best ChatGPT SEO Agency & Services for AI Search Ranking"
+                                />
+                                <HiMiniShare className="text-sm" />
+                            </div>
+                        </div>
+
+                        <div className='mx-auto container overflow-hidden rounded-lg lg:rounded-xl h-60 sm:h-80 sm:w-[56.25rem] px-4 lg:px-0 my-7 sm:my-10'>
+                            <Image 
+                                src={DemoImg}
+                                alt="Hero Background"
+                                loading="lazy"
+                                className='object-center object-cover h-full w-full rounded-lg lg:rounded-xl'
+                            />
+                        </div>
+                    </div>
+
+                    <div className='mx-auto container overflow-hidden px-4 lg:px-0 my-7 sm:my-10'>
+                        <div className='flex flex-col lg:max-w-5xl sm:w-[56.25rem] mx-auto container'>
+                            <div className="p-[1px] rounded-t-xl sm:rounded-t-[20px] bg-[radial-gradient(circle_at_center,#FF4E18_40%,#FEE7DF)]">
+                                <div className="py-3 sm:py-5 rounded-t-xl sm:rounded-t-[20px] bg-white">
+                                    <p className="heading-font font-semibold text-xl sm:text-2xl text-center tracking-[-0.05rem]">
+                                        Key Takeaway</p>
+                                </div>
+                            </div>
+                            <div className="px-[1px] pt-0 pb-[1px] rounded-b-xl sm:rounded-b-[20px] bg-[radial-gradient(circle_at_center,#FF4E18_40%,#FEE7DF)]">
+                                <div className="py-3 sm:py-5 px-4 sm:px-16 rounded-b-xl sm:rounded-b-[20px] bg-[#FAF7F5]">
+                                    <p className="content-font text-lg sm:text-xl text-center">
+                                    Showing up in its responses can even greatly increase your visibility and trust. This shift calls for a new kind of SEO that goes beyond - keywords and backlinks. You need to combine traditional techniques with new strategies tailored for AI-driven search. This guide explores how to rank in ChatGPT search using the latest strategies in - SEO, GEO targeting, and AI optimization.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className='mx-auto container flex flex-col lg:max-w-5xl sm:w-[56.25rem]'>
+                            <div className='my-10 sm:my-16'>
+                                <p className="heading-font font-semibold text-xl sm:text-2xl tracking-[-0.05rem]">
+                                    In This Article:</p>
+                                <ul className="ms-6 mt-2.5 sm:mt-6 space-y-2 content-font text-[var(--cta)] list-disc list-outside text-lg lg:text-xl tracking-[-0.05rem]">
+                                    <li className='hover:underline'><a href="#best-agencies">Best ChatGPT SEO Agencies to Rank in AI Search</a></li>
+                                    <li className='hover:underline'><a href="#comparison-table">AI ChatGPT SEO Agency Comparison Table [2025]</a></li>
+                                    <li className='hover:underline'><a href="#moving-forward">Moving Forward: Partnering with a Specialized AI ChatGPT SEO Agency</a></li>
+                                </ul>
+                            </div>
+
+                            {/* Introduction */}
+                            <div className='mb-10 sm:mb-16'>
+                                <h2 className="heading-font font-semibold text-2xl sm:text-3xl tracking-[-0.05rem]">Best ChatGPT SEO Agency & Services for AI Search Ranking</h2>
+                                <p className="mt-3 sm:mt-6 content-font text-lg lg:text-xl tracking-[-0.05rem]">
+                                    With ChatGPT, Perplexity, and other AI search engines altering how people search, companies face a new contest.
+                                </p>
+                                <p className="mt-3 sm:mt-6 content-font text-lg lg:text-xl tracking-[-0.05rem]">If AI-powered search cannot find your content - your brand does not exist. Traditional SEO tactics will not earn you a spot in AI-powered answers.</p>
+                                <p className="mt-3 sm:mt-6 content-font text-lg lg:text-xl tracking-[-0.05rem]">So, should you invest in ChatGPT SEO agencies, or are they just another transitory drift? Finding the best ChatGPT SEO agencies to rank in AI search looks tough in a digital maze.</p>
+                                <p className="mt-3 sm:mt-6 content-font text-lg lg:text-xl tracking-[-0.05rem]">However, the numbers tell a captivating story. NotionX stands out as a top SEO digital marketing agency, assisting businesses in unlocking their AI growth.</p>
+                                <p className="mt-3 sm:mt-6 content-font text-lg lg:text-xl tracking-[-0.05rem]">NotionX recently helped a London-based architectural design firm with a 33% increase in their AI Mentions, got +110 AI Overview and +51 ChatGPT Mentions in just 3.5 months.</p>
+                                <p className="mt-3 sm:mt-6 content-font text-lg lg:text-xl tracking-[-0.05rem]">In this blog, we have identified the top ChatGPT SEO companies delivering consistent outcomes. They are the best ChatGPT SEO rank tracking software agencies to rank in AI search. Let us explore the best ChatGPT SEO rank tracking agencies of 2025.</p>
+                            </div>
+
+                            {/* Best Agencies */}
+                            <div id='best-agencies' className='mb-10 sm:mb-16 scroll-mt-10 sm:scroll-mt-16'>
+                                <h2 className="heading-font font-semibold text-2xl sm:text-3xl tracking-[-0.05rem]">Best ChatGPT SEO Agencies to Rank in AI Search</h2>
+                                <p className="mt-3 sm:mt-6 content-font text-lg lg:text-xl tracking-[-0.05rem]">
+                                    Businesses require SEO agency partners who can enhance visibility across diverse digital platforms. The agencies listed below have assisted brands to show up in - generative outcomes and future-proof their digital marketing strategy.
+                                </p>
+
+                                {/* NotionX */}
+                                <div className='my-8'>
+                                    <h3 className="heading-font font-medium text-xl sm:text-2xl tracking-[-0.05rem]">1. NotionX</h3>
+                                    <div className='my-4 rounded-lg lg:rounded-xl border border-[var(--stroke)] overflow-hidden'>
+                                        <Image 
+                                            src={NotionXLogo}
+                                            alt="NotionX"
+                                            loading="lazy"
+                                            className='object-contain w-full'
+                                        />
+                                    </div>
+                                    <p className="mt-3 sm:mt-6 content-font text-lg lg:text-xl tracking-[-0.05rem]">
+                                    <a href="https://notionx.ai/" target="_blank" rel="noopener noreferrer" className="text-blue-600 underline hover:text-blue-800">NotionX</a> assists brands in getting discovered in AI search outcomes. It specializes in - AI SEO, Generative Engine Optimization (GEO) services, and enhancing visibility across AI-driven platforms.
+                                    </p>
+                                    
+                                    <h4 className="mt-6 heading-font font-semibold text-lg sm:text-xl tracking-[-0.05rem]">NotionX Services for AI Search Ranking:</h4>
+                                    <ul className="ms-10 mt-2 sm:mt-4 space-y-2 content-font list-disc list-outside text-lg lg:text-xl tracking-[-0.05rem]">
+                                        <li><span className='font-semibold'>AI Visibility Audit -</span> Assess your current AI footprint and uncover key citation gaps.</li>
+                                        <li><span className='font-semibold'>AI Schema Development -</span> Build structured data that - AI engines recognize and prioritize.</li>
+                                        <li><span className='font-semibold'>Citation Building -</span> Position your brand as the definitive source across the web.</li>
+                                        <li><span className='font-semibold'>AI Monitoring & Optimization -</span> Continuously track performance and refine visibility.</li>
+                                    </ul>
+
+                                    <h4 className="mt-6 heading-font font-semibold text-lg sm:text-xl tracking-[-0.05rem]">NotionX Significant Features:</h4>
+                                    <ul className="ms-10 mt-2 sm:mt-4 space-y-2 content-font list-disc list-outside text-lg lg:text-xl tracking-[-0.05rem]">
+                                        <li><span className='font-semibold'>AI Mention Tracking -</span> Monitor where and how your brand appears in AI-generated answers.</li>
+                                        <li><span className='font-semibold'>Competitor Citation Analysis -</span> Uncover who is earning citations---and where you can outpace them.</li>
+                                        <li><span className='font-semibold'>AI Answer Gap Identification -</span> Spot missing or misattributed AI responses tied to your domain.</li>
+                                        <li><span className='font-semibold'>LLM-Optimized Content Creation -</span> Craft content designed for AI comprehension and citation.</li>
+                                        <li><span className='font-semibold'>Entity Relationship Mapping -</span> Clarify how your brand, products, and topics connect in AI systems.</li>
+                                        <li><span className='font-semibold'>Prompt-Aligned Website Updates -</span> Refine site content to match - how users prompt large language models.</li>
+                                        <li><span className='font-semibold'>AI Training Dataset Inclusion -</span> Boost your presence in datasets that shape AI understanding.</li>
+                                        <li><span className='font-semibold'>Strategic Content Partnerships -</span> Collaborate with high-authority sources to - strengthen your signal.</li>
+                                        <li><span className='font-semibold'>Authority Signal Amplification -</span> Enhance the signals that AI uses to - trust and cite your brand.</li>
+                                        <li><span className='font-semibold'>Weekly AI Mention Reports -</span> Stay informed with insights into your AI visibility.</li>
+                                    </ul>
+
+                                    <h4 className="mt-6 heading-font font-semibold text-lg sm:text-xl tracking-[-0.05rem]">NotionX Key Benefits:</h4>
+                                    <ul className="ms-10 mt-2 sm:mt-4 space-y-2 content-font list-disc list-outside text-lg lg:text-xl tracking-[-0.05rem]">
+                                        <li><span className='font-semibold'>Be the Answer -</span> Skip the click race. Become the AI-recommended choice when customers ask.</li>
+                                        <li><span className='font-semibold'>Quicker Results -</span> Reach AI visibility in 4--6 weeks---far quicker than traditional SEO.</li>
+                                        <li><span className='font-semibold'>Future-Proof Strategy -</span> Match how people search today: direct questions to AI tools.</li>
+                                        <li><span className='font-semibold'>Measurable ROI -</span> Track AI mentions, branded queries, and leads from AI-driven discovery.</li>
+                                    </ul>
+
+                                    <h4 className="mt-6 heading-font font-semibold text-lg sm:text-xl tracking-[-0.05rem]">NotionX Pricing:</h4>
+                                    <p className="mt-2 sm:mt-4 content-font text-lg text-center lg:text-xl tracking-[-0.05rem] font-semibold">GEO Service Plans</p>
+                                    <div className='my-4 rounded-lg lg:rounded-xl border border-[var(--stroke)] overflow-hidden'>
+                                        <Image 
+                                            src={PricingTable}
+                                            alt="NotionX Pricing Table"
+                                            loading="lazy"
+                                            className='object-contain w-full'
+                                        />
+                                    </div>
+                                </div>
+
+                                {/* NoGood */}
+                                <div className='my-8'>
+                                    <h3 className="heading-font font-medium text-xl sm:text-2xl tracking-[-0.05rem]">2. NoGood</h3>
+                                    <div className='my-4 rounded-lg lg:rounded-xl border border-[var(--stroke)] overflow-hidden'>
+                                        <Image 
+                                            src={NoGoodLogo}
+                                            alt="NoGood"
+                                            loading="lazy"
+                                            className='object-contain w-full'
+                                        />
+                                    </div>
+                                    <p className="mt-3 sm:mt-6 content-font text-lg lg:text-xl tracking-[-0.05rem]">
+                                        NoGood combines AI SEO, growth marketing, and content science to assist companies in winning across AI-powered discovery. As a ChatGPT SEO rank tracking tools agency, it focuses on full-funnel strategies. These strategies advance visibility across ChatGPT, Perplexity, and other generative platforms.
+                                    </p>
+                                    
+                                    <h4 className="mt-6 heading-font font-semibold text-lg sm:text-xl tracking-[-0.05rem]">Key Services:</h4>
+                                    <ul className="ms-10 mt-2 sm:mt-4 space-y-2 content-font list-disc list-outside text-lg lg:text-xl tracking-[-0.05rem]">
+                                        <li>Generative search visibility audits</li>
+                                        <li>Answer Engine Optimization (AEO)</li>
+                                        <li>AI SEO, content strategy, and mapping</li>
+                                        <li>AI-powered keyword research</li>
+                                    </ul>
+
+                                    <h4 className="mt-6 heading-font font-semibold text-lg sm:text-xl tracking-[-0.05rem]">Key Strengths:</h4>
+                                    <ul className="ms-10 mt-2 sm:mt-4 space-y-2 content-font list-disc list-outside text-lg lg:text-xl tracking-[-0.05rem]">
+                                        <li>Blends performance marketing, AI SEO, and content strategy in a unified workflow.</li>
+                                        <li>Bridges top-of-funnel AI presence with bottom-line growth tactics.</li>
+                                        <li>Excels at aligning AI-driven discovery with business outcomes.</li>
+                                    </ul>
+                                </div>
+
+                                {/* Bird Marketing */}
+                                <div className='my-8'>
+                                    <h3 className="heading-font font-medium text-xl sm:text-2xl tracking-[-0.05rem]">3. Bird Marketing</h3>
+                                    <div className='my-4 rounded-lg lg:rounded-xl border border-[var(--stroke)] overflow-hidden'>
+                                        <Image 
+                                            src={BirdMarketingLogo}
+                                            alt="Bird Marketing"
+                                            loading="lazy"
+                                            className='object-contain w-full'
+                                        />
+                                    </div>
+                                    <p className="mt-3 sm:mt-6 content-font text-lg lg:text-xl tracking-[-0.05rem]">
+                                        Bird Marketing blends AI and GEO expertise with SEO mastery to assist brands grow in the digital space. Being the best ChatGPT SEO rank tracking agency, it enables businesses with its pioneering search optimization and AI integration methodologies. They leverage the best SEO tool to rank in ChatGPT.
+                                    </p>
+                                    
+                                    <h4 className="mt-6 heading-font font-semibold text-lg sm:text-xl tracking-[-0.05rem]">Key Services:</h4>
+                                    <ul className="ms-10 mt-2 sm:mt-4 space-y-2 content-font list-disc list-outside text-lg lg:text-xl tracking-[-0.05rem]">
+                                        <li>Generative Engine Optimization (GEO).</li>
+                                        <li>Enable AI-powered frameworks.</li>
+                                        <li>Drive full-service digital strategies.</li>
+                                        <li>SEO consulting services.</li>
+                                    </ul>
+
+                                    <h4 className="mt-6 heading-font font-semibold text-lg sm:text-xl tracking-[-0.05rem]">Key Strengths:</h4>
+                                    <ul className="ms-10 mt-2 sm:mt-4 space-y-2 content-font list-disc list-outside text-lg lg:text-xl tracking-[-0.05rem]">
+                                        <li>Combines traditional tactics with - cutting-edge AI tools for superior results.</li>
+                                        <li>Delivers multi-market campaigns powered by solid analytics.</li>
+                                        <li>Maintains clear, consistent communication from start to finish.</li>
+                                    </ul>
+                                </div>
+
+                                {/* WOWBix Marketing */}
+                                <div className='my-8'>
+                                    <h3 className="heading-font font-medium text-xl sm:text-2xl tracking-[-0.05rem]">4. WOWBix Marketing</h3>
+                                    <div className='my-4 rounded-lg lg:rounded-xl border border-[var(--stroke)] overflow-hidden'>
+                                        <Image 
+                                            src={WOWBixLogo}
+                                            alt="WOWBix Marketing"
+                                            loading="lazy"
+                                            className='object-contain w-full'
+                                        />
+                                    </div>
+                                    <p className="mt-3 sm:mt-6 content-font text-lg lg:text-xl tracking-[-0.05rem]">
+                                        WOWBix Marketing delivers budget-friendly digital marketing without cutting corners. As one of the best ChatGPT SEO rank tracking software agencies, they harness AI to boost search performance.
+                                    </p>
+                                    <p className="mt-3 sm:mt-6 content-font text-lg lg:text-xl tracking-[-0.05rem]">The company leverages ChatGPT SEO rank tracking tools to improve its service deliverables. It supports - small businesses and large corporations. Their teams combine cost efficiency with proven marketing tactics.</p>
+                                    
+                                    <h4 className="mt-6 heading-font font-semibold text-lg sm:text-xl tracking-[-0.05rem]">Key Services:</h4>
+                                    <ul className="ms-10 mt-2 sm:mt-4 space-y-2 content-font list-disc list-outside text-lg lg:text-xl tracking-[-0.05rem]">
+                                        <li>AI-powered SEO.</li>
+                                        <li>Conversion optimization.</li>
+                                        <li>SMM and PPC.</li>
+                                    </ul>
+
+                                    <h4 className="mt-6 heading-font font-semibold text-lg sm:text-xl tracking-[-0.05rem]">Key Strengths:</h4>
+                                    <ul className="ms-10 mt-2 sm:mt-4 space-y-2 content-font list-disc list-outside text-lg lg:text-xl tracking-[-0.05rem]">
+                                        <li>Clients see dramatic ranking improvements.</li>
+                                        <li>Campaigns generate leads via social media.</li>
+                                        <li>A small and focused team ensures tailored support.</li>
+                                    </ul>
+                                </div>
+
+                                {/* Embarque */}
+                                <div className='my-8'>
+                                    <h3 className="heading-font font-medium text-xl sm:text-2xl tracking-[-0.05rem]">5. Embarque</h3>
+                                    <div className='my-4 rounded-lg lg:rounded-xl border border-[var(--stroke)] overflow-hidden'>
+                                        <Image 
+                                            src={EmbarqueLogo}
+                                            alt="Embarque"
+                                            loading="lazy"
+                                            className='object-contain w-full'
+                                        />
+                                    </div>
+                                    <p className="mt-3 sm:mt-6 content-font text-lg lg:text-xl tracking-[-0.05rem]">
+                                        Embarque helps SaaS and tech startups grow with AI-powered SEO. They boost - organic traffic and rankings in ChatGPT-driven search. Their efficient processes meet an AI-enhanced strategy for measurable impact.
+                                    </p>
+                                    <p className="mt-3 sm:mt-6 content-font text-lg lg:text-xl tracking-[-0.05rem]">Built for modern search, this ChatGPT SEO agency is optimized with the best ChatGPT SEO rank tracker tools.</p>
+                                    
+                                    <h4 className="mt-6 heading-font font-semibold text-lg sm:text-xl tracking-[-0.05rem]">Key Services:</h4>
+                                    <ul className="ms-10 mt-2 sm:mt-4 space-y-2 content-font list-disc list-outside text-lg lg:text-xl tracking-[-0.05rem]">
+                                        <li>Covers technical, on-page, and off-page SEO strategy.</li>
+                                        <li>Automated content production for quicker visibility.</li>
+                                        <li>Contextual placements that boost authority and rankings.</li>
+                                        <li>GA4 setups are tied directly to performance KPIs.</li>
+                                        <li>Multi-channel SEO backed by outcome-driven reporting.</li>
+                                    </ul>
+
+                                    <h4 className="mt-6 heading-font font-semibold text-lg sm:text-xl tracking-[-0.05rem]">Key Strengths:</h4>
+                                    <ul className="ms-10 mt-2 sm:mt-4 space-y-2 content-font list-disc list-outside text-lg lg:text-xl tracking-[-0.05rem]">
+                                        <li>Build frameworks that grow with your business and deliver results.</li>
+                                        <li>Combines programmatic SEO with structured content built for AI visibility.</li>
+                                        <li>Tracks KPIs - traffic, leads, signups, and overall revenue.</li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div className='mx-auto container overflow-hidden flex flex-col lg:flex-row space-y-6 lg:space-y-0 space-x-0 lg:space-x-6 mb-10 sm:mb-16'>
+                                {/* image 1 */}
+                                <div className='rounded-lg lg:rounded-xl px-4 border border-[var(--stroke)]'>
+                                    <Image 
+                                        src={Grammarly}
+                                        alt="Grammarly"
+                                        loading="lazy"
+                                        className='object-contain h-full w-full rounded-lg lg:rounded-xl'
+                                    />
+                                </div>
+                                {/* image 2 */}
+                                <div className='rounded-lg lg:rounded-xl px-4 border border-[var(--stroke)]'>
+                                    <Image 
+                                        src={HumanWritten}
+                                        alt="HumanWritten"
+                                        loading="lazy"
+                                        className='object-contain h-full w-full rounded-lg lg:rounded-xl'
+                                    />
+                                </div>
+                            </div>
+
+                            {/* Comparison Table */}
+                            <div id='comparison-table' className='mb-10 sm:mb-16 scroll-mt-10 sm:scroll-mt-16'>
+                                <h2 className="heading-font font-semibold text-2xl sm:text-3xl tracking-[-0.05rem]">AI ChatGPT SEO Agency Comparison Table [2025]</h2>
+                                <p className="mt-3 sm:mt-6 content-font text-lg lg:text-xl tracking-[-0.05rem]">
+                                    Here is a 2025 comparison table of top AI ChatGPT SEO agencies. It highlights - strengths, specialties, and fit for growth-focused brands.
+                                </p>
+                                
+                                <div className='my-4 sm:mt-8 sm:mb-10 rounded-xl sm:rounded-[20px] border border-[var(--stroke)] overflow-hidden'>
+                                    <div className='overflow-x-auto'>
+                                        <table className="w-full bg-[#FAF7F5]">
+                                            <thead>
+                                                <tr className="border-b border-[var(--stroke)]">
+                                                    <th className="px-4 sm:ps-6 lg:px-8 py-3 sm:py-5 lg:pt-7 text-left font-semibold text-base sm:text-lg tracking-[-0.05rem] border-r border-[var(--stroke)]">
+                                                        Agency
+                                                    </th>
+                                                    <th className="px-4 sm:ps-6 lg:px-8 py-3 sm:py-5 lg:pt-7 text-left font-semibold text-base sm:text-lg tracking-[-0.05rem] border-r border-[var(--stroke)]">
+                                                        Core Strengths
+                                                    </th>
+                                                    <th className="px-4 sm:ps-6 lg:px-8 py-3 sm:py-5 lg:pt-7 text-left font-semibold text-base sm:text-lg tracking-[-0.05rem] border-r border-[var(--stroke)]">
+                                                        Best For
+                                                    </th>
+                                                    <th className="px-4 sm:ps-6 lg:px-8 py-3 sm:py-5 lg:pt-7 text-left font-semibold text-base sm:text-lg tracking-[-0.05rem] border-r border-[var(--stroke)]">
+                                                        AI SEO Capabilities
+                                                    </th>
+                                                    <th className="px-4 sm:ps-6 lg:px-8 py-3 sm:py-5 lg:pt-7 text-left font-semibold text-base sm:text-lg tracking-[-0.05rem]">
+                                                        Notable Differentiator
+                                                    </th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr className="border-b border-[var(--stroke)]">
+                                                    <td className="px-4 sm:ps-6 lg:px-8 py-3 sm:py-6 font-semibold text-base border-r border-[var(--stroke)]">
+                                                        NotionX
+                                                    </td>
+                                                    <td className="px-4 sm:ps-6 lg:px-8 py-3 sm:py-6 content-font text-base border-r border-[var(--stroke)]">
+                                                        Full-service SEO, GEO, AI schema, and structured data integration
+                                                    </td>
+                                                    <td className="px-4 sm:ps-6 lg:px-8 py-3 sm:py-6 content-font text-base border-r border-[var(--stroke)]">
+                                                        Mid-to-large tech and SaaS companies
+                                                    </td>
+                                                    <td className="px-4 sm:ps-6 lg:px-8 py-3 sm:py-6 content-font text-base border-r border-[var(--stroke)]">
+                                                        AI-first audits, entity mapping, prompt-aligned content
+                                                    </td>
+                                                    <td className="px-4 sm:ps-6 lg:px-8 py-3 sm:py-6 content-font text-base">
+                                                        Strong in AI citation strategy and structured data optimization
+                                                    </td>
+                                                </tr>
+                                                <tr className="border-b border-[var(--stroke)]">
+                                                    <td className="px-4 sm:ps-6 lg:px-8 py-3 sm:py-6 font-semibold text-base border-r border-[var(--stroke)]">
+                                                        NoGood
+                                                    </td>
+                                                    <td className="px-4 sm:ps-6 lg:px-8 py-3 sm:py-6 content-font text-base border-r border-[var(--stroke)]">
+                                                        Performance marketing + AI SEO + content strategy
+                                                    </td>
+                                                    <td className="px-4 sm:ps-6 lg:px-8 py-3 sm:py-6 content-font text-base border-r border-[var(--stroke)]">
+                                                        Fintech, DTC, and growth-stage brands
+                                                    </td>
+                                                    <td className="px-4 sm:ps-6 lg:px-8 py-3 sm:py-6 content-font text-base border-r border-[var(--stroke)]">
+                                                        Top-of-funnel AI visibility tied to conversion tactics
+                                                    </td>
+                                                    <td className="px-4 sm:ps-6 lg:px-8 py-3 sm:py-6 content-font text-base">
+                                                        Hybrid team with deep funnel alignment
+                                                    </td>
+                                                </tr>
+                                                <tr className="border-b border-[var(--stroke)]">
+                                                    <td className="px-4 sm:ps-6 lg:px-8 py-3 sm:py-6 font-semibold text-base border-r border-[var(--stroke)]">
+                                                        Bird Marketing
+                                                    </td>
+                                                    <td className="px-4 sm:ps-6 lg:px-8 py-3 sm:py-6 content-font text-base border-r border-[var(--stroke)]">
+                                                        Technical SEO, link-building, and analytics setup
+                                                    </td>
+                                                    <td className="px-4 sm:ps-6 lg:px-8 py-3 sm:py-6 content-font text-base border-r border-[var(--stroke)]">
+                                                        B2B and ecommerce brands
+                                                    </td>
+                                                    <td className="px-4 sm:ps-6 lg:px-8 py-3 sm:py-6 content-font text-base border-r border-[var(--stroke)]">
+                                                        AI-powered content production and contextual link placements
+                                                    </td>
+                                                    <td className="px-4 sm:ps-6 lg:px-8 py-3 sm:py-6 content-font text-base">
+                                                        Proven results and global campaign execution
+                                                    </td>
+                                                </tr>
+                                                <tr className="border-b border-[var(--stroke)]">
+                                                    <td className="px-4 sm:ps-6 lg:px-8 py-3 sm:py-6 font-semibold text-base border-r border-[var(--stroke)]">
+                                                        WOWBix Marketing
+                                                    </td>
+                                                    <td className="px-4 sm:ps-6 lg:px-8 py-3 sm:py-6 content-font text-base border-r border-[var(--stroke)]">
+                                                        Budget-friendly SEO with personalized support
+                                                    </td>
+                                                    <td className="px-4 sm:ps-6 lg:px-8 py-3 sm:py-6 content-font text-base border-r border-[var(--stroke)]">
+                                                        Local businesses and lean startups
+                                                    </td>
+                                                    <td className="px-4 sm:ps-6 lg:px-8 py-3 sm:py-6 content-font text-base border-r border-[var(--stroke)]">
+                                                        ChatGPT SEO, social lead generation, and local visibility
+                                                    </td>
+                                                    <td className="px-4 sm:ps-6 lg:px-8 py-3 sm:py-6 content-font text-base">
+                                                        Small team advantage with consistent monthly lead flow
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td className="px-4 sm:ps-6 lg:px-8 py-3 sm:py-6 font-semibold text-base border-r border-[var(--stroke)]">
+                                                        Embarque
+                                                    </td>
+                                                    <td className="px-4 sm:ps-6 lg:px-8 py-3 sm:py-6 content-font text-base border-r border-[var(--stroke)]">
+                                                        Remote-first, scalable SEO for SaaS, and tech startups
+                                                    </td>
+                                                    <td className="px-4 sm:ps-6 lg:px-8 py-3 sm:py-6 content-font text-base border-r border-[var(--stroke)]">
+                                                        Bootstrapped and remote-first teams
+                                                    </td>
+                                                    <td className="px-4 sm:ps-6 lg:px-8 py-3 sm:py-6 content-font text-base border-r border-[var(--stroke)]">
+                                                        AI-enhanced workflows, ChatGPT rank tracking, KPI-driven SEO
+                                                    </td>
+                                                    <td className="px-4 sm:ps-6 lg:px-8 py-3 sm:py-6 content-font text-base">
+                                                        Lean execution with global reach and measurable ROI
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+
+                            {/* Moving Forward */}
+                            <div id='moving-forward' className='mb-10 sm:mb-16 scroll-mt-10 sm:scroll-mt-16'>
+                                <h2 className="heading-font font-semibold text-2xl sm:text-3xl tracking-[-0.05rem]">Moving Forward: Partnering with a Specialized AI ChatGPT SEO Agency</h2>
+                                <p className="mt-3 sm:mt-6 content-font text-lg lg:text-xl tracking-[-0.05rem]">
+                                    Optimizing for AI search is not just another tactic - it is a shift in thinking. Success now depends on - how well you speak the language of AI. Today, <a href="https://www.semrush.com/blog/semrush-ai-overviews-study/" target="_blank" rel="noopener noreferrer" className="text-blue-600 underline hover:text-blue-800">13.14 percent of all search-based queries</a> trigger - Google AI Overviews (up from 6.49 percent in Jan. 2025). So, visibility here means major placement.
+                                </p>
+                                <p className="mt-3 sm:mt-6 content-font text-lg lg:text-xl tracking-[-0.05rem]">Partnering with a ChatGPT SEO agency provides you with a clear edge in AI-driven search. They optimize for large language models and zero-click visibility. Your brand becomes the answer - not just another result.</p>
+                                <p className="mt-3 sm:mt-6 content-font text-lg lg:text-xl tracking-[-0.05rem]">If you require professional help? Explore our result-driven <a href="https://notionx.ai/" target="_blank" rel="noopener noreferrer" className="text-blue-600 underline hover:text-blue-800">consulting services</a> at NotionX to develop a customized ChatGPT SEO + GEO strategy.</p>
+                                <p className="mt-3 sm:mt-6 content-font text-lg lg:text-xl tracking-[-0.05rem]">You can also try our <a href="https://geo.notionx.ai/" target="_blank" rel="noopener noreferrer" className="text-blue-600 underline hover:text-blue-800">AI-Powered GEO Auditor</a> (Beta Version) tool to analyze your site performance for conventional search engines and AI-driven platforms.</p>
+                            </div>
+                            
+                            {/* Author details */}
+                            <div className='mb-10 sm:mb-12 lg:max-w-5xl sm:w-[45rem] mx-auto container'>
+                                <div className="px-[1px] py-[1px] rounded-xl sm:rounded-[20px] bg-[radial-gradient(circle_at_center,#FF4E18_40%,#FEE7DF)]">
+                                    <div className="py-3 sm:py-5 px-4 sm:px-10 flex flex-row justify-between items-center rounded-xl sm:rounded-[20px] bg-[#FAF7F5]">
+                                        <div className='flex flex-col space-y-2 border-l-[2px] border-l-[var(--cta)] pb-[1px] ps-2 lg:ps-4'>
+                                            <span className="heading-font font-bold text-2xl sm:text-[28px]">Emily Thornton</span>
+                                            <h3 className="content-font text-base sm:text-lg">Content & Authority Building Specialist</h3>
+                                        </div>
+                                        <div className=''>
+                                            <Image 
+                                                src={AuthorImage} 
+                                                alt="Author Image" 
+                                                className='w-20 sm:h-20 object-cover rounded-full'
+                                            />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    {/* read more blogs */}
+                    <div className='bg-[#FAF7F5]'>
+                        <div className='container mx-auto py-16 sm:py-20 lg:py-28 justify-center place-items-center'>
+                            <div className='mb-10 sm:mb-16'>
+                                <p className="heading-font font-semibold text-xl sm:text-2xl lg:text-3xl text-center tracking-[-0.05rem]">Relevant Knowledge Base</p>
+                            </div>
+                            <div className='grid grid-col-1 sm:grid-cols-2 xl:grid-cols-3 gap-3 lg:gap-5 xl:gap-7 mx-4 sm:mx-0 lg:mx-5'>
+                            
+                                {blogPosts.map((blog) => (
+                                    <div key={blog.id} className='p-3 lg:p-4 border border-[var(--stroke)] rounded-xl sm:rounded-[1.25rem] overflow-hidden
+                                    bg-[radial-gradient(ellipse_at_top_left,#FFF0E0_0%,#FCD0D4_30%,transparent_55%),radial-gradient(ellipse_at_bottom_right,#FFF0E0_0%,#FCD0D4_30%,transparent_55%)]'>
+                                    
+                                    <div className='flex flex-col gap-1 sm:gap-2 h-full items-stretch'>
+
+                                        {/* Image */}
+                                        <Link href={blog.href} rel="noopener noreferrer"
+                                        className='w-auto lg:h-44 rounded-t-xl sm:rounded-t-[0.875rem] overflow-hidden'>
+                                        <Image src={blog.image} alt={blog.title} className="object-cover h-full" />
+                                        </Link>
+
+                                        {/* Content */}
+                                        <Link href={blog.href} rel="noopener noreferrer"
+                                        className='bg-white flex flex-col justify-between flex-grow p-3 lg:p-4 rounded-b-xl sm:rounded-b-[0.875rem]'>
+                                        
+                                        <span className="text-sm text-left text-[var(--foreground)] content-font">{blog.tag}</span>
+                                        <h2 className="heading-font font-medium text-lg lg:text-xl leading-5 sm:leading-6 tracking-[-0.06rem] my-2 hover:text-[var(--cta)]">{blog.title}</h2>
+                                        <p className="text-sm sm:text-base text-[#0f0a08c1] content-font mb-2 lg:mb-4">{blog.desc}</p>
+
+                                        <div className='flex sm:flex-col sm:space-y-1 lg:space-y-0 lg:flex-row justify-between items-center mt-auto'>
+                                            <p className='text-[#878483] content-font text-xs'>{blog.date} &nbsp; | &nbsp; {blog.readTime}</p>
+                                            <p className='cursor-pointer group text-[var(--cta)] content-font text-sm sm:text-lg flex items-center font-bold hover:text-[var(--cta)] transition duration-300'>
+                                            Read More
+                                            <span className='text-[var(--cta)] ps-1 text-base sm:text-2xl transition-transform duration-300 ease-out group-hover:translate-x-1'>
+                                                <HiMiniArrowSmallRight />
+                                            </span>
+                                            </p>
+                                        </div>
+                                        </Link>
+                                    </div>
+                                    </div>
+                                ))}
+                            </div>
+                        </div>
+                    </div>
+                <Footer/>
+            </div>
+        </div>
+    </div>
+  )
+}
+
+export default Blog2

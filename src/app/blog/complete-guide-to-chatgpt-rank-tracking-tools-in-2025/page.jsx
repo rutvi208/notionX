@@ -1,0 +1,445 @@
+import Navbar from '@/app/components/Navbar';
+import Footer from '@/app/components/Footer';
+import { HiMiniShare, HiMiniArrowSmallRight } from "react-icons/hi2";
+import BlackArrow from '@/../public/images/Blog-page/Black-Arrow.svg';
+import Link from "next/link";
+import Image from 'next/image';
+import DemoImg from '@/../public/images/Blog-page/demo.webp';
+import Semrush from '@/../public/images/Blog-page/Semrush.png';
+import Ahrefs from '@/../public/images/Blog-page/Ahrefs.png';
+import Profound from '@/../public/images/Blog-page/Profound.png';
+import Rankability from '@/../public/images/Blog-page/Rankability.png';
+import Grammarly from '@/../public/images/Blog-page/Blog2-grammarly.png';
+import HumanWritten from '@/../public/images/Blog-page/Blog2-HumanWritten.png';
+import AuthorImage from '@/../public/images/Blog-page/AuthorImage.jpg';
+import SharePopup from '@/app/components/SharePopup';
+
+export const metadata = {
+  title: "Complete Guide to ChatGPT Rank Tracking Tools in 2025! | NotionX",
+  keywords: ["rank tracking tool for ChatGPT", "rank tracker tool for ChatGPT", "ChatGPT rank tracker", "best ChatGPT rank tracker tools", "ChatGPT rank tracking free", "free ChatGPT rank tracking", "best ChatGPT keyword rank tracker software"],
+};
+
+const blogPosts = [
+  {
+    id: 1,
+    href: "how-to-rank-your-website-or-brand-in-chatgpt-latest-strategy-guide",
+    image: DemoImg,
+    tag: "#trending",
+    title: "How to Rank Your Website or Brand in ChatGPT : Latest Strategy Guide",
+    desc: "This post explains the fundamental shift happening in search behavior and why businesses need to adapt.",
+    date: "Oct 25, 2025",
+    readTime: "2 mins read",
+  },
+  {
+    id: 2,
+    href: "best-chatgpt-seo-agency-&-services-for-ai-search-ranking",
+    image: DemoImg,
+    tag: "#trending",
+    title: "Best ChatGPT SEO Agency & Services for AI Search Ranking",
+    desc: "This post explains the fundamental shift happening in search behavior and why businesses need to adapt.",
+    date: "Oct 25, 2025",
+    readTime: "2 mins read",
+  },
+  {
+    id: 3,
+    href: "how-ai-overviews-are-stealing-your-traffic-recovery-&-ranking-strategies-for-2025",
+    image: DemoImg,
+    tag: "#trending",
+    title: "How AI Overviews Are Stealing Your Traffic: Recovery & Ranking Strategies for 2025!",
+    desc: "This post explains the fundamental shift happening in search behavior and why businesses need to adapt.",
+    date: "Oct 25, 2025",
+    readTime: "3 mins read",
+  },
+];
+
+const Blog3 = () => {
+
+  return (
+    <div>
+        <div className='h-screen bg-[radial-gradient(circle_at_top,rgba(246,238,234)_0%,rgba(246,239,235)_60%,white_70%)]'>
+            
+            <div className=''>
+                <Navbar />
+                    <div className="my-10 sm:my-12 lg:my-20 2xl:my-24 container mx-auto justify-center place-items-center text-center ">
+                        <h1 className="heading-font text-3xl lg:text-4xl xl:text-5xl sm:w-10/12 lg:w-10/12 2xl:w-8/12">Complete Guide to ChatGPT Rank Tracking Tools in 2025!</h1>
+                        <div className='flex flex-row justify-between items-center mt-4 sm:mt-8'>
+                            <p className='text-[#878483] content-font text-xs'>Author Name</p>
+                            <p className='text-[#878483] mx-4 text-2xl sm:text-3xl'> · </p>
+                            <p className='text-[#878483] content-font text-xs'>Oct 25, 2025 &nbsp; | &nbsp; 3 mins read</p>
+                            <p className='text-[#878483] mx-4 text-2xl sm:text-3xl'> · </p>
+                            {/* <Link href="https://geo.notionx.ai/" 
+                                target="_blank" 
+                                rel="noopener noreferrer"
+                                className='cursor-pointer group text-[var(--cta)] content-font text-base flex items-center font-bold hover:underline'>
+                                Share <span className='text-[var(--cta)] ps-1 text-sm'><HiMiniShare /></span></Link> */}
+                                <div className="flex items-center gap-1 text-[var(--cta)]">
+                                <SharePopup
+                                    title="Complete Guide to ChatGPT Rank Tracking Tools in 2025!"
+                                />
+                                <HiMiniShare className="text-sm" />
+                            </div>
+                        </div>
+
+                        <div className='mx-auto container overflow-hidden rounded-lg lg:rounded-xl h-60 sm:h-80 sm:w-[56.25rem] px-4 lg:px-0 my-7 sm:my-10'>
+                            <Image 
+                                src={DemoImg}
+                                alt="Hero Background"
+                                loading="lazy"
+                                className='object-center object-cover h-full w-full rounded-lg lg:rounded-xl'
+                            />
+                        </div>
+                    </div>
+
+                    <div className='mx-auto container overflow-hidden px-4 lg:px-0 my-7 sm:my-10'>
+                        <div className='flex flex-col lg:max-w-5xl sm:w-[56.25rem] mx-auto container'>
+                            <div className="p-[1px] rounded-t-xl sm:rounded-t-[20px] bg-[radial-gradient(circle_at_center,#FF4E18_40%,#FEE7DF)]">
+                                <div className="py-3 sm:py-5 rounded-t-xl sm:rounded-t-[20px] bg-white">
+                                    <p className="heading-font font-semibold text-xl sm:text-2xl text-center tracking-[-0.05rem]">
+                                        Key Takeaway</p>
+                                </div>
+                            </div>
+                            <div className="px-[1px] pt-0 pb-[1px] rounded-b-xl sm:rounded-b-[20px] bg-[radial-gradient(circle_at_center,#FF4E18_40%,#FEE7DF)]">
+                                <div className="py-3 sm:py-5 px-4 sm:px-16 rounded-b-xl sm:rounded-b-[20px] bg-[#FAF7F5]">
+                                    <p className="content-font text-lg sm:text-xl text-center">
+                                    Showing up in its responses can even greatly increase your visibility and trust. This shift calls for a new kind of SEO that goes beyond - keywords and backlinks. You need to combine traditional techniques with new strategies tailored for AI-driven search. This guide explores how to rank in ChatGPT search using the latest strategies in - SEO, GEO targeting, and AI optimization.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className='mx-auto container flex flex-col lg:max-w-5xl sm:w-[56.25rem]'>
+                            <div className='my-10 sm:my-16'>
+                                <p className="heading-font font-semibold text-xl sm:text-2xl tracking-[-0.05rem]">
+                                    In This Article:</p>
+                                <ul className="ms-6 mt-2.5 sm:mt-6 space-y-2 content-font text-[var(--cta)] list-disc list-outside text-lg lg:text-xl tracking-[-0.05rem]">
+                                    <li className='hover:underline'><a href="#features-required">What Features Do You Require in a Rank Tracking Tool for ChatGPT?</a></li>
+                                    <li className='hover:underline'><a href="#best-tools">Which are the Best ChatGPT Rank Tracker Tools in 2025?</a></li>
+                                    <li className='hover:underline'><a href="#final-thoughts">Final Thoughts: Grip the AI Search Transformation</a></li>
+                                </ul>
+                            </div>
+
+                            {/* Introduction */}
+                            <div className='mb-10 sm:mb-16'>
+                                <h2 className="heading-font font-semibold text-2xl sm:text-3xl tracking-[-0.05rem]">Complete Guide to ChatGPT Rank Tracking Tools in 2025!</h2>
+                                <p className="mt-3 sm:mt-6 content-font text-lg lg:text-xl tracking-[-0.05rem]">
+                                    The way people search online is evolving. AI tools like ChatGPT now influence how content is discovered. Traditional rank tracking methods no longer capture the full picture.
+                                </p>
+                                <p className="mt-3 sm:mt-6 content-font text-lg lg:text-xl tracking-[-0.05rem]">So, you need a ChatGPT rank tracker to see if your content appears in AI-generated answers. A rank tracking tool for ChatGPT goes beyond blue link rankings. It tracks visibility in conversations.</p>
+                                <p className="mt-3 sm:mt-6 content-font text-lg lg:text-xl tracking-[-0.05rem]">A good rank tracker tool for ChatGPT shows how your site performs in AI summaries. SEO fundamentals still matter—but they now power AI-aware tracking strategies.</p>
+                                <p className="mt-3 sm:mt-6 content-font text-lg lg:text-xl tracking-[-0.05rem]">ChatGPT rank tracking tools help you measure presence in AI-driven search results. Without them, you are guessing how well your content performs.</p>
+                                <p className="mt-3 sm:mt-6 content-font text-lg lg:text-xl tracking-[-0.05rem]">This guide lists the best ChatGPT rank tracker tools available today. However, we will first discuss which features you need in a rank tracker tool for ChatGPT.</p>
+                            </div>
+
+                            {/* Features Required */}
+                            <div id='features-required' className='mb-10 sm:mb-16 scroll-mt-10 sm:scroll-mt-16'>
+                                <h2 className="heading-font font-semibold text-2xl sm:text-3xl tracking-[-0.05rem]">What Features Do You Require in a Rank Tracking Tool for ChatGPT?</h2>
+                                <p className="mt-3 sm:mt-6 content-font text-lg lg:text-xl tracking-[-0.05rem]">
+                                    A ChatGPT rank tracker tool assists you in comprehending how your brand is cited in explicit prompts. It is significant to analyze the key features of every tool as they can cater to diverse requirements.
+                                </p>
+                                <p className="mt-3 sm:mt-6 content-font text-lg lg:text-xl tracking-[-0.05rem]">Look out for these feature sets in a ChatGPT rank tracker software:</p>
+                                <ul className="ms-10 mt-3 sm:mt-6 space-y-2 content-font list-disc list-outside text-lg lg:text-xl tracking-[-0.05rem]">
+                                    <li><span className='font-semibold'>Brand keyword detection:</span> This functionality assists you in finding out when and how your brand is stated in ChatGPT answers.</li>
+                                    <li><span className='font-semibold'>LLM support:</span> You can track how LLMs like ChatGPT respond to prompts and monitor if your brand is cited in the answers.</li>
+                                    <li><span className='font-semibold'>Prompt-level monitoring:</span> Different from traditional keyword monitoring, this functionality tracks your brand performance for explicit prompts.</li>
+                                    <li><span className='font-semibold'>Location and language filtering:</span> ChatGPT visibility trackers should be able to track your visibility across diverse geographies and languages.</li>
+                                    <li><span className='font-semibold'>Integrations:</span> Blending with other SEO tools, like Google Search Console, is vital for an all-inclusive view of your brand performance.</li>
+                                    <li><span className='font-semibold'>Report automation:</span> This feature automatically produces customized brand reports.</li>
+                                </ul>
+                            </div>
+
+                            {/* Best Tools */}
+                            <div id='best-tools' className='mb-10 sm:mb-16 scroll-mt-10 sm:scroll-mt-16'>
+                                <h2 className="heading-font font-semibold text-2xl sm:text-3xl tracking-[-0.05rem]">Which are the Best ChatGPT Rank Tracker Tools in 2025?</h2>
+                                <p className="mt-3 sm:mt-6 content-font text-lg lg:text-xl tracking-[-0.05rem]">
+                                    Let us explore the - paid and free ChatGPT rank tracking tools of 2025. Each tool includes - features, benefits, drawbacks, and pricing to help you choose wisely. Whether you are an SEO pro or starting out: ChatGPT rank tracking free or paid tool is now essential.
+                                </p>
+
+                                {/* Semrush */}
+                                <div className='my-8'>
+                                    <h3 className="heading-font font-medium text-xl sm:text-2xl tracking-[-0.05rem]">1. Semrush</h3>
+                                    <div className='my-4 rounded-lg lg:rounded-xl border border-[var(--stroke)] overflow-hidden'>
+                                        <Image 
+                                            src={Semrush}
+                                            alt="Semrush Tool"
+                                            loading="lazy"
+                                            className='object-contain w-full'
+                                        />
+                                    </div>
+                                    <p className="mt-3 sm:mt-6 content-font text-lg lg:text-xl tracking-[-0.05rem]">
+                                        The <a href="https://www.semrush.com/ai-seo/brand-performance/" target="_blank" rel="noopener noreferrer" className="text-blue-600 underline hover:text-blue-800">Semrush</a> tool assists you in comprehending how ChatGPT talks about your brand. With its fresh addition of "AI traffic," it is evidently one of the best ChatGPT keyword rank tracker software you could find across.
+                                    </p>
+                                    <p className="mt-3 sm:mt-6 content-font text-lg lg:text-xl tracking-[-0.05rem]">You can identify traffic trends and view which AI assistants steer them. In addition, you will be able to measure visibility across AI search models to remain ahead of the game.</p>
+                                    
+                                    <h4 className="mt-6 heading-font font-semibold text-lg sm:text-xl tracking-[-0.05rem]">Significant Features.</h4>
+                                    <ul className="ms-10 mt-2 sm:mt-4 space-y-2 content-font list-disc list-outside text-lg lg:text-xl tracking-[-0.05rem]">
+                                        <li><span className='font-semibold'>Site audit:</span> The AI search audit checks for non-descriptive anchor text. It flags pages with only one incoming link. It also detects links that lack anchor text entirely. These checks help improve site structure and SEO clarity.</li>
+                                        <li><span className='font-semibold'>Platform comparison:</span> You can compare how your brand appears across platforms. Track audience sentiment in real time. You can also uncover what your audience truly wants. These insights help refine your - messaging and strategy.</li>
+                                        <li><span className='font-semibold'>AI recommendations:</span> You can explore product development tips effortlessly. It offers innovative suggestions tailored to your goals. Optimization becomes faster and more precise. These insights help refine your product strategy.</li>
+                                    </ul>
+
+                                    <h4 className="mt-6 heading-font font-semibold text-lg sm:text-xl tracking-[-0.05rem]">Key Benefits.</h4>
+                                    <ul className="ms-10 mt-2 sm:mt-4 space-y-2 content-font list-disc list-outside text-lg lg:text-xl tracking-[-0.05rem]">
+                                        <li><span className='font-semibold'>Substantial functionalities:</span> Access to wide-ranging features to monitor brand visibility.</li>
+                                        <li><span className='font-semibold'>Competitor analysis:</span> View metrics such as brand sentiment, mentions, voice, and non-branded questions.</li>
+                                        <li><span className='font-semibold'>Resources:</span> Access to educational resources like help centers, marketing hubs, and insights.</li>
+                                    </ul>
+
+                                    <h4 className="mt-6 heading-font font-semibold text-lg sm:text-xl tracking-[-0.05rem]">Drawbacks.</h4>
+                                    <ul className="ms-10 mt-2 sm:mt-4 space-y-2 content-font list-disc list-outside text-lg lg:text-xl tracking-[-0.05rem]">
+                                        <li>Cluttered Interface</li>
+                                        <li>Restricted functionality in basic plans</li>
+                                        <li>Costly Add-Ons</li>
+                                    </ul>
+
+                                    <h4 className="mt-6 heading-font font-semibold text-lg sm:text-xl tracking-[-0.05rem]">Pricing Overview.</h4>
+                                    <ul className="ms-10 mt-2 sm:mt-4 space-y-2 content-font list-disc list-outside text-lg lg:text-xl tracking-[-0.05rem]">
+                                        <li><span className='font-semibold'>Pro:</span> $139.95/month (Up to 5 projects)</li>
+                                        <li><span className='font-semibold'>Guru:</span> $249.95/month (Up to 15 projects)</li>
+                                        <li><span className='font-semibold'>Business:</span> $499.95/month (Up to 40 projects)</li>
+                                    </ul>
+                                </div>
+
+                                {/* Ahrefs Brand Radar */}
+                                <div className='my-8'>
+                                    <h3 className="heading-font font-medium text-xl sm:text-2xl tracking-[-0.05rem]">2. Ahrefs Brand Radar</h3>
+                                    <div className='my-4 rounded-lg lg:rounded-xl border border-[var(--stroke)] overflow-hidden'>
+                                        <Image 
+                                            src={Ahrefs}
+                                            alt="Ahrefs Brand Radar"
+                                            loading="lazy"
+                                            className='object-contain w-full'
+                                        />
+                                    </div>
+                                    <p className="mt-3 sm:mt-6 content-font text-lg lg:text-xl tracking-[-0.05rem]">
+                                        With <a href="https://ahrefs.com/brand-radar" target="_blank" rel="noopener noreferrer" className="text-blue-600 underline hover:text-blue-800">Ahrefs Brand Radar</a>, you can reach new audiences by monitoring how LLMs display your brand. The best ChatGPT keyword rank tracker software runs 5 huge prompt indexes (10M to 100M+ prompts each).
+                                    </p>
+                                    <p className="mt-3 sm:mt-6 content-font text-lg lg:text-xl tracking-[-0.05rem]">The tool highlights diverse angles that the AI assistants care about. This helps in enhancing your performance. As for the rank tracker tool for ChatGPT, you can set a target URL for every keyword to track its position.</p>
+                                    
+                                    <h4 className="mt-6 heading-font font-semibold text-lg sm:text-xl tracking-[-0.05rem]">Significant Features.</h4>
+                                    <ul className="ms-10 mt-2 sm:mt-4 space-y-2 content-font list-disc list-outside text-lg lg:text-xl tracking-[-0.05rem]">
+                                        <li><span className='font-semibold'>Search demand tracker:</span> It monitors user interest leveraging a keyword index. It showcases the total search volume for all brand-associated terms.</li>
+                                        <li><span className='font-semibold'>Funnel builder:</span> It assists in visualizing how customers move through your site.</li>
+                                        <li><span className='font-semibold'>Trending keywords filter:</span> It lets you spot rising keywords by month or trend type.</li>
+                                        <li><span className='font-semibold'>API:</span> It includes five new endpoints for rank tracking. You can retrieve or modify data like projects and keywords.</li>
+                                    </ul>
+
+                                    <h4 className="mt-6 heading-font font-semibold text-lg sm:text-xl tracking-[-0.05rem]">Key Benefits.</h4>
+                                    <ul className="ms-10 mt-2 sm:mt-4 space-y-2 content-font list-disc list-outside text-lg lg:text-xl tracking-[-0.05rem]">
+                                        <li><span className='font-semibold'>Thorough reports:</span> They break performance by position range. They show which keywords appear in each ranking group.</li>
+                                        <li><span className='font-semibold'>Patch management updates:</span> They let you filter by patch status. You can export patches or bulk publish them instantly.</li>
+                                        <li><span className='font-semibold'>Keyword chart overhaul:</span> It improves accuracy across all ranking positions. Organic and intent charts now count every keyword placement.</li>
+                                    </ul>
+
+                                    <h4 className="mt-6 heading-font font-semibold text-lg sm:text-xl tracking-[-0.05rem]">Drawbacks.</h4>
+                                    <ul className="ms-10 mt-2 sm:mt-4 space-y-2 content-font list-disc list-outside text-lg lg:text-xl tracking-[-0.05rem]">
+                                        <li>No prompt-level monitoring.</li>
+                                        <li>Lacks an integrated view.</li>
+                                        <li>AI is an add-on and is charged separately.</li>
+                                    </ul>
+
+                                    <h4 className="mt-6 heading-font font-semibold text-lg sm:text-xl tracking-[-0.05rem]">Pricing Overview.</h4>
+                                    <ul className="ms-10 mt-2 sm:mt-4 space-y-2 content-font list-disc list-outside text-lg lg:text-xl tracking-[-0.05rem]">
+                                        <li><span className='font-semibold'>Lite:</span> $129 (750 monitored keywords).</li>
+                                        <li><span className='font-semibold'>Standard:</span> $249 (2000 monitored keywords).</li>
+                                        <li><span className='font-semibold'>Advanced:</span> $449 (5000 monitored keywords).</li>
+                                    </ul>
+                                </div>
+
+                                {/* Profound AI */}
+                                <div className='my-8'>
+                                    <h3 className="heading-font font-medium text-xl sm:text-2xl tracking-[-0.05rem]">3. Profound AI</h3>
+                                    <div className='my-4 rounded-lg lg:rounded-xl border border-[var(--stroke)] overflow-hidden'>
+                                        <Image 
+                                            src={Profound}
+                                            alt="Profound AI"
+                                            loading="lazy"
+                                            className='object-contain w-full'
+                                        />
+                                    </div>
+                                    <p className="mt-3 sm:mt-6 content-font text-lg lg:text-xl tracking-[-0.05rem]">
+                                    <a href="https://www.tryprofound.com/" target="_blank" rel="noopener noreferrer" className="text-blue-600 underline hover:text-blue-800">Profound AI</a> is an exclusive rank tracking tool for ChatGPT that lets you discover brand presence in AI search engines. Its inimitable feature is the conversation explorer, which provides you with consumer intent at a global level.
+                                    </p>
+                                    <p className="mt-3 sm:mt-6 content-font text-lg lg:text-xl tracking-[-0.05rem]">This means you can track queries from Texas and Argentina in one dashboard. Profound analyzes billions of simultaneous data-driven signals. It uses over 200 billion keywords for deep analysis. The tool delivers accurate and actionable brand insights.</p>
+                                    
+                                    <h4 className="mt-6 heading-font font-semibold text-lg sm:text-xl tracking-[-0.05rem]">Significant Features.</h4>
+                                    <ul className="ms-10 mt-2 sm:mt-4 space-y-2 content-font list-disc list-outside text-lg lg:text-xl tracking-[-0.05rem]">
+                                        <li><span className='font-semibold'>Prompt Recommendations:</span> Profound analyzes over 100 million prompts and real user conversations. It suggests high-performing prompts tailored to your goals.</li>
+                                        <li><span className='font-semibold'>AI Actions:</span> It combines AI search responses, user prompts, and traffic data. This reveals high-impact opportunities across your content.</li>
+                                        <li><span className='font-semibold'>OpenAI Shopping Overviews:</span> The tool shows how your products appear in ChatGPT shopping views. You get clear insights into product visibility and positioning.</li>
+                                        <li><span className='font-semibold'>Agent Analytics:</span> It tracks how AI crawlers and answer engines engage with your site.</li>
+                                    </ul>
+
+                                    <h4 className="mt-6 heading-font font-semibold text-lg sm:text-xl tracking-[-0.05rem]">Key Benefits.</h4>
+                                    <ul className="ms-10 mt-2 sm:mt-4 space-y-2 content-font list-disc list-outside text-lg lg:text-xl tracking-[-0.05rem]">
+                                        <li><span className='font-semibold'>Intuitive Platform:</span> The tool presents complex data in a user-friendly format. Users appreciate the insight-rich dashboard.</li>
+                                        <li><span className='font-semibold'>Powerful AI Crawlers:</span> The tool tracks how AI bots interact with your site. It gives a clear overview of crawler behavior and content access.</li>
+                                        <li><span className='font-semibold'>Helpful Support Team:</span> The team is responsive and well-informed. Customer feedback directly shapes product improvements.</li>
+                                    </ul>
+
+                                    <h4 className="mt-6 heading-font font-semibold text-lg sm:text-xl tracking-[-0.05rem]">Drawbacks.</h4>
+                                    <ul className="ms-10 mt-2 sm:mt-4 space-y-2 content-font list-disc list-outside text-lg lg:text-xl tracking-[-0.05rem]">
+                                        <li>No visibility impact reports.</li>
+                                        <li>Limited filtering options.</li>
+                                        <li>Inconsistent data coverage.</li>
+                                    </ul>
+
+                                    <h4 className="mt-6 heading-font font-semibold text-lg sm:text-xl tracking-[-0.05rem]">Pricing Overview.</h4>
+                                    <ul className="ms-10 mt-2 sm:mt-4 space-y-2 content-font list-disc list-outside text-lg lg:text-xl tracking-[-0.05rem]">
+                                        <li><span className='font-semibold'>Lite Version:</span> $499 for 200 exclusive prompts.</li>
+                                        <li><span className='font-semibold'>Enterprise Version:</span> Customized pricing with tailored prompt limits.</li>
+                                    </ul>
+                                </div>
+
+                                {/* Rankability */}
+                                <div className='my-8'>
+                                    <h3 className="heading-font font-medium text-xl sm:text-2xl tracking-[-0.05rem]">4. Rankability</h3>
+                                    <div className='my-4 rounded-lg lg:rounded-xl border border-[var(--stroke)] overflow-hidden'>
+                                        <Image 
+                                            src={Rankability}
+                                            alt="Rankability"
+                                            loading="lazy"
+                                            className='object-contain w-full'
+                                        />
+                                    </div>
+                                    <p className="mt-3 sm:mt-6 content-font text-lg lg:text-xl tracking-[-0.05rem]">
+                                    <a href="https://www.rankability.com/chatgpt-rank-tracker/" target="_blank" rel="noopener noreferrer" className="text-blue-600 underline hover:text-blue-800">Rankability</a> is one of the best ChatGPT rank tracker tools. It stands out for its modern-day prompt-level testing and competitive citation evaluation. This rank tracker tool for ChatGPT tests commercial and branded prompts across leading answer engines.
+                                    </p>
+                                    <p className="mt-3 sm:mt-6 content-font text-lg lg:text-xl tracking-[-0.05rem]">The actionable recovery playbooks come with optimization suggestions, so you know precisely what to do.</p>
+                                    
+                                    <h4 className="mt-6 heading-font font-semibold text-lg sm:text-xl tracking-[-0.05rem]">Significant Features.</h4>
+                                    <ul className="ms-10 mt-2 sm:mt-4 space-y-2 content-font list-disc list-outside text-lg lg:text-xl tracking-[-0.05rem]">
+                                        <li><span className='font-semibold'>Prompt Library:</span> The library includes 100+ prompts tailored to specific industries. They are based on real questions customers ask ChatGPT.</li>
+                                        <li><span className='font-semibold'>Daily Monitoring:</span> The tool checks your brand presence every day. It uses brand-related questions to track how ChatGPT responds.</li>
+                                        <li><span className='font-semibold'>Real-Time Alerts:</span> You get updates on visibility changes every few hours. These alerts help you - adjust your strategy with precision.</li>
+                                    </ul>
+
+                                    <h4 className="mt-6 heading-font font-semibold text-lg sm:text-xl tracking-[-0.05rem]">Key Benefits.</h4>
+                                    <ul className="ms-10 mt-2 sm:mt-4 space-y-2 content-font list-disc list-outside text-lg lg:text-xl tracking-[-0.05rem]">
+                                        <li><span className='font-semibold'>Content Creation Made Easy:</span> Users love the content optimizer for its speed and efficiency. It simplifies - keyword research and competitor analysis.</li>
+                                        <li><span className='font-semibold'>Actionable Recommendations:</span> The platform highlights gaps and suggests strategic improvements.</li>
+                                        <li><span className='font-semibold'>Instant Alerts:</span> You receive timely content tips when visibility drops.</li>
+                                    </ul>
+
+                                    <h4 className="mt-6 heading-font font-semibold text-lg sm:text-xl tracking-[-0.05rem]">Drawbacks.</h4>
+                                    <ul className="ms-10 mt-2 sm:mt-4 space-y-2 content-font list-disc list-outside text-lg lg:text-xl tracking-[-0.05rem]">
+                                        <li>Multifaceted interfaces</li>
+                                        <li>The platform is still evolving</li>
+                                    </ul>
+
+                                    <h4 className="mt-6 heading-font font-semibold text-lg sm:text-xl tracking-[-0.05rem]">Pricing.</h4>
+                                    <ul className="ms-10 mt-2 sm:mt-4 space-y-2 content-font list-disc list-outside text-lg lg:text-xl tracking-[-0.05rem]">
+                                        <li><span className='font-semibold'>SEO Specialist Package:</span> $149 (20 content optimizers).</li>
+                                        <li><span className='font-semibold'>SEO Expert Package:</span> $249 (40 content optimizers).</li>
+                                        <li><span className='font-semibold'>SEO Master Package:</span> $449 (80 content optimizers).</li>
+                                    </ul>
+                                    
+                                    <p className="mt-6 content-font text-lg lg:text-xl tracking-[-0.05rem]">
+                                        <span className='font-semibold'>Note:</span> Free plans are accessible in ChatGPT rank tracker tools like <a href="https://xofu.com/" target="_blank" rel="noopener noreferrer" className="text-blue-600 underline hover:text-blue-800">Xofu</a>, <a href="https://www.xfunnel.ai/" target="_blank" rel="noopener noreferrer" className="text-blue-600 underline hover:text-blue-800">XFunnel</a>, <a href="https://www.atomicagi.com/" target="_blank" rel="noopener noreferrer" className="text-blue-600 underline hover:text-blue-800">Atomic AGI</a>, and <a href="https://llmrefs.com/" target="_blank" rel="noopener noreferrer" className="text-blue-600 underline hover:text-blue-800">LLMrefs</a>. Other explicit GEO rank tracking tools comprise - Local Falcon, BrightLocal, and Nightwatch.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div className='mx-auto container overflow-hidden flex flex-col lg:flex-row space-y-6 lg:space-y-0 space-x-0 lg:space-x-6 mb-10 sm:mb-16'>
+                                {/* image 1 */}
+                                <div className='rounded-lg lg:rounded-xl px-4 border border-[var(--stroke)]'>
+                                    <Image 
+                                        src={Grammarly}
+                                        alt="Grammarly"
+                                        loading="lazy"
+                                        className='object-contain h-full w-full rounded-lg lg:rounded-xl'
+                                    />
+                                </div>
+                                {/* image 2 */}
+                                <div className='rounded-lg lg:rounded-xl px-4 border border-[var(--stroke)]'>
+                                    <Image 
+                                        src={HumanWritten}
+                                        alt="HumanWritten"
+                                        loading="lazy"
+                                        className='object-contain h-full w-full rounded-lg lg:rounded-xl'
+                                    />
+                                </div>
+                            </div>
+
+                            {/* Final Thoughts */}
+                            <div id='final-thoughts' className='mb-10 sm:mb-16 scroll-mt-10 sm:scroll-mt-16'>
+                                <h2 className="heading-font font-semibold text-2xl sm:text-3xl tracking-[-0.05rem]">Final Thoughts: Grip the AI Search Transformation</h2>
+                                <p className="mt-3 sm:mt-6 content-font text-lg lg:text-xl tracking-[-0.05rem]">
+                                    The rise of ChatGPT and AI in search is not merely a trend. It is a significant revolution in how people search for information. The best ChatGPT keyword rank tracker software tools are your way to comprehend and dominate this new space.
+                                </p>
+                                <p className="mt-3 sm:mt-6 content-font text-lg lg:text-xl tracking-[-0.05rem]">By exploring your AI visibility, you are not merely shielding your prevailing rankings; you are aligning your brand as a top voice for the subsequent generation of search.</p>
+                                <p className="mt-3 sm:mt-6 content-font text-lg lg:text-xl tracking-[-0.05rem]">Do not wait for your online traffic to alter prior to you initiating attention. Take the foremost step today. Run a free ChatGPT rank tracking analysis, try out a ChatGPT rank tracker tool, and future-proof your digital marketing strategy.</p>
+                                <p className="mt-3 sm:mt-6 content-font text-lg lg:text-xl tracking-[-0.05rem]">The forthcoming world of search is conversational, and with the best ChatGPT rank tracker tools, you will be ready to drive the conversation.</p>
+                            </div>
+                            
+                            {/* Author details */}
+                            <div className='mb-10 sm:mb-12 lg:max-w-5xl sm:w-[45rem] mx-auto container'>
+                                <div className="px-[1px] py-[1px] rounded-xl sm:rounded-[20px] bg-[radial-gradient(circle_at_center,#FF4E18_40%,#FEE7DF)]">
+                                    <div className="py-3 sm:py-5 px-4 sm:px-10 flex flex-row justify-between items-center rounded-xl sm:rounded-[20px] bg-[#FAF7F5]">
+                                        <div className='flex flex-col space-y-2 border-l-[2px] border-l-[var(--cta)] pb-[1px] ps-2 lg:ps-4'>
+                                            <span className="heading-font font-bold text-2xl sm:text-[28px]">Emily Thornton</span>
+                                            <h3 className="content-font text-base sm:text-lg">Content & Authority Building Specialist</h3>
+                                        </div>
+                                        <div className=''>
+                                            <Image 
+                                                src={AuthorImage} 
+                                                alt="Author Image" 
+                                                className='w-20 sm:h-20 object-cover rounded-full'
+                                            />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    {/* read more blogs */}
+                    <div className='bg-[#FAF7F5]'>
+                        <div className='container mx-auto py-16 sm:py-20 lg:py-28 justify-center place-items-center'>
+                            <div className='mb-10 sm:mb-16'>
+                                <p className="heading-font font-semibold text-xl sm:text-2xl lg:text-3xl text-center tracking-[-0.05rem]">Relevant Knowledge Base</p>
+                            </div>
+                            <div className='grid grid-col-1 sm:grid-cols-2 xl:grid-cols-3 gap-3 lg:gap-5 xl:gap-7 mx-4 sm:mx-0 lg:mx-5'>
+                            
+                                {blogPosts.map((blog) => (
+                                    <div key={blog.id} className='p-3 lg:p-4 border border-[var(--stroke)] rounded-xl sm:rounded-[1.25rem] overflow-hidden
+                                    bg-[radial-gradient(ellipse_at_top_left,#FFF0E0_0%,#FCD0D4_30%,transparent_55%),radial-gradient(ellipse_at_bottom_right,#FFF0E0_0%,#FCD0D4_30%,transparent_55%)]'>
+                                    
+                                    <div className='flex flex-col gap-1 sm:gap-2 h-full items-stretch'>
+
+                                        {/* Image */}
+                                        <Link href={blog.href} rel="noopener noreferrer"
+                                        className='w-auto lg:h-44 rounded-t-xl sm:rounded-t-[0.875rem] overflow-hidden'>
+                                        <Image src={blog.image} alt={blog.title} className="object-cover h-full" />
+                                        </Link>
+
+                                        {/* Content */}
+                                        <Link href={blog.href} rel="noopener noreferrer"
+                                        className='bg-white flex flex-col justify-between flex-grow p-3 lg:p-4 rounded-b-xl sm:rounded-b-[0.875rem]'>
+                                        
+                                        <span className="text-sm text-left text-[var(--foreground)] content-font">{blog.tag}</span>
+                                        <h2 className="heading-font font-medium text-lg lg:text-xl leading-5 sm:leading-6 tracking-[-0.06rem] my-2 hover:text-[var(--cta)]">{blog.title}</h2>
+                                        <p className="text-sm sm:text-base text-[#0f0a08c1] content-font mb-2 lg:mb-4">{blog.desc}</p>
+
+                                        <div className='flex sm:flex-col sm:space-y-1 lg:space-y-0 lg:flex-row justify-between items-center mt-auto'>
+                                            <p className='text-[#878483] content-font text-xs'>{blog.date} &nbsp; | &nbsp; {blog.readTime}</p>
+                                            <p className='cursor-pointer group text-[var(--cta)] content-font text-sm sm:text-lg flex items-center font-bold hover:text-[var(--cta)] transition duration-300'>
+                                            Read More
+                                            <span className='text-[var(--cta)] ps-1 text-base sm:text-2xl transition-transform duration-300 ease-out group-hover:translate-x-1'>
+                                                <HiMiniArrowSmallRight />
+                                            </span>
+                                            </p>
+                                        </div>
+                                        </Link>
+                                    </div>
+                                    </div>
+                                ))}
+                            </div>
+                        </div>
+                    </div>
+                <Footer/>
+            </div>
+        </div>
+    </div>
+  )
+}
+
+export default Blog3

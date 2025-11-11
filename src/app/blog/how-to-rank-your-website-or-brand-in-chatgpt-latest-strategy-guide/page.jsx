@@ -8,6 +8,7 @@ import Link from "next/link";
 import Image from 'next/image';
 import DemoImg from '@/../public/images/Blog-page/demo.webp';
 import AuthorImage from '@/../public/images/Blog-page/AuthorImage.jpg';
+import SharePopup from '@/app/components/SharePopup';
 
 export const metadata = {
   title: "How to Rank Your Website or Brand in Chat GPT: Latest Strategy Guide | NotionX",
@@ -19,7 +20,7 @@ const blogPosts = [
   
   {
     id: 1,
-    href: "blog/complete-guide-to-chatgpt-rank-tracking-tools-in-2025",
+    href: "complete-guide-to-chatgpt-rank-tracking-tools-in-2025",
     image: DemoImg,
     tag: "#trending",
     title: "Complete Guide to ChatGPT Rank Tracking Tools in 2025!",
@@ -29,7 +30,7 @@ const blogPosts = [
   },
   {
     id: 2,
-    href: "blog/best-chatgpt-seo-agency-&-services-for-ai-search-ranking",
+    href: "best-chatgpt-seo-agency-&-services-for-ai-search-ranking",
     image: DemoImg,
     tag: "#trending",
     title: "Best ChatGPT SEO Agency & Services for AI Search Ranking",
@@ -39,7 +40,7 @@ const blogPosts = [
   },
   {
     id: 3,
-    href: "blog/how-to-rank-in-ai-overview-understand-the-seo-vs-geo-vs-aeo",
+    href: "how-to-rank-in-ai-overview-understand-the-seo-vs-geo-vs-aeo",
     image: DemoImg,
     tag: "#trending",
     title: "How to Rank in AI Overview : Understand the SEO vs GEO vs AEO",
@@ -92,11 +93,18 @@ const Blog1 = () => {
                             <p className='text-[#878483] mx-4 text-2xl sm:text-3xl'> · </p>
                             <p className='text-[#878483] content-font text-xs'>Oct 25, 2025 &nbsp; | &nbsp; 2 mins read</p>
                             <p className='text-[#878483] mx-4 text-2xl sm:text-3xl'> · </p>
-                            <Link href="https://geo.notionx.ai/" 
+                            {/* <Link href="https://geo.notionx.ai/" 
                                 target="_blank" 
                                 rel="noopener noreferrer"
                                 className='cursor-pointer group text-[var(--cta)] content-font text-base flex items-center font-bold hover:underline'>
-                                Share <span className='text-[var(--cta)] ps-1 text-sm'><HiMiniShare /></span></Link>
+                                Share <span className='text-[var(--cta)] ps-1 text-sm'><HiMiniShare /></span></Link> */}
+                                {/* Replace this section in your page.jsx */}
+                            <div className="flex items-center gap-1 text-[var(--cta)]">
+                                <SharePopup
+                                    title="How to Rank Your Website or Brand in ChatGPT: Latest Strategy Guide"
+                                />
+                                <HiMiniShare className="text-sm" />
+                            </div>
                         </div>
 
                         <div className='mx-auto container overflow-hidden rounded-lg lg:rounded-xl h-60 sm:h-80 sm:w-[56.25rem] px-4 lg:px-0 my-7 sm:my-10'>
