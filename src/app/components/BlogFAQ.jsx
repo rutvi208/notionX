@@ -41,7 +41,7 @@ setOpenIndex(openIndex === index ? null : index);
   return (
     <div>
         <div className="container mx-auto place-items-center pt-20 px-5 lg:px-8 2xl:px-0">
-            <h1 className="heading-font text-center font-semibold text-3xl sm:text-4xl lg:text-5xl tracking-[-0.06rem]">Quick Answers</h1>
+            <h2 className="heading-font text-center font-semibold text-3xl sm:text-4xl lg:text-5xl tracking-[-0.06rem]">Quick Answers</h2>
             <p className="text-lg lg:text-xl text-center content-font mt-3">Everything you need to know about GEO and AI search optimization.</p>
                 
             <div className="grid grid-cols-1 gap-3 lg:gap-5 my-16 lg:my-20 lg:w-[56.25rem]">
@@ -53,9 +53,9 @@ setOpenIndex(openIndex === index ? null : index);
                         onClick={() => toggleFAQ(index)}
                         className="w-full flex flex-row items-center justify-between py-4 text-left cursor-pointer"
                         >
-                        <p className={`header-font transition-colors duration-300 ${
+                        <h2 className={`header-font transition-colors duration-300 ${
                             openIndex === index ? "text-[var(--cta)]" : "text-[var(--foreground)]"
-                          }`}>{faq.question}</p>
+                          }`}>{faq.question}</h2>
                         <span className="text-[#AD8775] text-2xl 2xl:text-3xl">
                             {openIndex === index ? "-" : "+"}
                         </span>
@@ -68,9 +68,9 @@ setOpenIndex(openIndex === index ? null : index);
                         }`}
                         >
                         <div className="pb-4">
-                            <p className="content-font text-lg lg:text-xl text-[#333]">
+                            <h3 className="content-font text-lg lg:text-xl text-[#333]">
                             {faq.answer}
-                            </p>
+                            </h3>
                         </div>
                         </div>
                     </div>

@@ -5,8 +5,6 @@ import BlackArrow from '@/../public/images/Blog-page/Black-Arrow.svg';
 import Link from "next/link";
 import Image from 'next/image';
 import DemoImg from '@/../public/images/Blog-page/demo.webp';
-import Grammarly from '@/../public/images/Blog-page/Blog5-Grammarly.png';
-import HumanWritten from '@/../public/images/Blog-page/Blog5-HumanWritten.png';
 import AuthorImage from '@/../public/images/Blog-page/AuthorImage.jpg';
 import SharePopup from '@/app/components/SharePopup';
 
@@ -151,18 +149,18 @@ const Blog5 = () => {
                                 <p className="mt-2 sm:mt-4 content-font text-lg lg:text-xl tracking-[-0.05rem]">AI Overviews reduce user effort by answering queries instantly. Citation visibility is lower - with fewer users clicking through. SEO strategies must adapt to this shift in user behavior.</p>
                                 
                                 <div className='my-8'>
-                                    <h2 className="flex flex-row items-center heading-font text-[#222222] font-medium text-xl sm:text-2xl tracking-[-0.05rem]"><Image src={BlackArrow} alt="Black Arrow icon" className='me-2'/>Google Prioritizes AI-Generated Answers.</h2>
+                                    <h3 className="flex flex-row items-center heading-font text-[#222222] font-medium text-xl sm:text-2xl tracking-[-0.05rem]"><Image src={BlackArrow} alt="Black Arrow icon" className='me-2'/>Google Prioritizes AI-Generated Answers.</h3>
                                     <p className="ms-5 mt-3 sm:mt-6 content-font text-lg lg:text-xl tracking-[-0.05rem]">Ranking signals now reflect semantic relevance compared to keyword density. AI Overviews use large language models to - synthesize answers from multiple sources. They prioritize contextual accuracy and user intent.</p>
                                     <p className="ms-5 mt-3 sm:mt-6 content-font text-lg lg:text-xl tracking-[-0.05rem]">AI Overviews are now triggered by high-volume informational queries. Common triggers include searches like “how to,” “best way,” and “what is.”</p>
                                     <p className="ms-5 mt-3 sm:mt-6 content-font text-lg lg:text-xl tracking-[-0.05rem]">Broad or ambiguous questions also activate AI summaries. These overviews appear above regular search results. Even top-ranked pages get pushed down the page. This reduces click-through rates and organic traffic.</p>
                                 </div>
                                 <div className='my-8'>
-                                    <h2 className="flex flex-row items-center heading-font text-[#222222] font-medium text-xl sm:text-2xl tracking-[-0.05rem]"><Image src={BlackArrow} alt="Black Arrow icon" className='me-2'/>Citation Mechanisms in AI Overviews.</h2>
+                                    <h3 className="flex flex-row items-center heading-font text-[#222222] font-medium text-xl sm:text-2xl tracking-[-0.05rem]"><Image src={BlackArrow} alt="Black Arrow icon" className='me-2'/>Citation Mechanisms in AI Overviews.</h3>
                                     <p className="ms-5 mt-3 sm:mt-6 content-font text-lg lg:text-xl tracking-[-0.05rem]">AI Overviews cite sources inline or in expandable panels. These citations are less visible than traditional blue links.</p>
                                     <p className="ms-5 mt-3 sm:mt-6 content-font text-lg lg:text-xl tracking-[-0.05rem]">Google chooses sources using trust signals like authority and structured data. Keyword matching alone does not guarantee citation. Most users skip citations unless they want deeper context.</p>
                                 </div>
                                 <div className='my-8'>
-                                    <h2 className="flex flex-row items-center heading-font text-[#222222] font-medium text-xl sm:text-2xl tracking-[-0.05rem]"><Image src={BlackArrow} alt="Black Arrow icon" className='me-2'/>User Behavior Shifts.</h2>
+                                    <h3 className="flex flex-row items-center heading-font text-[#222222] font-medium text-xl sm:text-2xl tracking-[-0.05rem]"><Image src={BlackArrow} alt="Black Arrow icon" className='me-2'/>User Behavior Shifts.</h3>
                                     <p className="ms-5 mt-3 sm:mt-6 content-font text-lg lg:text-xl tracking-[-0.05rem]">Users now scroll and click less during searches. They rely on AI summaries for instant answers. A recent study showed that most of them used only AI-generated content.</p>
                                     <p className="ms-5 mt-3 sm:mt-6 content-font text-lg lg:text-xl tracking-[-0.05rem]">Many skipped traditional searches entirely. Trust in AI Overviews is growing rapidly. Younger users prefer speed and ease over source checking.</p>
                                 </div>
@@ -179,20 +177,20 @@ const Blog5 = () => {
                                 </p>
                                 <ul className="ms-10 mt-2 sm:mt-4 space-y-2 content-font list-disc list-outside text-lg lg:text-xl tracking-[-0.05rem]">
                                     <li className='space-y-6 mt-8 sm:mt-12'>
-                                        <h2 className='flex flex-row items-center heading-font text-[#222222] font-medium text-xl sm:text-2xl tracking-[-0.05rem]'>Core Ranking Signals That Win Against AI Overviews.</h2>
+                                        <h3 className='flex flex-row items-center heading-font text-[#222222] font-medium text-xl sm:text-2xl tracking-[-0.05rem]'>Core Ranking Signals That Win Against AI Overviews.</h3>
                                             <p className="mt-3 sm:mt-6 content-font text-lg lg:text-xl tracking-[-0.05rem]">
                                                 To stay visible in AI-dominated search results - your content must signal trust, originality, and relevance. These ranking signals help you earn citations in - AI Overviews and reclaim organic traffic.
                                             </p>
                                     </li>
                                         <ol className="list-[upper-alpha] marker:font-semibold ms-10 mt-2 sm:mt-4 space-y-6 content-font list-outside text-lg lg:text-xl tracking-[-0.05rem]">
                                             <li>
-                                                <h2 className='flex flex-row items-center heading-font text-[#222222] font-medium text-xl sm:text-xl tracking-[-0.05rem]'>Original Research.</h2>
+                                                <h4 className='flex flex-row items-center heading-font text-[#222222] font-medium text-xl sm:text-xl tracking-[-0.05rem]'>Original Research.</h4>
                                                     <p className="mt-3 sm:mt-6 content-font text-lg lg:text-xl tracking-[-0.05rem]">
                                                     Share surveys, or case studies that - AI cannot replicate. Highlight original data to build - authority and trust. Use visuals and storytelling for - more engagement.
                                                     </p>
                                             </li>
                                             <li>
-                                                <h2 className='flex flex-row items-center heading-font text-[#222222] font-medium text-xl sm:text-xl tracking-[-0.05rem]'>Build Authority (E-E-A-T).</h2>
+                                                <h4 className='flex flex-row items-center heading-font text-[#222222] font-medium text-xl sm:text-xl tracking-[-0.05rem]'>Build Authority (E-E-A-T).</h4>
                                                     <p className="mt-3 sm:mt-6 content-font text-lg lg:text-xl tracking-[-0.05rem]">
                                                     Demonstrate - Experience, Expertise, Authoritativeness & Trustworthiness in - every piece. Include - author bios, credentials, and transparent sourcing. 
                                                     </p>
@@ -201,7 +199,7 @@ const Blog5 = () => {
                                                     </p>
                                             </li>  
                                             <li>
-                                                <h2 className='flex flex-row items-center heading-font text-[#222222] font-medium text-xl sm:text-xl tracking-[-0.05rem]'>Unique Perspectives & Thought Leadership.</h2>
+                                                <h4 className='flex flex-row items-center heading-font text-[#222222] font-medium text-xl sm:text-xl tracking-[-0.05rem]'>Unique Perspectives & Thought Leadership.</h4>
                                                     <p className="mt-3 sm:mt-6 content-font text-lg lg:text-xl tracking-[-0.05rem]">
                                                     Offer contrarian views, nuanced takes, or deep analysis that - go beyond generic answers. AI Overviews often summarize consensus. Distinctive insights help your content get cited.
                                                     </p>
@@ -210,20 +208,20 @@ const Blog5 = () => {
                                                     </p>
                                             </li>
                                             <li>
-                                                <h2 className='flex flex-row items-center heading-font text-[#222222] font-medium text-xl sm:text-xl tracking-[-0.05rem]'>Structured Data Optimization.</h2>
+                                                <h4 className='flex flex-row items-center heading-font text-[#222222] font-medium text-xl sm:text-xl tracking-[-0.05rem]'>Structured Data Optimization.</h4>
                                                     <p className="mt-3 sm:mt-6 content-font text-lg lg:text-xl tracking-[-0.05rem]">
                                                     Implement schema markup for - FAQ’s, How-To, Blog, and Product. This will help Google parse - your content. Structured data boosts your chances of appearing in - featured snippets and AI panels. Keep markup - consistent and aligned with page intent.
                                                     </p>
                                             </li>      
                                         </ol>
                                     <li className="space-y-6 mt-8 sm:mt-12">
-                                        <h2 className='flex flex-row items-center heading-font text-[#222222] font-medium text-xl sm:text-2xl tracking-[-0.05rem]'>Content Strategies to Rank Above AI Overviews.</h2>
+                                        <h3 className='flex flex-row items-center heading-font text-[#222222] font-medium text-xl sm:text-2xl tracking-[-0.05rem]'>Content Strategies to Rank Above AI Overviews.</h3>
                                         <p className="mt-3 sm:mt-6 content-font text-lg lg:text-xl tracking-[-0.05rem]">
                                         AI-generated summaries now - dominate search results. To compete, your content must stand out with depth. Clear structure and unique insights improve citations. These strategies help you earn meaningful clicks.
                                         </p>
                                         <ol className="list-[upper-alpha] marker:font-semibold ms-10 mt-2 sm:mt-4 space-y-6 content-font list-outside text-lg lg:text-xl tracking-[-0.05rem]">
                                             <li>
-                                            <h2 className='flex flex-row items-center heading-font text-[#222222] font-medium text-xl sm:text-xl tracking-[-0.05rem]'>Use Snippet-Ready Answers.</h2>
+                                            <h4 className='flex flex-row items-center heading-font text-[#222222] font-medium text-xl sm:text-xl tracking-[-0.05rem]'>Use Snippet-Ready Answers.</h4>
                                                 <ul className="ms-10 mt-2 sm:mt-4 space-y-2 content-font list-disc list-outside text-lg lg:text-xl tracking-[-0.05rem]">
                                                     <li>Start with concise answers that match query intent—ideal for AI citation.</li>
                                                     <li>Leverage - detailed analysis, examples, and context to engage human readers.</li>
@@ -232,7 +230,7 @@ const Blog5 = () => {
                                                 </ul>
                                             </li>
                                             <li>
-                                            <h2 className='flex flex-row items-center heading-font text-[#222222] font-medium text-xl sm:text-xl tracking-[-0.05rem]'>Publish Proprietary Insights.</h2>
+                                            <h4 className='flex flex-row items-center heading-font text-[#222222] font-medium text-xl sm:text-xl tracking-[-0.05rem]'>Publish Proprietary Insights.</h4>
                                                 <ul className="ms-10 mt-2 sm:mt-4 space-y-2 content-font list-disc list-outside text-lg lg:text-xl tracking-[-0.05rem]">
                                                     <li>Share original research, internal data, or unique metrics - that cannot be replicated.</li>
                                                     <li>Highlight methodology and findings. Build credibility and attract backlinks.</li>
@@ -241,7 +239,7 @@ const Blog5 = () => {
                                                 </ul>
                                             </li>
                                             <li>
-                                            <h2 className='flex flex-row items-center heading-font text-[#222222] font-medium text-xl sm:text-xl tracking-[-0.05rem]'>Showcase Real-World Applications.</h2>
+                                            <h4 className='flex flex-row items-center heading-font text-[#222222] font-medium text-xl sm:text-xl tracking-[-0.05rem]'>Showcase Real-World Applications.</h4>
                                                 <ul className="ms-10 mt-2 sm:mt-4 space-y-2 content-font list-disc list-outside text-lg lg:text-xl tracking-[-0.05rem]">
                                                     <li>Use - client stories, use cases, or before-and-after results. This demonstrates value.</li>
                                                     <li>Case studies offer context-rich content that - AI Overviews often skip. They differentiate your brand.</li>
@@ -249,7 +247,7 @@ const Blog5 = () => {
                                                 </ul>
                                             </li>
                                             <li>
-                                            <h2 className='flex flex-row items-center heading-font text-[#222222] font-medium text-xl sm:text-xl tracking-[-0.05rem]'>User-Generated Content (UGC).</h2>
+                                            <h4 className='flex flex-row items-center heading-font text-[#222222] font-medium text-xl sm:text-xl tracking-[-0.05rem]'>User-Generated Content (UGC).</h4>
                                                 <ul className="ms-10 mt-2 sm:mt-4 space-y-2 content-font list-disc list-outside text-lg lg:text-xl tracking-[-0.05rem]">
                                                     <li>Incorporate - testimonials, Q&A & interviews.</li>
                                                     <li>UGC adds - authenticity and diversity of voice. AI models value this for citation.</li>
@@ -329,8 +327,9 @@ const Blog5 = () => {
                             </div>
 
 
-                            <div className='mx-auto container overflow-hidden flex flex-col lg:flex-row space-y-6 lg:space-y-0 space-x-0 lg:space-x-6 mb-10 sm:mb-16'>
-                                {/* image 1 */}
+                            {/* images */}
+                            {/* <div className='mx-auto container overflow-hidden flex flex-col lg:flex-row space-y-6 lg:space-y-0 space-x-0 lg:space-x-6 mb-10 sm:mb-16'>
+                               
                                 <div className='rounded-lg lg:rounded-xl px-4 border border-[var(--stroke)]'>
                                     <Image 
                                         src={Grammarly}
@@ -339,7 +338,7 @@ const Blog5 = () => {
                                         className='object-contain h-full w-full rounded-lg lg:rounded-xl'
                                     />
                                 </div>
-                                {/* image 2 */}
+                                
                                 <div className='rounded-lg lg:rounded-xl px-4 border border-[var(--stroke)]'>
                                     <Image 
                                         src={HumanWritten}
@@ -348,7 +347,7 @@ const Blog5 = () => {
                                         className='object-contain h-full w-full rounded-lg lg:rounded-xl'
                                     />
                                 </div>
-                            </div>
+                            </div> */}
 
                             {/* moving-forward */}
                             <div id='moving-forward' className='mb-10 sm:mb-16 scroll-mt-10 sm:scroll-mt-16'>

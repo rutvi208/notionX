@@ -9,8 +9,6 @@ import Semrush from '@/../public/images/Blog-page/semrush.webp';
 import Ahrefs from '@/../public/images/Blog-page/ahrefs.webp';
 import Profound from '@/../public/images/Blog-page/profound.webp';
 import Rankability from '@/../public/images/Blog-page/rankability.webp';
-import Grammarly from '@/../public/images/Blog-page/Blog2-grammarly.png';
-import HumanWritten from '@/../public/images/Blog-page/Blog2-HumanWritten.png';
 import AuthorImage from '@/../public/images/Blog-page/AuthorImage.jpg';
 import SharePopup from '@/app/components/SharePopup';
 
@@ -335,27 +333,6 @@ const Blog3 = () => {
                                     <p className="mt-6 content-font text-lg lg:text-xl tracking-[-0.05rem]">
                                         <span className='font-semibold'>Note:</span> Free plans are accessible in ChatGPT rank tracker tools like <a href="https://xofu.com/" target="_blank" rel="noopener noreferrer" className="text-blue-600 underline hover:text-blue-800">Xofu</a>, <a href="https://www.xfunnel.ai/" target="_blank" rel="noopener noreferrer" className="text-blue-600 underline hover:text-blue-800">XFunnel</a>, <a href="https://www.atomicagi.com/" target="_blank" rel="noopener noreferrer" className="text-blue-600 underline hover:text-blue-800">Atomic AGI</a>, and <a href="https://llmrefs.com/" target="_blank" rel="noopener noreferrer" className="text-blue-600 underline hover:text-blue-800">LLMrefs</a>. Other explicit GEO rank tracking tools comprise - Local Falcon, BrightLocal, and Nightwatch.
                                     </p>
-                                </div>
-                            </div>
-
-                            <div className='mx-auto container overflow-hidden flex flex-col lg:flex-row space-y-6 lg:space-y-0 space-x-0 lg:space-x-6 mb-10 sm:mb-16'>
-                                {/* image 1 */}
-                                <div className='rounded-lg lg:rounded-xl px-4 border border-[var(--stroke)]'>
-                                    <Image 
-                                        src={Grammarly}
-                                        alt="Grammarly"
-                                        loading="lazy"
-                                        className='object-contain h-full w-full rounded-lg lg:rounded-xl'
-                                    />
-                                </div>
-                                {/* image 2 */}
-                                <div className='rounded-lg lg:rounded-xl px-4 border border-[var(--stroke)]'>
-                                    <Image 
-                                        src={HumanWritten}
-                                        alt="HumanWritten"
-                                        loading="lazy"
-                                        className='object-contain h-full w-full rounded-lg lg:rounded-xl'
-                                    />
                                 </div>
                             </div>
 

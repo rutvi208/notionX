@@ -4,14 +4,12 @@ import { HiMiniShare, HiMiniArrowSmallRight } from "react-icons/hi2";
 import Link from "next/link";
 import Image from 'next/image';
 import DemoImg from '@/../public/images/Blog-page/demo.webp';
-import NotionXLogo from '@/../public/images/Blog-page/NotionX.png';
-import NoGoodLogo from '@/../public/images/Blog-page/NoGood.png';
-import BirdMarketingLogo from '@/../public/images/Blog-page/Bird.png';
-import WOWBixLogo from '@/../public/images/Blog-page/WOWBix.png';
-import EmbarqueLogo from '@/../public/images/Blog-page/Embarque.png';
-import PricingTable from '@/../public/images/Blog-page/GEO-Service-Plans.png';
-import Grammarly from '@/../public/images/Blog-page/Blog3-grammarly.png';
-import HumanWritten from '@/../public/images/Blog-page/Blog3-HumanWritten.png';
+import NotionX from '@/../public/images/Blog-page/notionX.webp';
+import NoGoodLogo from '@/../public/images/Blog-page/noGood.webp';
+import BirdMarketingLogo from '@/../public/images/Blog-page/Bird.webp';
+import WOWBixLogo from '@/../public/images/Blog-page/wowbix.webp';
+import EmbarqueLogo from '@/../public/images/Blog-page/embarque.webp';
+import PricingTable from '@/../public/images/Blog-page/notionX-price.webp';
 import AuthorImage from '@/../public/images/Blog-page/AuthorImage.jpg';
 import SharePopup from '@/app/components/SharePopup';
 
@@ -143,7 +141,7 @@ const Blog2 = () => {
                                     <h3 className="heading-font font-medium text-xl sm:text-2xl tracking-[-0.05rem]">1. NotionX</h3>
                                     <div className='my-4 rounded-lg lg:rounded-xl border border-[var(--stroke)] overflow-hidden'>
                                         <Image 
-                                            src={NotionXLogo}
+                                            src={NotionX}
                                             alt="NotionX"
                                             loading="lazy"
                                             className='object-contain w-full'
@@ -319,27 +317,6 @@ const Blog2 = () => {
                                         <li>Combines programmatic SEO with structured content built for AI visibility.</li>
                                         <li>Tracks KPIs - traffic, leads, signups, and overall revenue.</li>
                                     </ul>
-                                </div>
-                            </div>
-
-                            <div className='mx-auto container overflow-hidden flex flex-col lg:flex-row space-y-6 lg:space-y-0 space-x-0 lg:space-x-6 mb-10 sm:mb-16'>
-                                {/* image 1 */}
-                                <div className='rounded-lg lg:rounded-xl px-4 border border-[var(--stroke)]'>
-                                    <Image 
-                                        src={Grammarly}
-                                        alt="Grammarly"
-                                        loading="lazy"
-                                        className='object-contain h-full w-full rounded-lg lg:rounded-xl'
-                                    />
-                                </div>
-                                {/* image 2 */}
-                                <div className='rounded-lg lg:rounded-xl px-4 border border-[var(--stroke)]'>
-                                    <Image 
-                                        src={HumanWritten}
-                                        alt="HumanWritten"
-                                        loading="lazy"
-                                        className='object-contain h-full w-full rounded-lg lg:rounded-xl'
-                                    />
                                 </div>
                             </div>
 
