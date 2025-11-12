@@ -293,40 +293,40 @@ const Blog5 = () => {
                                                     <span className='font-semibold'>Create Location-Specific Content Angles:</span> Publish - geo-targeted articles, landing pages, and service descriptions.
                                                 </li>
                                             </ul>
-                                    </div>
+                            </div>
 
-                                    <div id='monitoring-your-visibility-in-AI' className='mb-10 sm:mb-16'>
-                                        <h2 className="heading-font font-semibold text-2xl sm:text-3xl tracking-[-0.05rem]">Monitoring Your Visibility in AI Overviews.</h2>
-                                            <p className="mt-3 sm:mt-6 content-font text-lg lg:text-xl tracking-[-0.05rem]">
-                                                Track where and how your brand is mentioned in AI-generated summaries. Measure visibility by analyzing - impressions, CTR drops, and keyword shifts.
-                                            </p>
-                                            <p className="mt-3 sm:mt-6 content-font text-lg lg:text-xl tracking-[-0.05rem]">
-                                                Build a precise KPI framework that includes - AI citation frequency and branded query performance.
-                                            </p>
-                                            <h2 className='flex flex-row items-center heading-font text-[#222222] font-medium text-xl sm:text-2xl tracking-[-0.05rem] mt-6'>Recommended Tool Stack for Tracking AI Overviews.</h2>
-                                            <p className="mt-3 sm:mt-6 content-font text-lg lg:text-xl tracking-[-0.05rem] font-semibold">A) Search & Visibility Monitoring.</p>
-                                            <ul className="ms-10 mt-2 sm:mt-4 space-y-2 content-font list-disc list-outside text-lg lg:text-xl tracking-[-0.05rem]">
-                                                <li>Google Search Console</li>
-                                                <li>Ahrefs / Semrush</li>
-                                                <li>SEOTesting.com</li>
-                                            </ul>
-                                            <p className="mt-3 sm:mt-6 content-font text-lg lg:text-xl tracking-[-0.05rem] font-semibold">B)AI Overview Detection.</p>
-                                            <ul className="ms-10 mt-2 sm:mt-4 space-y-2 content-font list-disc list-outside text-lg lg:text-xl tracking-[-0.05rem]">
-                                                <li>AlsoAsked / Frase / Outranking </li>
-                                                <li>SERP APIs </li>
-                                            </ul>
-                                            <p className="mt-3 sm:mt-6 content-font text-lg lg:text-xl tracking-[-0.05rem] font-semibold">C)	Structured Data & Technical SEO.</p>
-                                            <ul className="ms-10 mt-2 sm:mt-4 space-y-2 content-font list-disc list-outside text-lg lg:text-xl tracking-[-0.05rem]">
-                                                <li>Screaming Frog / Sitebulb e</li>
-                                                <li>Merkle Schema Markup Generator </li>
-                                            </ul>
-                                            <p className="mt-3 sm:mt-6 content-font text-lg lg:text-xl tracking-[-0.05rem] font-semibold">D)	Analytics and Attribution.</p>
-                                            <ul className="ms-10 mt-2 sm:mt-4 space-y-2 content-font list-disc list-outside text-lg lg:text-xl tracking-[-0.05rem]">
-                                                <li>Google Analytics 4 </li>
-                                                <li>Hotjar / Microsoft Clarity </li>
-                                                <li>HubSpot / Mailchimp </li>
-                                            </ul>
-                                    </div>
+                            <div id='monitoring-your-visibility-in-AI' className='mb-10 sm:mb-16'>
+                                <h2 className="heading-font font-semibold text-2xl sm:text-3xl tracking-[-0.05rem]">Monitoring Your Visibility in AI Overviews.</h2>
+                                    <p className="mt-3 sm:mt-6 content-font text-lg lg:text-xl tracking-[-0.05rem]">
+                                        Track where and how your brand is mentioned in AI-generated summaries. Measure visibility by analyzing - impressions, CTR drops, and keyword shifts.
+                                    </p>
+                                    <p className="mt-3 sm:mt-6 content-font text-lg lg:text-xl tracking-[-0.05rem]">
+                                        Build a precise KPI framework that includes - AI citation frequency and branded query performance.
+                                    </p>
+                                    <h2 className='flex flex-row items-center heading-font text-[#222222] font-medium text-xl sm:text-2xl tracking-[-0.05rem] mt-6'>Recommended Tool Stack for Tracking AI Overviews.</h2>
+                                    <p className="mt-3 sm:mt-6 content-font text-lg lg:text-xl tracking-[-0.05rem] font-semibold">A) Search & Visibility Monitoring.</p>
+                                    <ul className="ms-10 mt-2 sm:mt-4 space-y-2 content-font list-disc list-outside text-lg lg:text-xl tracking-[-0.05rem]">
+                                        <li>Google Search Console</li>
+                                        <li>Ahrefs / Semrush</li>
+                                        <li>SEOTesting.com</li>
+                                    </ul>
+                                    <p className="mt-3 sm:mt-6 content-font text-lg lg:text-xl tracking-[-0.05rem] font-semibold">B)AI Overview Detection.</p>
+                                    <ul className="ms-10 mt-2 sm:mt-4 space-y-2 content-font list-disc list-outside text-lg lg:text-xl tracking-[-0.05rem]">
+                                        <li>AlsoAsked / Frase / Outranking </li>
+                                        <li>SERP APIs </li>
+                                    </ul>
+                                    <p className="mt-3 sm:mt-6 content-font text-lg lg:text-xl tracking-[-0.05rem] font-semibold">C)	Structured Data & Technical SEO.</p>
+                                    <ul className="ms-10 mt-2 sm:mt-4 space-y-2 content-font list-disc list-outside text-lg lg:text-xl tracking-[-0.05rem]">
+                                        <li>Screaming Frog / Sitebulb e</li>
+                                        <li>Merkle Schema Markup Generator </li>
+                                    </ul>
+                                    <p className="mt-3 sm:mt-6 content-font text-lg lg:text-xl tracking-[-0.05rem] font-semibold">D)	Analytics and Attribution.</p>
+                                    <ul className="ms-10 mt-2 sm:mt-4 space-y-2 content-font list-disc list-outside text-lg lg:text-xl tracking-[-0.05rem]">
+                                        <li>Google Analytics 4 </li>
+                                        <li>Hotjar / Microsoft Clarity </li>
+                                        <li>HubSpot / Mailchimp </li>
+                                    </ul>
+                            </div>
 
 
                             <div className='mx-auto container overflow-hidden flex flex-col lg:flex-row space-y-6 lg:space-y-0 space-x-0 lg:space-x-6 mb-10 sm:mb-16'>
