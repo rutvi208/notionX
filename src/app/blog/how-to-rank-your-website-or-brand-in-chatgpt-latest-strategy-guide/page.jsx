@@ -137,7 +137,7 @@ const Blog1 = () => {
                         <div className='mx-auto container flex flex-col lg:max-w-5xl sm:w-[56.25rem]'>
                             <div className='mb-10 sm:mb-16'>
                                 <p className="heading-font font-semibold text-xl sm:text-2xl tracking-[-0.05rem]">
-                                    In This Article:</p>
+                                    In Brief:</p>
                                 <ul className="ms-6 mt-2.5 sm:mt-6 space-y-2 content-font text-[var(--cta)] list-disc list-outside text-lg lg:text-xl tracking-[-0.05rem]">
                                     <li className='hover:underline'><a href="#why-ranking">Why Ranking in Chat GPT Search Matters in the AI Era?</a></li>
                                     <li className='hover:underline'><a href="#core-signals">Core Signals to Rank Higher on Chat GPT Search!</a></li>
@@ -169,7 +169,7 @@ const Blog1 = () => {
                                     <p className="mt-2 sm:mt-4 content-font text-lg lg:text-xl tracking-[-0.05rem]">Chat GPT retrieves information from a mix of sources. This includes their - training data, plugin integrations, and real-time web search.</p>
                                 </div>
                                 <div className='my-8'>
-                                    <h3 className="flex flex-row items-center heading-font text-[#222222] font-medium text-xl sm:text-2xl tracking-[-0.05rem]"><Image src={BlackArrow} alt="Black Arrow icon" className='me-2'/>Focus of Chat GPT.</h3>
+                                    <h4 className="flex flex-row items-center heading-font text-[#222222] font-medium text-xl sm:text-2xl tracking-[-0.05rem]"><Image src={BlackArrow} alt="Black Arrow icon" className='me-2'/>Focus of Chat GPT.</h4>
                                     <p className="ms-5 mt-2 sm:mt-4 content-font text-lg lg:text-xl tracking-[-0.05rem]">Google crawls and indexes the live web. However, Chat GPT focuses on - semantic relevance and conversational context. It prioritizes -</p>
                                     <ul className="ms-12 mt-3 sm:mt-6 space-y-2 content-font list-disc list-outside text-lg lg:text-xl tracking-[-0.05rem]">
                                         <li>Citations from trusted domains - Chat GPT favors sources with - high credibility and authority when referencing information.</li>
@@ -178,7 +178,7 @@ const Blog1 = () => {
                                     </ul>
                                 </div>
                                 <div className=''>
-                                    <h3 className="flex flex-row items-center heading-font text-[#222222] font-medium text-xl sm:text-2xl tracking-[-0.05rem]"><Image src={BlackArrow} alt="Black Arrow icon" className='me-2'/>Chat GPT vs. Traditional Search Engines.</h3>
+                                    <h4 className="flex flex-row items-center heading-font text-[#222222] font-medium text-xl sm:text-2xl tracking-[-0.05rem]"><Image src={BlackArrow} alt="Black Arrow icon" className='me-2'/>Chat GPT vs. Traditional Search Engines.</h4>
                                     <p className="ms-5 mt-2 sm:mt-4 content-font text-lg lg:text-xl tracking-[-0.05rem]">Google ranks pages based on backlinks and keyword density. However, Chat GPT ranks answers based on - how well they respond to user prompts. This shift stresses a new approach to SEO. One that blends content quality with AI understanding.</p>                                    
                                 </div>
                             </div>

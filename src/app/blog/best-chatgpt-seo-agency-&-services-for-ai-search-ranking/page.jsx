@@ -108,7 +108,7 @@ const Blog2 = () => {
                         <div className='mx-auto container flex flex-col lg:max-w-5xl sm:w-[56.25rem]'>
                             <div className='my-10 sm:my-16'>
                                 <p className="heading-font font-semibold text-xl sm:text-2xl tracking-[-0.05rem]">
-                                    In This Article:</p>
+                                    In Brief:</p>
                                 <ul className="ms-6 mt-2.5 sm:mt-6 space-y-2 content-font text-[var(--cta)] list-disc list-outside text-lg lg:text-xl tracking-[-0.05rem]">
                                     <li className='hover:underline'><a href="#best-agencies">Best ChatGPT SEO Agencies to Rank in AI Search</a></li>
                                     <li className='hover:underline'><a href="#comparison-table">AI ChatGPT SEO Agency Comparison Table [2025]</a></li>

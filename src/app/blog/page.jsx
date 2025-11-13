@@ -4,7 +4,7 @@ import Image from 'next/image';
 import HeroBg from '@/../public/images/backgrounds/HeroBg.svg';
 import { HiMiniArrowSmallRight } from "react-icons/hi2";
 import Link from "next/link";
-import DemoImg from '@/../public/images/Blog-page/demo.webp';
+import DemoImg from '@/../public/images/Blog-page/Dark-thumbnail.png';
 
 const blogPosts = [
   {
