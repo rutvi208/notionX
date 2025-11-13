@@ -1,6 +1,7 @@
 import Navbar from '@/app/components/Navbar';
 import Footer from '@/app/components/Footer';
 import { HiMiniShare, HiMiniArrowSmallRight } from "react-icons/hi2";
+import { AiOutlineMail, AiOutlineInstagram, AiOutlineLinkedin } from "react-icons/ai";
 import BlackArrow from '@/../public/images/Blog-page/Black-Arrow.svg';
 import Link from "next/link";
 import Image from 'next/image';
@@ -10,8 +11,7 @@ import SharePopup from '@/app/components/SharePopup';
 
 export const metadata = {
   title: "How AI Overviews Are Stealing Your Traffic: Recovery & Ranking Strategies for 2025! | NotionX",
- // keywords: ["How to Rank in AI Overview", "What is GEO", "What is AI SEO", "SEO vs GEO", "GEO vs SEO", "What is GEO vs SEO", "SEO vs GEO vs AEO", "GEO vs. SEO", "SEO vs AEO vs GEO", "AEO vs SEO vs GEO", "GEO vs SEO vs AEO", "SEO vs. GEO"],
-//   description: "How to Rank Your Website or Brand in Chat GPT: Latest Strategy Guide.",
+ 
 };
 
 const blogPosts = [
@@ -56,19 +56,14 @@ const Blog5 = () => {
             
             <div className=''>
                 <Navbar />
-                    <div className="my-10 sm:my-12 lg:my-20 2xl:my-24 container mx-auto justify-center place-items-center text-center ">
+                    <div className="my-10 sm:my-12 lg:mt-20 2xl:mt-24 container mx-auto justify-center place-items-center text-center ">
                         <h1 className="heading-font text-3xl lg:text-4xl xl:text-5xl sm:w-10/12 lg:w-10/12 2xl:w-8/12">How AI Overviews Are Stealing Your Traffic: Recovery & Ranking Strategies for 2025!</h1>
                         <div className='flex flex-row justify-between items-center mt-4 sm:mt-8'>
-                            <p className='text-[#878483] content-font text-xs'>Author Name</p>
+                            <a href='#AuthorBlock' className='text-[#878483] content-font text-xs'>Author Name</a>
                             <p className='text-[#878483] mx-4 text-2xl sm:text-3xl'> · </p>
                             <p className='text-[#878483] content-font text-xs'>Oct 25, 2025 &nbsp; | &nbsp; 2 mins read</p>
                             <p className='text-[#878483] mx-4 text-2xl sm:text-3xl'> · </p>
-                            {/* <Link href="https://geo.notionx.ai/" 
-                                target="_blank" 
-                                rel="noopener noreferrer"
-                                className='cursor-pointer group text-[var(--cta)] content-font text-base flex items-center font-bold hover:underline'>
-                                Share <span className='text-[var(--cta)] ps-1 text-sm'><HiMiniShare /></span></Link> */}
-                                <div className="flex items-center gap-1 text-[var(--cta)]">
+                            <div className="flex items-center gap-1 text-[var(--cta)]">
                                 <SharePopup
                                     title="How AI Overviews Are Stealing Your Traffic: Recovery & Ranking Strategies for 2025!"
                                 />
@@ -76,7 +71,18 @@ const Blog5 = () => {
                             </div>
                         </div>
 
-                        <div className='mx-auto container overflow-hidden rounded-lg lg:rounded-xl h-60 sm:h-80 sm:w-[56.25rem] px-4 lg:px-0 my-7 sm:my-10'>
+                        <div className='flex flex-col lg:max-w-5xl sm:w-[56.25rem] mx-auto my-8 sm:my-10 container'>
+                            
+                            <div className="p-[1px] mx-4 sm:mx-0 overflow-hidden rounded-xl sm:rounded-[20px] bg-[radial-gradient(circle_at_center,#FF4E18_40%,#FEE7DF)]">
+                                <div className="py-3 sm:py-5 px-4 sm:px-16 rounded-b-xl sm:rounded-b-[20px] bg-[#FAF7F5]">
+                                    <p className="content-font text-lg sm:text-xl text-center">
+                                        Showing up in its responses can even greatly increase your visibility and trust. This shift calls for a new kind of SEO that goes beyond - keywords and backlinks. You need to combine traditional techniques with new strategies tailored for AI-driven search. This guide explores how to rank in ChatGPT search using the latest strategies in - SEO, GEO targeting, and AI optimization.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className='mx-auto container overflow-hidden rounded-lg lg:rounded-xl h-60 sm:h-80 sm:w-[56.25rem] px-4 lg:px-0'>
                             <Image 
                                 src={DemoImg}
                                 alt="Hero Background"
@@ -88,23 +94,9 @@ const Blog5 = () => {
                     </div>
 
                     <div className='mx-auto container overflow-hidden px-4 lg:px-0 my-7 sm:my-10'>
-                        <div className='flex flex-col lg:max-w-5xl sm:w-[56.25rem] mx-auto container'>
-                            <div className="p-[1px] rounded-t-xl sm:rounded-t-[20px] bg-[radial-gradient(circle_at_center,#FF4E18_40%,#FEE7DF)]">
-                                <div className="py-3 sm:py-5 rounded-t-xl sm:rounded-t-[20px] bg-white">
-                                    <p className="heading-font font-semibold text-xl sm:text-2xl text-center tracking-[-0.05rem]">
-                                        Key Takeaway</p>
-                                </div>
-                            </div>
-                            <div className="px-[1px] pt-0 pb-[1px] rounded-b-xl sm:rounded-b-[20px] bg-[radial-gradient(circle_at_center,#FF4E18_40%,#FEE7DF)]">
-                                <div className="py-3 sm:py-5 px-4 sm:px-16 rounded-b-xl sm:rounded-b-[20px] bg-[#FAF7F5]">
-                                    <p className="content-font text-lg sm:text-xl text-center">
-                                        Showing up in its responses can even greatly increase your visibility and trust. This shift calls for a new kind of SEO that goes beyond - keywords and backlinks. You need to combine traditional techniques with new strategies tailored for AI-driven search. This guide explores how to rank in ChatGPT search using the latest strategies in - SEO, GEO targeting, and AI optimization.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
+                        
                         <div className='mx-auto container flex flex-col lg:max-w-5xl sm:w-[56.25rem]'>
-                            <div className='my-10 sm:my-16'>
+                            <div className='mb-10 sm:mb-16'>
                                 <p className="heading-font font-semibold text-xl sm:text-2xl tracking-[-0.05rem]">
                                     In Brief:</p>
                                 <ul className="ms-6 mt-2.5 sm:mt-6 space-y-2 content-font text-[var(--cta)] list-disc list-outside text-lg lg:text-xl tracking-[-0.05rem]">
@@ -326,29 +318,6 @@ const Blog5 = () => {
                                     </ul>
                             </div>
 
-
-                            {/* images */}
-                            {/* <div className='mx-auto container overflow-hidden flex flex-col lg:flex-row space-y-6 lg:space-y-0 space-x-0 lg:space-x-6 mb-10 sm:mb-16'>
-                               
-                                <div className='rounded-lg lg:rounded-xl px-4 border border-[var(--stroke)]'>
-                                    <Image 
-                                        src={Grammarly}
-                                        alt="Grammarly"
-                                        loading="lazy"
-                                        className='object-contain h-full w-full rounded-lg lg:rounded-xl'
-                                    />
-                                </div>
-                                
-                                <div className='rounded-lg lg:rounded-xl px-4 border border-[var(--stroke)]'>
-                                    <Image 
-                                        src={HumanWritten}
-                                        alt="HumanWritten"
-                                        loading="lazy"
-                                        className='object-contain h-full w-full rounded-lg lg:rounded-xl'
-                                    />
-                                </div>
-                            </div> */}
-
                             {/* moving-forward */}
                             <div id='moving-forward' className='mb-10 sm:mb-16 scroll-mt-10 sm:scroll-mt-16'>
                                 <h2 className="heading-font font-semibold text-2xl sm:text-3xl tracking-[-0.05rem]">Moving Forward: Your Competitive Advantage in the AI-First Search Era!</h2>
@@ -359,19 +328,28 @@ const Blog5 = () => {
                             </div>
                             
                             {/* Author details */}
-                            <div className='mb-10 sm:mb-12 lg:max-w-5xl sm:w-[45rem] mx-auto container'>
+                            <div id='AuthorBlock' className='mb-10 sm:mb-12 lg:max-w-5xl sm:w-[45rem] mx-auto container scroll-m-5 sm:scroll-m-10'>
                                 <div className="px-[1px] py-[1px] rounded-xl sm:rounded-[20px] bg-[radial-gradient(circle_at_center,#FF4E18_40%,#FEE7DF)]">
-                                    <div className="py-3 sm:py-5 px-4 sm:px-10 flex flex-row justify-between items-center rounded-xl sm:rounded-[20px] bg-[#FAF7F5]">
-                                        <div className='flex flex-col space-y-2 border-l-[2px] border-l-[var(--cta)] pb-[1px] ps-2 lg:ps-4'>
-                                            <span className="heading-font font-bold text-2xl sm:text-[28px]">Emily Thornton</span>
-                                            <h3 className="content-font text-base sm:text-lg">Content & Authority Building Specialist</h3>
-                                        </div>
-                                        <div className=''>
+                                    
+                                    <div className="p-5 grid grid-flow-row sm:grid-cols-3 gap-5 sm:gap-10 items-start rounded-xl sm:rounded-[20px] bg-[#FAF7F5]">
+                                        <div className='sm:col-span-1 h-full'>
                                             <Image 
                                                 src={AuthorImage} 
                                                 alt="Author Image" 
-                                                className='w-20 sm:h-20 object-cover rounded-full'
+                                                className='w-40 sm:h-full object-cover rounded-xl sm:rounded-2xl'
                                             />
+                                        </div>
+                                        <div className='sm:col-span-2'>
+                                            <div className='flex flex-col space-y-2 border-l-[2px] border-l-[var(--cta)] pb-[1px] ps-2 lg:ps-4'>
+                                                <span className="heading-font font-bold text-2xl sm:text-[28px]">Emily Thornton</span>
+                                                <p className="content-font text-base sm:text-lg">Content & Authority Building Specialist</p>
+                                            </div>
+                                            <p className="content-font text-base sm:text-lg mt-2.5 sm:mt-5">Leverage natural language and structured data. Better make your content AI-friendly.</p>
+                                            <div className='flex flex-row text-[var(--foreground)] space-x-4 text-2xl mt-5'>
+                                                <Link href='#' className='cursor-pointer'><AiOutlineLinkedin /></Link>
+                                                <Link href='#' className='cursor-pointer'><AiOutlineInstagram /></Link>
+                                                <Link href='#' className='cursor-pointer'><AiOutlineMail /></Link>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>

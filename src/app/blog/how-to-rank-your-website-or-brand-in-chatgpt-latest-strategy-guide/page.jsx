@@ -90,7 +90,7 @@ const Blog1 = () => {
                     <div className="my-10 sm:my-12 lg:mt-20 2xl:mt-24 container mx-auto justify-center place-items-center text-center ">
                         <h1 className="heading-font text-3xl lg:text-4xl xl:text-5xl sm:w-10/12 lg:w-10/12 2xl:w-8/12">How to Rank Your Website or Brand in ChatGPT: Latest Strategy Guide</h1>
                         <div className='flex flex-row justify-between items-center mt-4 sm:mt-8'>
-                            <p className='text-[#878483] content-font text-xs'>Author Name</p>
+                            <a href='#AuthorBlock' className='text-[#878483] content-font text-xs'>Author Name</a>
                             <p className='text-[#878483] mx-4 text-2xl sm:text-3xl'> · </p>
                             <p className='text-[#878483] content-font text-xs'>Oct 25, 2025 &nbsp; | &nbsp; 2 mins read</p>
                             <p className='text-[#878483] mx-4 text-2xl sm:text-3xl'> · </p>
@@ -339,7 +339,7 @@ const Blog1 = () => {
                                 className='object-contain'
                             />
                         </div> */}
-                        <div className='mb-10 sm:mb-12 lg:max-w-5xl sm:w-[45rem] mx-auto container'>
+                        <div id='AuthorBlock' className='mb-10 sm:mb-12 lg:max-w-5xl sm:w-[45rem] mx-auto container scroll-m-5 sm:scroll-m-10'>
                             <div className="px-[1px] py-[1px] rounded-xl sm:rounded-[20px] bg-[radial-gradient(circle_at_center,#FF4E18_40%,#FEE7DF)]">
                                 {/* flex flex-row space-x-3 sm:space-x-8 */}
                                 <div className="p-5 grid grid-flow-row sm:grid-cols-3 gap-5 sm:gap-10 items-start rounded-xl sm:rounded-[20px] bg-[#FAF7F5]">
