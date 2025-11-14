@@ -16,34 +16,49 @@ import EmbarqueLogo from '@/../public/images/Blog-page/embarque.webp';
 import PricingTable from '@/../public/images/Blog-page/notionX-price.webp';
 import AuthorImage from '@/../public/images/Blog-page/AuthorImage.jpg';
 import SharePopup from '@/app/components/SharePopup';
+import BlogSchema from "@/app/components/BlogSchema";
+import { useMemo } from 'react';
+import BreadcrumbSchema from "@/app/components/BreadcrumbSchema";
+import { generateBlogMetadata } from '@/app/components/generateBlogMetadata';
+import { siteConfig } from "@/app/config/site";
 
-
-export const metadata = {
-  title: "Best ChatGPT SEO Agency & Services for AI Search Ranking | NotionX",
-  description:"Learn how to optimize your brand for AI search platforms like ChatGPT, Gemini, and Perplexity. The ultimate 2025 AI SEO guide from NotionX.",
-  keywords: ["best ChatGPT SEO agencies to rank in ai search", "best ChatGPT SEO rank tracking software", "ChatGPT SEO rank tracking tools", "best ChatGPT SEO rank tracking", "best ChatGPT SEO rank tracker", "ChatGPT SEO rank tracking", "best SEO tool to rank in ChatGPT"],
-  openGraph: {
-    title: "Best ChatGPT SEO Agency & Services for AI Search Ranking | NotionX",
-    description:"Learn how to optimize your brand for AI search platforms like ChatGPT and Perplexity.",
-    url: "https://dev-notionx-v2.netlify.app/blog/best-chatgpt-seo-agency-&-services-for-ai-search-ranking",
-    type: "article",
-    images: [
-      {
-        url: "https://dev-notionx-v2.netlify.app/images/blogs/2.jpg",
-        width: 1200,
-        height: 630,
-        alt: "AI SEO Guide 2025",
-      },
-    ],
-  },
-  twitter: {
-    card: "summary_large_image",
-    title: "AI SEO Guide 2025 - Rank in AI Search Engines",
-    description:
-      "The ultimate 2025 AI SEO guide from NotionX. Learn to dominate AI-powered searches.",
-    images: ["https://dev-notionx-v2.netlify.app/images/blogs/2.jpg"],
-  },
-};
+export const metadata = generateBlogMetadata({
+    title: "Best ChatGPT SEO Agency & Services for AI Search Ranking",
+    description: "A full breakdown of the best agencies offering ChatGPT SEO, AI search ranking services, and GEO optimization.",
+    slug: "best-chatgpt-seo-agency-&-services-for-ai-search-ranking",
+    imageName: "blog3-banner-best-chatgpt-search-ranking.png", 
+    author: "Manthan D.", 
+    section: "AI Search Optimization",
+    publishedTime: "2025-10-25T00:00:00Z",
+    modifiedTime: "2025-10-25T00:00:00Z",
+    keywords: ["best ChatGPT SEO agencies to rank in ai search", "best ChatGPT SEO rank tracking software", "ChatGPT SEO rank tracking tools", "best ChatGPT SEO rank tracking", "best ChatGPT SEO rank tracker", "ChatGPT SEO rank tracking", "best SEO tool to rank in ChatGPT"]
+  });
+// export const metadata = {
+//   title: "Best ChatGPT SEO Agency & Services for AI Search Ranking | NotionX",
+//   description:"Learn how to optimize your brand for AI search platforms like ChatGPT, Gemini, and Perplexity. The ultimate 2025 AI SEO guide from NotionX.",
+//   keywords: ["best ChatGPT SEO agencies to rank in ai search", "best ChatGPT SEO rank tracking software", "ChatGPT SEO rank tracking tools", "best ChatGPT SEO rank tracking", "best ChatGPT SEO rank tracker", "ChatGPT SEO rank tracking", "best SEO tool to rank in ChatGPT"],
+//   openGraph: {
+//     title: "Best ChatGPT SEO Agency & Services for AI Search Ranking | NotionX",
+//     description:"Learn how to optimize your brand for AI search platforms like ChatGPT and Perplexity.",
+//     url: "https://dev-notionx-v2.netlify.app/blog/best-chatgpt-seo-agency-&-services-for-ai-search-ranking",
+//     type: "article",
+//     images: [
+//       {
+//         url: "https://dev-notionx-v2.netlify.app/images/blogs/2.jpg",
+//         width: 1200,
+//         height: 630,
+//         alt: "AI SEO Guide 2025",
+//       },
+//     ],
+//   },
+//   twitter: {
+//     card: "summary_large_image",
+//     title: "AI SEO Guide 2025 - Rank in AI Search Engines",
+//     description:
+//       "The ultimate 2025 AI SEO guide from NotionX. Learn to dominate AI-powered searches.",
+//     images: ["https://dev-notionx-v2.netlify.app/images/blogs/2.jpg"],
+//   },
+// };
 
 const blogPosts = [
   {
@@ -78,52 +93,213 @@ const blogPosts = [
   },
 ];
 
+const breadcrumbs = [
+    {
+        name: "Home",
+        url: siteConfig.url
+    },
+    {
+        name: "Blog",
+        url: `${siteConfig.url}${siteConfig.paths.blog}`
+    },
+    {
+        name: "Best ChatGPT SEO Agency & Services for AI Search Ranking",
+        url: `${siteConfig.url}${siteConfig.paths.blog}/best-chatgpt-seo-agency-&-services-for-ai-search-ranking`
+    }
+];
+
+const articleBody = `
+Best ChatGPT SEO Agency & Services for AI Search Ranking
+
+With ChatGPT, Perplexity, and other AI search engines altering how people search, companies face a new contest. If AI-powered search cannot find your content - your brand does not exist. Traditional SEO tactics will not earn you a spot in AI-powered answers.
+
+So, should you invest in ChatGPT SEO agencies, or are they just another transitory drift? Finding the best ChatGPT SEO agencies to rank in AI search looks tough in a digital maze.
+
+However, the numbers tell a captivating story. NotionX stands out as a top SEO digital marketing agency, assisting businesses in unlocking their AI growth.
+
+NotionX recently helped a London-based architectural design firm with a 33% increase in their AI Mentions, got +110 AI Overview and +51 ChatGPT Mentions in just 3.5 months.
+
+In this blog, we have identified the top ChatGPT SEO companies delivering consistent outcomes. They are the best ChatGPT SEO rank tracking software agencies to rank in AI search. Let us explore the best ChatGPT SEO rank tracking agencies of 2025.
+
+Best ChatGPT SEO Agencies to Rank in AI Search
+
+Businesses require SEO agency partners who can enhance visibility across diverse digital platforms. The agencies listed below have assisted brands to show up in generative outcomes and future-proof their digital marketing strategy.
+
+1. NotionX
+
+NotionX assists brands in getting discovered in AI search outcomes. It specializes in AI SEO, Generative Engine Optimization (GEO) services, and enhancing visibility across AI-driven platforms.
+
+NotionX Services for AI Search Ranking:
+- AI Visibility Audit - Assess your current AI footprint and uncover key citation gaps.
+- AI Schema Development - Build structured data that AI engines recognize and prioritize.
+- Citation Building - Position your brand as the definitive source across the web.
+- AI Monitoring & Optimization - Continuously track performance and refine visibility.
+
+NotionX Significant Features:
+- AI Mention Tracking - Monitor where and how your brand appears in AI-generated answers.
+- Competitor Citation Analysis - Uncover who is earning citations and where you can outpace them.
+- AI Answer Gap Identification - Spot missing or misattributed AI responses tied to your domain.
+- LLM-Optimized Content Creation - Craft content designed for AI comprehension and citation.
+- Entity Relationship Mapping - Clarify how your brand, products, and topics connect in AI systems.
+- Prompt-Aligned Website Updates - Refine site content to match how users prompt large language models.
+- AI Training Dataset Inclusion - Boost your presence in datasets that shape AI understanding.
+- Strategic Content Partnerships - Collaborate with high-authority sources to strengthen your signal.
+- Authority Signal Amplification - Enhance the signals that AI uses to trust and cite your brand.
+- Weekly AI Mention Reports - Stay informed with insights into your AI visibility.
+
+NotionX Key Benefits:
+- Be the Answer - Skip the click race. Become the AI-recommended choice when customers ask.
+- Quicker Results - Reach AI visibility in 4-6 weeks, far quicker than traditional SEO.
+- Future-Proof Strategy - Match how people search today: direct questions to AI tools.
+- Measurable ROI - Track AI mentions, branded queries, and leads from AI-driven discovery.
+
+2. NoGood
+
+NoGood combines AI SEO, growth marketing, and content science to assist companies in winning across AI-powered discovery. As a ChatGPT SEO rank tracking tools agency, it focuses on full-funnel strategies. These strategies advance visibility across ChatGPT, Perplexity, and other generative platforms.
+
+Key Services:
+- Generative search visibility audits
+- Answer Engine Optimization (AEO)
+- AI SEO, content strategy, and mapping
+- AI-powered keyword research
+
+Key Strengths:
+- Blends performance marketing, AI SEO, and content strategy in a unified workflow.
+- Bridges top-of-funnel AI presence with bottom-line growth tactics.
+- Excels at aligning AI-driven discovery with business outcomes.
+
+3. Bird Marketing
+
+Bird Marketing blends AI and GEO expertise with SEO mastery to assist brands grow in the digital space. Being the best ChatGPT SEO rank tracking agency, it enables businesses with its pioneering search optimization and AI integration methodologies.
+
+Key Services:
+- Generative Engine Optimization (GEO)
+- Enable AI-powered frameworks
+- Drive full-service digital strategies
+- SEO consulting services
+
+Key Strengths:
+- Combines traditional tactics with cutting-edge AI tools for superior results.
+- Delivers multi-market campaigns powered by solid analytics.
+- Maintains clear, consistent communication from start to finish.
+
+4. WOWBix Marketing
+
+WOWBix Marketing delivers budget-friendly digital marketing without cutting corners. As one of the best ChatGPT SEO rank tracking software agencies, they harness AI to boost search performance. The company leverages ChatGPT SEO rank tracking tools to improve its service deliverables. It supports small businesses and large corporations. Their teams combine cost efficiency with proven marketing tactics.
+
+Key Services:
+- AI-powered SEO
+- Conversion optimization
+- SMM and PPC
+
+Key Strengths:
+- Clients see dramatic ranking improvements.
+- Campaigns generate leads via social media.
+- A small and focused team ensures tailored support.
+
+5. Embarque
+
+Embarque helps SaaS and tech startups grow with AI-powered SEO. They boost organic traffic and rankings in ChatGPT-driven search. Their efficient processes meet an AI-enhanced strategy for measurable impact. Built for modern search, this ChatGPT SEO agency is optimized with the best ChatGPT SEO rank tracker tools.
+
+Key Services:
+- Covers technical, on-page, and off-page SEO strategy
+- Automated content production for quicker visibility
+- Contextual placements that boost authority and rankings
+- GA4 setups are tied directly to performance KPIs
+- Multi-channel SEO backed by outcome-driven reporting
+
+Key Strengths:
+- Build frameworks that grow with your business and deliver results.
+- Combines programmatic SEO with structured content built for AI visibility.
+- Tracks KPIs including traffic, leads, signups, and overall revenue.
+
+Moving Forward: Partnering with a Specialized AI ChatGPT SEO Agency
+
+Optimizing for AI search is not just another tactic, it is a shift in thinking. Success now depends on how well you speak the language of AI. Today, 13.14 percent of all search-based queries trigger Google AI Overviews. So, visibility here means major placement.
+
+Partnering with a ChatGPT SEO agency provides you with a clear edge in AI-driven search. They optimize for large language models and zero-click visibility. Your brand becomes the answer, not just another result.
+
+If you require professional help, explore our result-driven consulting services at NotionX to develop a customized ChatGPT SEO and GEO strategy. You can also try our AI-Powered GEO Auditor tool to analyze your site performance for conventional search engines and AI-driven platforms.
+`.trim();
+
 const Blog2 = () => {
 
-  const articleSchema = {
-    "@context": "https://schema.org",
-    "@type": "BlogPosting",
-    mainEntityOfPage: {
-      "@type": "WebPage",
-      "@id": "https://dev-notionx-v2.netlify.app/blog/best-chatgpt-seo-agency-&-services-for-ai-search-ranking",
-    },
-    headline:
-      "The Future of Search Is Here: How to Optimize for AI-Powered Discovery",
-    description:
-      "Learn how to optimize for AI-powered discovery and become the answer AI recommends when customers search for businesses like yours.",
-    image: {
-      "@type": "ImageObject",
-      url: "https://dev-notionx-v2.netlify.app/blog/2.jpg",
-      width: 1200,
-      height: 630,
-    },
-    datePublished: "2025-10-25T09:00:00Z",
-    dateModified: "2025-10-25T15:30:00Z",
-    author: {
-      "@type": "Person",
-      name: "Hanif Darjada",
-      url: "https://dev-notionx-v2.netlify.app/about",
-    },
-    publisher: {
-      "@type": "Organization",
-      name: "NotionX",
-      logo: {
-        "@type": "ImageObject",
-        url: "https://dev-notionx-v2.netlify.app/logo.png",
-      },
-    },
-    articleSection: "Generative Engine Optimization",
-    keywords: ["best ChatGPT SEO agencies to rank in ai search", "best ChatGPT SEO rank tracking software", "ChatGPT SEO rank tracking tools", "best ChatGPT SEO rank tracking", "best ChatGPT SEO rank tracker", "ChatGPT SEO rank tracking", "best SEO tool to rank in ChatGPT"],
-  };
+    const wordCount = useMemo(() => {
+        return articleBody
+            .replace(/\s+/g, ' ')
+            .split(' ')
+            .filter(word => word.length > 0).length;
+    }, [articleBody]);
+
+//   const articleSchema = {
+//     "@context": "https://schema.org",
+//     "@type": "BlogPosting",
+//     mainEntityOfPage: {
+//       "@type": "WebPage",
+//       "@id": "https://dev-notionx-v2.netlify.app/blog/best-chatgpt-seo-agency-&-services-for-ai-search-ranking",
+//     },
+//     headline:
+//       "The Future of Search Is Here: How to Optimize for AI-Powered Discovery",
+//     description:
+//       "Learn how to optimize for AI-powered discovery and become the answer AI recommends when customers search for businesses like yours.",
+//     image: {
+//       "@type": "ImageObject",
+//       url: "https://dev-notionx-v2.netlify.app/blog/2.jpg",
+//       width: 1200,
+//       height: 630,
+//     },
+//     datePublished: "2025-10-25T09:00:00Z",
+//     dateModified: "2025-10-25T15:30:00Z",
+//     author: {
+//       "@type": "Person",
+//       name: "Hanif Darjada",
+//       url: "https://dev-notionx-v2.netlify.app/about",
+//     },
+//     publisher: {
+//       "@type": "Organization",
+//       name: "NotionX",
+//       logo: {
+//         "@type": "ImageObject",
+//         url: "https://dev-notionx-v2.netlify.app/logo.png",
+//       },
+//     },
+//     articleSection: "Generative Engine Optimization",
+//     keywords: ["best ChatGPT SEO agencies to rank in ai search", "best ChatGPT SEO rank tracking software", "ChatGPT SEO rank tracking tools", "best ChatGPT SEO rank tracking", "best ChatGPT SEO rank tracker", "ChatGPT SEO rank tracking", "best SEO tool to rank in ChatGPT"],
+//   };
 
   return (
     <div>
-        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
+        {/* <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} /> */}
 
         <div className='h-screen bg-[radial-gradient(circle_at_top,rgba(246,238,234)_0%,rgba(246,239,235)_60%,white_70%)]'>
 
             <div className=''>
                 <Navbar />
+                <BreadcrumbSchema breadcrumbs={breadcrumbs} />
+                    <BlogSchema
+                        url={`${siteConfig.url}${siteConfig.paths.blog}/best-chatgpt-seo-agency-&-services-for-ai-search-ranking`}
+                        headline="Best ChatGPT SEO Agency & Services for AI Search Ranking"
+                        description="A full breakdown of the best agencies offering ChatGPT SEO, AI search ranking services, and GEO optimization."
+                        image={`${siteConfig.url}${siteConfig.paths.blogImages}/blog3-banner-best-chatgpt-search-ranking.png`}
+                        datePublished="2025-10-25T09:00:00Z"
+                        dateModified="2025-10-25T09:00:00Z"
+                        authorName="Manthan D."
+                        authorUrl={siteConfig.url}
+                        publisherLogo={`${siteConfig.url}/navbar-logo.svg`}
+                        articleBody={articleBody}
+                        articleSection="AI SEO"
+                        keywords={[
+                            "best ChatGPT SEO agencies to rank in ai search",
+                            "best ChatGPT SEO rank tracking software", 
+                            "ChatGPT SEO rank tracking tools", 
+                            "best ChatGPT SEO rank tracking", 
+                            "best ChatGPT SEO rank tracker", 
+                            "ChatGPT SEO rank tracking", 
+                            "best SEO tool to rank in ChatGPT"
+                        ]}
+                        wordCount={wordCount}
+                        
+                    />
                     <div className="my-10 sm:my-12 lg:mt-20 2xl:mt-24 container mx-auto justify-center place-items-center text-center ">
                         <h1 className="heading-font text-3xl lg:text-4xl xl:text-5xl sm:w-10/12 lg:w-10/12 2xl:w-8/12">Best ChatGPT SEO Agency & Services for AI Search Ranking</h1>
                         <div className='flex flex-row justify-between items-center mt-4 sm:mt-8'>
