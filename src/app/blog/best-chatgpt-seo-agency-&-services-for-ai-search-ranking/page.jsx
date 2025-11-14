@@ -308,7 +308,7 @@ const Blog2 = () => {
                         <div className='flex flex-row justify-between items-center mt-4 sm:mt-8'>
                             <a href='#AuthorBlock' className='text-[#878483] content-font text-xs'>Manthan D.</a>
                             <p className='text-[#878483] mx-4 text-2xl sm:text-3xl'> · </p>
-                            <p className='text-[#878483] content-font text-xs'>Oct 25, 2025 &nbsp; | &nbsp; {readingTime}</p>
+                            <p className='text-[#878483] content-font text-xs'>Oct 13, 2025 &nbsp; | &nbsp; {readingTime}</p>
                             <p className='text-[#878483] mx-4 text-2xl sm:text-3xl'> · </p>
                             <div className="flex items-center gap-1 text-[var(--cta)]">
                                 <SharePopup

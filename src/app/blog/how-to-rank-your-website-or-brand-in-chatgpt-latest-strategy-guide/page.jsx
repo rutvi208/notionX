@@ -239,7 +239,7 @@ const Blog1 = () => {
                         <div className='flex flex-row justify-between items-center mt-4 sm:mt-8'>
                             <a href='#AuthorBlock' className='text-[#878483] content-font text-xs'>Manthan D.</a>
                             <p className='text-[#878483] mx-4 text-2xl sm:text-3xl'> · </p>
-                            <p className='text-[#878483] content-font text-xs'>Oct 25, 2025 &nbsp; | &nbsp; {readingTime}</p>
+                            <p className='text-[#878483] content-font text-xs'>Sep 12, 2025 &nbsp; | &nbsp; {readingTime}</p>
                             <p className='text-[#878483] mx-4 text-2xl sm:text-3xl'> · </p>
                             {/* <Link href="https://geo.notionx.ai/"
                                 target="_blank"
