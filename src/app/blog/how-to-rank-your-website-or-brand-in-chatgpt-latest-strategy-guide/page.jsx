@@ -122,7 +122,7 @@ const Blog1 = () => {
                             </div>
                         </div>
 
-                        <div className='mx-auto container overflow-hidden rounded-lg lg:rounded-xl h-60 sm:h-80 sm:w-[56.25rem] px-4 lg:px-0'>
+                        <div className='mx-auto container overflow-hidden rounded-lg lg:rounded-xl h-72 sm:h-[24rem] sm:w-[56.25rem] px-4 lg:px-0'>
                             <Image
                                 src={Blog1Banner}
                                 alt="Hero Background"
