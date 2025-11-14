@@ -11,6 +11,7 @@ import Blog3Thumbnail from '@/../public/images/Blog-page/Blog3-Thumbnail.webp';
 import Blog5Banner from '@/../public/images/Blog-page/blog5-banner-ai-overviews-2025.png';
 import AuthorImage from '@/../public/images/Blog-page/AuthorImage.jpg';
 import SharePopup from '@/app/components/SharePopup';
+import { getReadingTime } from "@/app/components/getReadingTime";
 
 export const metadata = {
   title: "How AI Overviews Are Stealing Your Traffic: Recovery & Ranking Strategies for 2025! | NotionX",
@@ -51,7 +52,162 @@ const blogPosts = [
   },
 ];
 
+const articleBody = `How AI Overviews Are Stealing Your Traffic: Recovery & Ranking Strategies for 2025!
+
+The digital marketing landscape is experiencing its biggest transformation. A new era of search results has been introduced in the three decades since the commencement of Google. This complete scenario has made it challenging to capture online traffic in 2025.
+
+With the upsurge of ChatGPT and Perplexity AI, users are progressively seeking direct and conversational answers instead. So, all types of businesses are observing unparalleled dips in their organic traffic.
+
+Latest research has shown that AI Overviews can lead to a 15% to 64% decline in online traffic across the industry. This change is causing digital marketers to reassess their entire strategy concerning digital visibility.
+
+We will explore how AI Overviews are stealing your online traffic and how you can recover or drive ranking strategies for 2025.
+
+The AI Overview Crisis: How Much Digital Traffic Are You Losing?
+
+Google's AI Overviews, introduced in May 2024, provide answers directly in search outcomes utilizing Gen AI. While fitting for users, this feature sidesteps conventional blue links, eliminating the requirement to click through to company websites.
+
+If you ask Google a question, the foremost entry will be a Google AI Overview, which is a curated, concise reply with footnotes. For most online viewers of the reply, the concise details are all they require, so they do not click or explore any other link from the search.
+
+Online publishers are losing up to 89 percent of their organic traffic due to Google's AI Overviews. There is a major impact on the click-through rates and content visibility. Learning platform Chegg informed a 49 percent reduction in its non-subscriber traffic in 2024-25.
+
+Additionally, Google's AI Overviews have pushed top-ranked links far down the page. They can be displaced by up to 1,500 pixels. That is two full scrolls on desktop and three on mobile. Hence, high-ranking pages now get fewer clicks.
+
+Around 57 percent of Google searches in 2024 ended without a click to another website. This was up from 50 percent in 2020. Queries comprising quick facts, weather, or math have a greater than 80 percent probability of being zero-click.
+
+Why Are AI Overviews Dominating Search Results?
+
+AI Overviews dominate search results as Google now favors fast and authoritative summaries. They often appear above traditional website links.
+
+AI Overviews reduce user effort by answering queries instantly. Citation visibility is lower with fewer users clicking through. SEO strategies must adapt to this shift in user behavior.
+
+Google Prioritizes AI-Generated Answers.
+
+Ranking signals now reflect semantic relevance compared to keyword density. AI Overviews use large language models to synthesize answers from multiple sources. They prioritize contextual accuracy and user intent.
+
+AI Overviews are now triggered by high-volume informational queries. Common triggers include searches like "how to," "best way," and "what is."
+
+Broad or ambiguous questions also activate AI summaries. These overviews appear above regular search results. Even top-ranked pages get pushed down the page. This reduces click-through rates and organic traffic.
+
+Citation Mechanisms in AI Overviews.
+
+AI Overviews cite sources inline or in expandable panels. These citations are less visible than traditional blue links.
+
+Google chooses sources using trust signals like authority and structured data. Keyword matching alone does not guarantee citation. Most users skip citations unless they want deeper context.
+
+User Behavior Shifts.
+
+Users now scroll and click less during searches. They rely on AI summaries for instant answers. A recent study showed that most of them used only AI-generated content.
+
+Many skipped traditional searches entirely. Trust in AI Overviews is growing rapidly. Younger users prefer speed and ease over source checking.
+
+How to Beat AI Overviews and Reclaim Your Organic Traffic?
+
+AI Overviews now dominate search results. To compete, your content must answer questions clearly. Use structured data to assist Google comprehend your pages.
+
+Build brand authority through expert insights and backlinks. Diversify traffic sources beyond search engines. As SEO now requires strategic adaptation for AI-driven results.
+
+Core Ranking Signals That Win Against AI Overviews.
+
+To stay visible in AI-dominated search results your content must signal trust, originality, and relevance. These ranking signals help you earn citations in AI Overviews and reclaim organic traffic.
+
+A. Original Research.
+Share surveys, or case studies that AI cannot replicate. Highlight original data to build authority and trust. Use visuals and storytelling for more engagement.
+
+B. Build Authority (E-E-A-T).
+Demonstrate Experience, Expertise, Authoritativeness & Trustworthiness in every piece. Include author bios, credentials, and transparent sourcing.
+
+Google's algorithms favor content backed by real-world expertise. This is found especially in YMYL (Your Money or Your Life) niches.
+
+C. Unique Perspectives & Thought Leadership.
+Offer contrarian views, nuanced takes, or deep analysis that go beyond generic answers. AI Overviews often summarize consensus. Distinctive insights help your content get cited.
+
+Use analogies or niche metaphors to make ideas memorable. This will differentiate your voice.
+
+D. Structured Data Optimization.
+Implement schema markup for FAQ's, How-To, Blog, and Product. This will help Google parse your content. Structured data boosts your chances of appearing in featured snippets and AI panels. Keep markup consistent and aligned with page intent.
+
+Content Strategies to Rank Above AI Overviews.
+
+AI-generated summaries now dominate search results. To compete, your content must stand out with depth. Clear structure and unique insights improve citations. These strategies help you earn meaningful clicks.
+
+A. Use Snippet-Ready Answers.
+- Start with concise answers that match query intent—ideal for AI citation.
+- Leverage detailed analysis, examples, and context to engage human readers.
+- Use bullet points and subheadings. This will back both scanning and summarization.
+
+B. Publish Proprietary Insights.
+- Share original research, internal data, or unique metrics that cannot be replicated.
+- Highlight methodology and findings. Build credibility and attract backlinks.
+- Proprietary content increases your chances of being cited as a primary source.
+
+C. Showcase Real-World Applications.
+- Use client stories, use cases, or before-and-after results. This demonstrates value.
+- Case studies offer context-rich content that AI Overviews often skip. They differentiate your brand.
+
+D. User-Generated Content (UGC).
+- Incorporate testimonials, Q&A & interviews.
+- UGC adds authenticity and diversity of voice. AI models value this for citation.
+- Encourage polls, comments, and feedback loops.
+
+Technical SEO Tactics To Enable AI Overview Visibility.
+
+AI Overviews rely on structured data to identify and summarize relevant content. Add schema markup to aid search engines in comprehending your content.
+
+- Use the FAQ schema to surface common questions.
+- Apply the How-To schema for step-by-step guides.
+- Implement breadcrumbs to improve site structure.
+- Utilize structured data for AI citations.
+
+Local SEO + AI Overviews: Protecting Your Geographic Rankings.
+
+AI Overviews now influence how local businesses show up in search. They often summarize key details without linking to your site. To stay visible, you need a smarter local SEO strategy. Focus on signals that AI uses to rank and cite content.
+
+Local SEO strategies that enable your geographical rankings:
+
+- Strengthen Local Citation Authority: Get listed in local directories, review platforms, and service descriptions.
+- Optimize Google Business Profile: Keep your profile updated. Encourage reviews and Q&A activity.
+- Create Location-Specific Content Angles: Publish geo-targeted articles, landing pages, and service descriptions.
+
+Monitoring Your Visibility in AI Overviews.
+
+Track where and how your brand is mentioned in AI-generated summaries. Measure visibility by analyzing impressions, CTR drops, and keyword shifts.
+
+Build a precise KPI framework that includes AI citation frequency and branded query performance.
+
+Recommended Tool Stack for Tracking AI Overviews.
+
+A) Search & Visibility Monitoring.
+- Google Search Console
+- Ahrefs / Semrush
+- SEOTesting.com
+
+B) AI Overview Detection.
+- AlsoAsked / Frase / Outranking
+- SERP APIs
+
+C) Structured Data & Technical SEO.
+- Screaming Frog / Sitebulb e
+- Merkle Schema Markup Generator
+
+D) Analytics and Attribution.
+- Google Analytics 4
+- Hotjar / Microsoft Clarity
+- HubSpot / Mailchimp
+
+Moving Forward: Your Competitive Advantage in the AI-First Search Era!
+
+So, AI Overviews are rewriting how search results work. Brands that adapt quickly will gain a major edge. Staying visible now requires smarter and sharper content.
+
+Your messaging must show precision and authority. You already excel at effective communication. Now it is time to sync that skill with AI search behavior.
+
+Every detail—from schema to brand voice—matters more than ever. Let us build a strategy that earns citations and protects your traffic.
+
+If you require expert assistance? Explore our consulting services at notionX to drive a technical SEO audit, local GEO enhancements, and personalized GEO strategy.`
+.trim();
+
 const Blog5 = () => {
+
+    const readingTime = getReadingTime(articleBody);
 
   return (
     <div>
@@ -64,7 +220,7 @@ const Blog5 = () => {
                         <div className='flex flex-row justify-between items-center mt-4 sm:mt-8'>
                             <a href='#AuthorBlock' className='text-[#878483] content-font text-xs'>Manthan D.</a>
                             <p className='text-[#878483] mx-4 text-2xl sm:text-3xl'> · </p>
-                            <p className='text-[#878483] content-font text-xs'>Oct 25, 2025 &nbsp; | &nbsp; 2 mins read</p>
+                            <p className='text-[#878483] content-font text-xs'>Oct 25, 2025 &nbsp; | &nbsp; {readingTime}</p>
                             <p className='text-[#878483] mx-4 text-2xl sm:text-3xl'> · </p>
                             <div className="flex items-center gap-1 text-[var(--cta)]">
                                 <SharePopup
