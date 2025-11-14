@@ -1,9 +1,10 @@
 import type { Metadata } from "next";
+import { siteConfig } from '@/app/config/site';
 import "./globals.css";
 
 export const metadata: Metadata = {
   title: {
-    default: "AI SEO & Generative Engine Optimization for Brands - NotionX",
+    default: `AI SEO & Generative Engine Optimization for Brands - ${siteConfig.name}`,
     template: "%s | NotionX",
   },
   description:
@@ -16,13 +17,13 @@ export const metadata: Metadata = {
     "NotionX",
   ],
   openGraph: {
-    title: "AI SEO & Generative Engine Optimization for Brands - NotionX",
+    title: `AI SEO & Generative Engine Optimization for Brands - ${siteConfig.name}`,
     description:"NotionX helps brands get discovered in AI search results.",
-    url: "https://dev-notionx-v2.netlify.app/",
-    siteName: "NotionX",
+    url: siteConfig.url,
+    siteName: siteConfig.name,
     images: [
       {
-        url: "https://dev-notionx-v2.netlify.app/images/og-image.jpg",
+        url: `${siteConfig.url}${siteConfig.paths.images}/og-image.jpg`,
         width: 1200,
         height: 630,
         alt: "NotionX AI SEO",
@@ -35,8 +36,11 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "NotionX – AI SEO for Brands",
     description:"Discover how NotionX helps brands rank in AI-powered search engines.",
-    images: ["https://dev-notionx-v2.netlify.app/images/og-image.jpg"],
+    images: [`${siteConfig.url}${siteConfig.paths.images}/og-image.jpg`],
     creator: "@notionxai",
+  },
+  alternates: {
+    canonical: siteConfig.url,
   },
   icons: {
     icon: "/images/favicon.ico",
@@ -53,23 +57,20 @@ export default function RootLayout({
   const orgSchema = {
     "@context": "https://schema.org",
     "@type": "Organization",
-    name: "NotionX",
-    url: "https://dev-notionx-v2.netlify.app/",
-    logo: "https://dev-notionx-v2.netlify.app/logo.png",
-    sameAs: [
-      "https://twitter.com/NotionXAI",
-      "https://www.linkedin.com/company/notionxai/",
-    ],
+    name: siteConfig.name,
+    url: `${siteConfig.url}/`,
+    logo: `${siteConfig.url}${siteConfig.logo}`,
+    sameAs: Object.values(siteConfig.social),
   };
 
   const websiteSchema = {
     "@context": "https://schema.org",
     "@type": "WebSite",
-    url: "https://dev-notionx-v2.netlify.app/",
-    name: "NotionX",
+    url: `${siteConfig.url}/`,
+    name: siteConfig.name,
     potentialAction: {
       "@type": "SearchAction",
-      target: "https://dev-notionx-v2.netlify.app/search?q={search_term_string}",
+      target: `${siteConfig.url}/search?q={search_term_string}`,
       "query-input": "required name=search_term_string",
     },
   };

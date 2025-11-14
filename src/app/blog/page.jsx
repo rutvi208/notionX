@@ -9,6 +9,7 @@ import Blog2Thumbnail from '@/../public/images/Blog-page/Blog2-Thumbnail.webp';
 import Blog3Thumbnail from '@/../public/images/Blog-page/Blog3-Thumbnail.webp';
 import Blog4Thumbnail from '@/../public/images/Blog-page/Blog4-Thumbnail.webp';
 import Blog5Thumbnail from '@/../public/images/Blog-page/Blog5-Thumbnail.webp';
+import { siteConfig } from "@/app/config/site";
 
 const blogPosts = [
   {
@@ -70,14 +71,17 @@ export const metadata = {
     title: "NotionX Blog",
     description:
       "AI SEO insights, tutorials, and GEO best practices for modern brands.",
-    url: "https://dev-notionx-v2.netlify.app/blog",
-    images: ["https://dev-notionx-v2.netlify.app/images/blog-og.jpg"],
+    url: `${siteConfig.url}${siteConfig.paths.blog}`,
+    images: [`${siteConfig.url}${siteConfig.paths.images}/blog-og.jpg`],
   },
   twitter: {
     title: "NotionX Blog",
     description:
       "AI SEO insights and best practices for brands — by NotionX.",
-    images: ["https://dev-notionx-v2.netlify.app/images/blog-og.jpg"],
+    images: [`${siteConfig.url}${siteConfig.paths.images}/blog-og.jpg`],
+  },
+  alternates: {
+    canonical: `${siteConfig.url}${siteConfig.paths.blog}`,
   },
 };
 

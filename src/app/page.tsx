@@ -11,22 +11,27 @@ import Footer from '@/app/components/Footer';
 import ScrollToTop from '@/app/components/ScrollToTop';
 import ScrollButton from '@/app/components/ScrollButton';
 import type { Metadata } from "next";
+import { siteConfig } from '@/app/config/site';
 // import Button from '@/app/components/Button';
 
 
 export const metadata: Metadata = {
-  title: "AI SEO & Generative Engine Optimization for Brands - NotionX",
+  title: `AI SEO & Generative Engine Optimization for Brands - ${siteConfig.name}`,
   description:
     "NotionX helps brands get discovered in AI search results. We specialize in AI SEO, GEO and improving visibility across AI-powered platforms.",
   openGraph: {
-    url: "https://dev-notionx-v2.netlify.app/",
-    title: "AI SEO & Generative Engine Optimization for Brands - NotionX",
-    images: ["https://dev-notionx-v2.netlify.app/og-home.jpg"],
+    url: siteConfig.url,
+    title: `AI SEO & Generative Engine Optimization for Brands - ${siteConfig.name}`,
+    images: [`${siteConfig.url}${siteConfig.paths.images}/og-home.jpg`],
   },
   twitter: {
     card: "summary_large_image",
-    title: "AI SEO & Generative Engine Optimization for Brands - NotionX",
+    title: `AI SEO & Generative Engine Optimization for Brands - ${siteConfig.name}`,
     description: "NotionX helps brands get discovered in AI search results. We specialize in AI SEO, GEO and improving visibility across AI-powered platforms.",
+    images: [`${siteConfig.url}${siteConfig.paths.images}/og-home.jpg`],
+  },
+  alternates: {
+    canonical: siteConfig.url,
   },
 };
 
@@ -35,9 +40,14 @@ const homeSchema = {
     "@context": "https://schema.org",
     "@type": "WebPage",
     name: "Home",
-    url: "https://dev-notionx-v2.netlify.app/",
+    url: `${siteConfig.url}/`,
     description:
       "NotionX helps brands get discovered in AI search results. We specialize in AI SEO, GEO and improving visibility across AI-powered platforms.",
+    publisher: {
+      "@type": "Organization",
+      name: siteConfig.name,
+      logo: `${siteConfig.url}${siteConfig.logo}`, // "/navbar-logo.svg"
+    },
   };
 
 export default function Home() {
