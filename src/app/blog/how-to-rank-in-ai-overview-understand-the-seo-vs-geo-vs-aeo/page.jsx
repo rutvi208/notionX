@@ -16,7 +16,7 @@ import { getReadingTime } from "@/app/components/getReadingTime";
 export const metadata = {
   title: "How to Rank in AI Overview: Understand the SEO vs GEO vs AEO | NotionX",
   keywords: ["How to Rank in AI Overview", "What is GEO", "What is AI SEO", "SEO vs GEO", "GEO vs SEO", "What is GEO vs SEO", "SEO vs GEO vs AEO", "GEO vs. SEO", "SEO vs AEO vs GEO", "AEO vs SEO vs GEO", "GEO vs SEO vs AEO", "SEO vs. GEO"],
-//   description: "How to Rank Your Website or Brand in Chat GPT: Latest Strategy Guide.",
+//   description: "How to Rank Your Website or Brand in ChatGPT: Latest Strategy Guide.",
 };
 
 const blogPosts = [

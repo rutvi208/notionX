@@ -4,29 +4,29 @@ import {useState } from 'react';
 
 const faqs = [
   {
-    question: "How do you rank your website in Chat GPT?",
+    question: "How do you rank your website in ChatGPT?",
     answer:
       "Focus on - content quality, structured data, and brand mentions. Make sure your website is easy for AI to - understand and reference.",
   },
   {
-    question: "How to rank a brand on Chat GPT?",
+    question: "How to rank a brand on ChatGPT?",
     answer:
         "Use PR, influencer marketing, and monitor sentiment. Consistent brand visibility across online platforms helps - boost recognition.",
   },
   {
-    question: "How to rank on Chat GPT for products?",
+    question: "How to rank on ChatGPT for products?",
     answer:
-      "Implement product schema and encourage user-generated content. Clear product details and reviews make it easier for Chat GPT to feature you.",
+      "Implement product schema and encourage user-generated content. Clear product details and reviews make it easier for ChatGPT to feature you.",
   },
   {
-    question: "How to track Chat GPT visibility in search results?",
+    question: "How to track ChatGPT visibility in search results?",
     answer:
       "Use brand monitoring tools and citation trackers. Regular audits can help you. Better spot gaps and improve performance.",
   },
   {
-    question: "How to rank on Chat GPT in 2025?",
+    question: "How to rank on ChatGPT in 2025?",
     answer:
-      "Stay updated with - AI trends. Optimize for conversational relevance. Adapt as Chat GPT's algorithms evolve.",
+      "Stay updated with - AI trends. Optimize for conversational relevance. Adapt as ChatGPT's algorithms evolve.",
   }
 ];
 
