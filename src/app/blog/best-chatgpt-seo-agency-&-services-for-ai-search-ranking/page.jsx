@@ -303,7 +303,7 @@ const Blog2 = () => {
                     <div className="my-10 sm:my-12 lg:mt-20 2xl:mt-24 container mx-auto justify-center place-items-center text-center ">
                         <h1 className="heading-font text-3xl lg:text-4xl xl:text-5xl sm:w-10/12 lg:w-10/12 2xl:w-8/12">Best ChatGPT SEO Agency & Services for AI Search Ranking</h1>
                         <div className='flex flex-row justify-between items-center mt-4 sm:mt-8'>
-                            <a href='#AuthorBlock' className='text-[#878483] content-font text-xs'>Author Name</a>
+                            <a href='#AuthorBlock' className='text-[#878483] content-font text-xs'>Manthan D.</a>
                             <p className='text-[#878483] mx-4 text-2xl sm:text-3xl'> · </p>
                             <p className='text-[#878483] content-font text-xs'>Oct 25, 2025 &nbsp; | &nbsp; 2 mins read</p>
                             <p className='text-[#878483] mx-4 text-2xl sm:text-3xl'> · </p>
@@ -698,16 +698,28 @@ const Blog2 = () => {
                                             />
                                         </div>
                                         <div className='sm:col-span-2'>
-                                            <div className='flex flex-col space-y-2 border-l-[2px] border-l-[var(--cta)] pb-[1px] ps-2 lg:ps-4'>
-                                                <span className="heading-font font-bold text-2xl sm:text-[28px]">Emily Thornton</span>
+                                            <div className='border-l-[2px] border-l-[var(--cta)] pb-[1px] ps-2 lg:ps-4'>
+
+                                                {/* Name + LinkedIn inline */}
+                                                <div className="flex items-center gap-2">
+                                                    <span className="heading-font font-bold text-2xl sm:text-[28px]">
+                                                        Manthan D.
+                                                    </span>
+
+                                                    <Link 
+                                                        href="https://linkedin.com" 
+                                                        target="_blank" 
+                                                        className="cursor-pointer text-[var(--foreground)] text-xl"
+                                                    >
+                                                        <AiOutlineLinkedin />
+                                                    </Link>
+                                                </div>
+                                                {/* <div className='flex flex-col space-y-2 border-l-[2px] border-l-[var(--cta)] pb-[1px] ps-2 lg:ps-4'>
+                                                    <span className="heading-font font-bold text-2xl sm:text-[28px]">Manthan D.</span>
+                                                    <Link href="https://linkedin.com" target="_blank" className="cursor-pointer text-[var(--foreground)] text-xl"><AiOutlineLinkedin /></Link> */}
                                                 <p className="content-font text-base sm:text-lg">Content & Authority Building Specialist</p>
                                             </div>
                                             <p className="content-font text-base sm:text-lg mt-2.5 sm:mt-5">Leverage natural language and structured data. Better make your content AI-friendly.</p>
-                                            <div className='flex flex-row text-[var(--foreground)] space-x-4 text-2xl mt-5'>
-                                                <Link href='#' className='cursor-pointer'><AiOutlineLinkedin /></Link>
-                                                <Link href='#' className='cursor-pointer'><AiOutlineInstagram /></Link>
-                                                <Link href='#' className='cursor-pointer'><AiOutlineMail /></Link>
-                                            </div>
                                         </div>
                                     </div>
                                 </div>
