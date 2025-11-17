@@ -5,7 +5,7 @@ import Link from "next/link";
 export default function AuditCTA() {
     return (
         <section
-            className="mt-8 cta-block bg-gradient-to-r from-[#FFF0E0] to-[#FCD0D4] rounded-2xl p-8 lg:p-12 text-center mb-8 lg:mb-12 shadow-lg"
+            className="mt-8 cta-block bg-[#FFF0E0] rounded-2xl p-8 lg:p-12 text-center mb-8 lg:mb-12"
             aria-labelledby="middle-cta-heading"
         >
             <h3
