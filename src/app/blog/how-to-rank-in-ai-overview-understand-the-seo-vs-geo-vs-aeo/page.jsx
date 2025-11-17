@@ -12,6 +12,7 @@ import Blog4Banner from '@/../public/images/Blog-page/blog4-banner-seo-geo-aeo.p
 import AuthorImage from '@/../public/images/Blog-page/AuthorImage.jpg';
 import SharePopup from '@/app/components/SharePopup';
 import { getReadingTime } from "@/app/components/getReadingTime";
+import AuditCTA from '@/app/components/AuditCTA';
 
 export const metadata = {
   title: "How to Rank in AI Overview: Understand the SEO vs GEO vs AEO | NotionX",
@@ -596,6 +597,7 @@ const Blog4 = () => {
                                 </div>
                             </div>
                         </div>
+                        <AuditCTA />
                     </div>
 
                     {/* read more blogs */}

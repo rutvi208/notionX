@@ -14,6 +14,7 @@ import Blog4Thumbnail from '@/../public/images/Blog-page/Blog4-Thumbnail.webp';
 import AuthorImage from '@/../public/images/Blog-page/AuthorImage.jpg';
 import SharePopup from '@/app/components/SharePopup';
 import { getReadingTime } from "@/app/components/getReadingTime";
+import AuditCTA from '@/app/components/AuditCTA';
 
 export const metadata = {
   title: "How to Rank Your Website or Brand in ChatGPT: Latest Strategy Guide | NotionX",
@@ -525,6 +526,7 @@ const Blog1 = () => {
                                 </div>
                             </div>
                         </div>
+                        <AuditCTA />
                     </div>
 
                     {/* read more blogs */}

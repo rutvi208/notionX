@@ -22,6 +22,7 @@ import BreadcrumbSchema from "@/app/components/BreadcrumbSchema";
 import { generateBlogMetadata } from '@/app/components/generateBlogMetadata';
 import { siteConfig } from "@/app/config/site";
 import { getReadingTime } from "@/app/components/getReadingTime";
+import AuditCTA from '@/app/components/AuditCTA';
 
 export const metadata = generateBlogMetadata({
     title: "Best ChatGPT SEO Agency & Services for AI Search Ranking",
@@ -728,6 +729,7 @@ const Blog2 = () => {
                                 </div>
                             </div>
                         </div>
+                        <AuditCTA />
                     </div>
 
                     {/* read more blogs */}

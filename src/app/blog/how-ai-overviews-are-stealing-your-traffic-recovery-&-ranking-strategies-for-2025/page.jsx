@@ -12,6 +12,7 @@ import Blog5Banner from '@/../public/images/Blog-page/blog5-banner-ai-overviews-
 import AuthorImage from '@/../public/images/Blog-page/AuthorImage.jpg';
 import SharePopup from '@/app/components/SharePopup';
 import { getReadingTime } from "@/app/components/getReadingTime";
+import AuditCTA from '@/app/components/AuditCTA';
 
 export const metadata = {
   title: "How AI Overviews Are Stealing Your Traffic: Recovery & Ranking Strategies for 2025! | NotionX",
@@ -527,6 +528,7 @@ const Blog5 = () => {
                                 </div>
                             </div>
                         </div>
+                        <AuditCTA />
                     </div>
 
                     {/* read more blogs */}

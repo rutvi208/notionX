@@ -15,6 +15,7 @@ import Rankability from '@/../public/images/Blog-page/rankability.webp';
 import AuthorImage from '@/../public/images/Blog-page/AuthorImage.jpg';
 import SharePopup from '@/app/components/SharePopup';
 import { getReadingTime } from "@/app/components/getReadingTime";
+import AuditCTA from '@/app/components/AuditCTA';
 
 export const metadata = {
   title: "Complete Guide to ChatGPT Rank Tracking Tools in 2025! | NotionX",
@@ -551,6 +552,7 @@ const Blog3 = () => {
                                 </div>
                             </div>
                         </div>
+                        <AuditCTA />
                     </div>
 
                     {/* read more blogs */}
