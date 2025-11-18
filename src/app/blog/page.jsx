@@ -76,18 +76,19 @@ const blogPosts = [
 
 export const metadata = {
   title: "Blog | NotionX - AI SEO & GEO Insights",
+  keywords: "AI SEO, GEO, AEO, ChatGPT SEO, AI search ranking, notionX Blogs",
   description: "Read the latest insights on AI SEO, Generative Engine Optimization, and AI-powered marketing from NotionX experts.",
   openGraph: {
     title: "NotionX Blog - AI SEO & GEO Insights",
     description: "AI SEO insights, tutorials, and GEO best practices for modern brands.",
     url: `${siteConfig.url}${siteConfig.paths.blog}`,
-    images: [`${siteConfig.url}${siteConfig.paths.images}/blog-og.jpg`],
+    images: [`${siteConfig.url}${siteConfig.paths.images}/notionX.webp`],
     type: "website",
   },
   twitter: {
     title: "NotionX Blog - AI SEO & GEO Insights",
     description: "AI SEO insights and best practices for brands – by NotionX.",
-    images: [`${siteConfig.url}${siteConfig.paths.images}/blog-og.jpg`],
+    images: [`${siteConfig.url}${siteConfig.paths.images}/notionX.webp`],
     card: "summary_large_image",
   },
   alternates: {
@@ -121,7 +122,7 @@ const KnowledgeHub = () => {
       name: siteConfig.name,
       logo: {
         "@type": "ImageObject",
-        url: `${siteConfig.url}/navbar-logo.svg`,
+        url: `${siteConfig.url}/images/logo/navbar-logo.svg`,
         width: 600,
         height: 60
       },
@@ -134,7 +135,8 @@ const KnowledgeHub = () => {
       url: `${siteConfig.url}/${post.href}`,
       image: {
         "@type": "ImageObject",
-        url: `${siteConfig.url}${siteConfig.paths.blogImages}/${post.image}`,
+        //url: `${siteConfig.url}${siteConfig.paths.blogImages}/${post.image}`,
+        url: `${siteConfig.url}${post.image.src}`,
       },
       author: {
         "@type": "Person",
@@ -145,7 +147,7 @@ const KnowledgeHub = () => {
         name: siteConfig.name,
         logo: {
           "@type": "ImageObject",
-          url: `${siteConfig.url}/navbar-logo.svg`
+          url: `${siteConfig.url}/images/logo/navbar-logo.svg`
         }
       }
     }))
@@ -184,12 +186,13 @@ const KnowledgeHub = () => {
       />
 
       {/* Main Content */}
-      <main className='relative w-full h-screen overflow-visible' role="main">
+      <main className='relative w-full min-h-screen overflow-visible'>
         {/* Background Image with proper semantic structure */}
         <figure className='absolute inset-0' aria-hidden="true">
           <Image
             src={HeroBg}
-            alt="Hero Background"  // Empty alt since it's decorative
+            alt=""  // Empty alt since it's decorative
+            role="presentation"
             fill
             loading="lazy"
             className='object-cover h-full w-full'
@@ -219,7 +222,7 @@ const KnowledgeHub = () => {
           <section 
             className='container mx-auto mb-10 lg:mb-20 2xl:mb-24 justify-center place-items-center'
             aria-labelledby="blog-posts-heading"
-            role="feed"
+            //role="feed"
             aria-busy="false"
           >
             {/* Hidden heading for screen readers */}
@@ -229,14 +232,14 @@ const KnowledgeHub = () => {
             
             <div 
               className='grid grid-col-1 sm:grid-cols-2 xl:grid-cols-3 gap-3 lg:gap-5 xl:gap-7 mx-4 sm:mx-0 lg:mx-5'
-              role="list"
+              //role="list"
             >
               {blogPosts.map((blog, index) => (
                 <article 
                   key={blog.id} 
                   className='p-3 lg:p-4 border border-[var(--stroke)] rounded-xl sm:rounded-[1.25rem] overflow-hidden
                   bg-[radial-gradient(ellipse_at_top_left,#FFF0E0_0%,#FCD0D4_30%,transparent_55%),radial-gradient(ellipse_at_bottom_right,#FFF0E0_0%,#FCD0D4_30%,transparent_55%)]'
-                  role="listitem"
+                  //role="listitem"
                   aria-posinset={index + 1}
                   aria-setsize={blogPosts.length}
                   itemScope
@@ -254,6 +257,8 @@ const KnowledgeHub = () => {
                         <Image 
                           src={blog.image} 
                           alt={`Featured image for ${blog.title}`}
+                          width={600}
+                          height={400}
                           className="object-cover"
                           loading="lazy"
                           itemProp="image"
@@ -274,7 +279,7 @@ const KnowledgeHub = () => {
                         </span>
                         
                         {/* Article Title */}
-                        <h3 
+                        <h2
                           className="heading-font font-medium text-lg lg:text-xl leading-5 sm:leading-6 tracking-[-0.06rem] my-2"
                           itemProp="headline"
                         >
@@ -286,7 +291,7 @@ const KnowledgeHub = () => {
                           >
                             {blog.title}
                           </Link>
-                        </h3>
+                        </h2>
                       </header>
                       
                       {/* Article Description */}
