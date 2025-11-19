@@ -17,7 +17,6 @@ import PricingTable from '@/../public/images/Blog-page/notionX-price.webp';
 import AuthorImage from '@/../public/images/Blog-page/AuthorImage.jpg';
 import SharePopup from '@/app/components/SharePopup';
 import BlogSchema from "@/app/components/BlogSchema";
-import { useMemo } from 'react';
 import BreadcrumbSchema from "@/app/components/BreadcrumbSchema";
 import { generateBlogMetadata } from '@/app/components/generateBlogMetadata';
 import { siteConfig } from "@/app/config/site";
@@ -231,13 +230,6 @@ const Blog2 = () => {
 
     const readingTime = getReadingTime(articleBody);
 
-    const wordCount = useMemo(() => {
-        return articleBody
-            .replace(/\s+/g, ' ')
-            .split(' ')
-            .filter(word => word.length > 0).length;
-    }, [articleBody]);
-
 //   const articleSchema = {
 //     "@context": "https://schema.org",
 //     "@type": "BlogPosting",
@@ -288,13 +280,12 @@ const Blog2 = () => {
                         headline="Best ChatGPT SEO Agency & Services for AI Search Ranking"
                         description="A full breakdown of the best agencies offering ChatGPT SEO, AI search ranking services, and GEO optimization."
                         image={`${siteConfig.url}${siteConfig.paths.blogImages}/blog3-banner-best-chatgpt-search-ranking.png`}
-                        datePublished="2025-10-25T09:00:00Z"
-                        dateModified="2025-10-25T09:00:00Z"
+                        datePublished="2025-10-13T09:00:00Z"
                         authorName="Manthan D."
                         authorUrl={siteConfig.url}
-                        publisherLogo={`${siteConfig.url}/navbar-logo.svg`}
+                        publisherLogo={`${siteConfig.url}/images/logo/navbar-logo.svg`}
                         articleBody={articleBody}
-                        articleSection="AI SEO"
+                        articleSection="AI Search Optimization"
                         keywords={[
                             "best ChatGPT SEO agencies to rank in ai search",
                             "best ChatGPT SEO rank tracking software", 
@@ -304,7 +295,7 @@ const Blog2 = () => {
                             "ChatGPT SEO rank tracking", 
                             "best SEO tool to rank in ChatGPT"
                         ]}
-                        wordCount={wordCount}
+                        wordCount="1185"
                         
                     />
                     <div className="my-10 sm:my-12 lg:mt-20 2xl:mt-24 container mx-auto justify-center place-items-center text-center ">

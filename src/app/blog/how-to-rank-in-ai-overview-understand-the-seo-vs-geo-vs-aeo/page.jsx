@@ -17,6 +17,7 @@ import AskAI from '@/app/components/AskAI';
 import { generateBlogMetadata } from '@/app/components/generateBlogMetadata';
 import { siteConfig } from "@/app/config/site";
 import BreadcrumbSchema from "@/app/components/BreadcrumbSchema";
+import BlogSchema from "@/app/components/BlogSchema";
 
 export const metadata = generateBlogMetadata({
     title: "How to Rank in AI Overview: Understand the SEO vs GEO vs AEO",
@@ -223,6 +224,34 @@ const Blog4 = () => {
             <div className=''>
                 <Navbar />
                 <BreadcrumbSchema breadcrumbs={breadcrumbs} />
+                <BlogSchema
+                        url={`${siteConfig.url}${siteConfig.paths.blog}/how-to-rank-in-ai-overview-understand-the-seo-vs-geo-vs-aeo`}
+                        headline="How to Rank in AI Overview : Understand the SEO vs GEO vs AEO"
+                        description="What if the way we search the internet is transformed by 2025? Imagine asking a question and receiving not merely any answer. However, the precise one that you require—instantly delivered by AI-enabled tools."
+                        image={`${siteConfig.url}${siteConfig.paths.blogImages}/blog4-banner-seo-geo-aeo.png`}
+                        datePublished="2025-10-25T09:00:00Z"
+                        authorName="Manthan D."
+                        authorUrl={siteConfig.url}
+                        publisherLogo={`${siteConfig.url}/images/logo/navbar-logo.svg`}
+                        articleBody={articleBody}
+                        articleSection="AI Search Optimization"
+                        keywords={[
+                            "How to Rank in AI Overview", 
+                            "What is GEO", 
+                            "What is AI SEO", 
+                            "SEO vs GEO", 
+                            "GEO vs SEO", 
+                            "What is GEO vs SEO", 
+                            "SEO vs GEO vs AEO", 
+                            "GEO vs. SEO", 
+                            "SEO vs AEO vs GEO", 
+                            "AEO vs SEO vs GEO", 
+                            "GEO vs SEO vs AEO", 
+                            "SEO vs. GEO"
+                        ]}
+                        wordCount="1208"
+                        
+                    />
                     <div className="my-10 sm:my-12 lg:mt-20 2xl:mt-24 container mx-auto justify-center place-items-center text-center ">
                         <h1 className="heading-font text-3xl lg:text-4xl xl:text-5xl sm:w-10/12 lg:w-10/12 2xl:w-8/12">How to Rank in AI Overview: Understand the SEO vs GEO vs AEO</h1>
                         <div className='flex flex-row justify-between items-center mt-4 sm:mt-8'>

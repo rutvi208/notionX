@@ -19,6 +19,7 @@ import AskAI from '@/app/components/AskAI';
 import { generateBlogMetadata } from '@/app/components/generateBlogMetadata';
 import { siteConfig } from "@/app/config/site";
 import BreadcrumbSchema from "@/app/components/BreadcrumbSchema";
+import BlogSchema from "@/app/components/BlogSchema";
 
 export const metadata = generateBlogMetadata({
     title: "How to Rank Your Website or Brand in ChatGPT: Latest Strategy Guide",
@@ -263,6 +264,37 @@ const Blog1 = () => {
             <div className=''>
                 <Navbar />
                 <BreadcrumbSchema breadcrumbs={breadcrumbs} />
+                <BlogSchema
+                        url={`${siteConfig.url}${siteConfig.paths.blog}/how-to-rank-your-website-or-brand-in-chatgpt-latest-strategy-guide`}
+                        headline="How to Rank Your Website or Brand in ChatGPT : Latest Strategy Guide"
+                        description="In the age of AI-powered search, visibility in Chat GPT is becoming - as crucial as ranking on Google. With 700 million weekly users interacting with Chat GPT - brands and websites must adapt to this new paradigm."
+                        image={`${siteConfig.url}${siteConfig.paths.blogImages}/blog1-banner-how-to-rank-strategy-guide.png`}
+                        datePublished="2025-09-12T09:00:00Z"
+                        authorName="Manthan D."
+                        authorUrl={siteConfig.url}
+                        publisherLogo={`${siteConfig.url}/images/logo/navbar-logo.svg`}
+                        articleBody={articleBody}
+                        articleSection="AI Search Optimization"
+                        keywords={[
+                            "how to rank in ChatGPT search", 
+                            "how do you rank your website in ChatGPT", 
+                            "how to rank on ChatGPT", 
+                            "how to rank in ChatGPT", 
+                            "how to rank on ChatGPT in 2025", 
+                            "how to rank website on ChatGPT", 
+                            "how to rank brand on ChatGPT in 2025", 
+                            "how to rank a brand on ChatGPT", 
+                            "how to rank on ChatGPT for brand mentions", 
+                            "where does my brand rank in ChatGPT", 
+                            "how to rank on ChatGPT for brands in 2025", 
+                            "how to rank in ChatGPT search results", 
+                            "how products and services appear in ChatGPT search results", 
+                            "how to appear in ChatGPT search results", 
+                            "how to track ChatGPT visibility in search results"
+                        ]}
+                        wordCount="1214"
+                        
+                    />
                     <div className="my-10 sm:my-12 lg:mt-20 2xl:mt-24 container mx-auto justify-center place-items-center text-center ">
                         <h1 className="heading-font text-3xl lg:text-4xl xl:text-5xl sm:w-10/12 lg:w-10/12 2xl:w-8/12">How to Rank Your Website or Brand in ChatGPT: Latest Strategy Guide</h1>
                         <div className='flex flex-row justify-between items-center mt-4 sm:mt-8'>

@@ -4,7 +4,6 @@ export default function BlogSchema({
     description,
     image,
     datePublished,
-    dateModified,
     authorName,
     authorUrl,
     publisherLogo,
@@ -30,7 +29,6 @@ export default function BlogSchema({
         height: 630,
       },
       datePublished,
-      dateModified,
       author: {
         "@type": "Person",
         name: authorName,
