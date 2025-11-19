@@ -1,6 +1,21 @@
 import type { Metadata } from "next";
 import { siteConfig } from '@/app/config/site';
 import "./globals.css";
+import { Bricolage_Grotesque, Source_Sans_3 } from "next/font/google"; // <-- correct names
+
+const bricolage = Bricolage_Grotesque({
+  subsets: ["latin"],
+  // Bricolage is a variable font — no need to pass weights; still you can pass if needed
+  display: "swap",
+  variable: "--font-bricolage",
+});
+
+const sourceSans = Source_Sans_3({
+  subsets: ["latin"],
+  weight: ["300", "400", "600", "700"],
+  display: "swap",
+  variable: "--font-source-sans-pro", // keep your existing var name if you like
+});
 
 export const metadata: Metadata = {
   title: {

@@ -271,18 +271,19 @@ const KnowledgeHub = () => {
                         rel="noopener noreferrer"
                         aria-label={`Read article: ${blog.title}`}
                       >
-                        <div className="relative w-full aspect-[25/10]">
+                        <div className="relative w-full aspect-[2.5/1]">
                           <Image
                             src={blog.image}
                             alt={`Featured image for ${blog.title}`}
                             //fill
-                            width={620}
-                            height={248}
+                            width={700}
+                            height={280}
                             sizes="(max-width: 768px) 100vw, 620px"
                                   // LCP image optimization
                             priority={index === 0}                // Enables eager loading for LCP automatically
                             fetchPriority={index === 0 ? "high" : "auto"}  // Correct for Next.js 14+
                             className="object-cover"
+                            loading={index === 0 ? "eager" : "lazy"}
                             //loading="lazy"
                             itemProp="image"
                           />
