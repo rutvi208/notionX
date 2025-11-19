@@ -25,7 +25,7 @@ export const metadata = generateBlogMetadata({
     slug: "how-ai-overviews-are-stealing-your-traffic-recovery-&-ranking-strategies-for-2025",
     imageName: "blog5-banner-ai-overviews-2025.png", 
     author: "Manthan D.", 
-    section: "AI Search Optimization",
+    section: "AI Overviews Optimization",
     publishedTime: "2025-11-18T00:00:00Z",
     keywords: ["rank tracking tool for ChatGPT", "rank tracker tool for ChatGPT", "ChatGPT rank tracker", "best ChatGPT rank tracker tools", "ChatGPT rank tracking free", "free ChatGPT rank tracking", "best ChatGPT keyword rank tracker software"],
   });
@@ -256,7 +256,7 @@ const Blog5 = () => {
                         authorUrl={siteConfig.url}
                         publisherLogo={`${siteConfig.url}/images/logo/navbar-logo.svg`}
                         articleBody={articleBody}
-                        articleSection="AI Search Optimization"
+                        articleSection="AI Overviews Optimization"
                         keywords={[
                             "rank tracking tool for ChatGPT", 
                             "rank tracker tool for ChatGPT", 

@@ -28,7 +28,7 @@ export const metadata = generateBlogMetadata({
     slug: "complete-guide-to-chatgpt-rank-tracking-tools-in-2025",
     imageName: "blog2-banner-complete-guide-2025.png", 
     author: "Manthan D.", 
-    section: "AI Search Optimization",
+    section: "AI Rank Tracking Tools",
     publishedTime: "2025-09-25T00:00:00Z",
     keywords: ["rank tracking tool for ChatGPT", "rank tracker tool for ChatGPT", "ChatGPT rank tracker", "best ChatGPT rank tracker tools", "ChatGPT rank tracking free", "free ChatGPT rank tracking", "best ChatGPT keyword rank tracker software"],
   });
@@ -256,7 +256,7 @@ const Blog3 = () => {
                         authorUrl={siteConfig.url}
                         publisherLogo={`${siteConfig.url}/images/logo/navbar-logo.svg`}
                         articleBody={articleBody}
-                        articleSection="AI Search Optimization"
+                        articleSection="AI Rank Tracking Tools"
                         keywords={[
                             "rank tracking tool for ChatGPT", 
                             "rank tracker tool for ChatGPT", 

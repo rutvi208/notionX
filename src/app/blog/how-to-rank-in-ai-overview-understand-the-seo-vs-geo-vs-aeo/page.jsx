@@ -25,7 +25,7 @@ export const metadata = generateBlogMetadata({
     slug: "how-to-rank-in-ai-overview-understand-the-seo-vs-geo-vs-aeo",
     imageName: "blog4-banner-seo-geo-aeo.png", 
     author: "Manthan D.", 
-    section: "AI Search Optimization",
+    section: "AI Overview Ranking",
     publishedTime: "2025-10-25T00:00:00Z",
     keywords: ["How to Rank in AI Overview", "What is GEO", "What is AI SEO", "SEO vs GEO", "GEO vs SEO", "What is GEO vs SEO", "SEO vs GEO vs AEO", "GEO vs. SEO", "SEO vs AEO vs GEO", "AEO vs SEO vs GEO", "GEO vs SEO vs AEO", "SEO vs. GEO"],
   });
@@ -234,7 +234,7 @@ const Blog4 = () => {
                         authorUrl={siteConfig.url}
                         publisherLogo={`${siteConfig.url}/images/logo/navbar-logo.svg`}
                         articleBody={articleBody}
-                        articleSection="AI Search Optimization"
+                        articleSection="AI Overview Ranking"
                         keywords={[
                             "How to Rank in AI Overview", 
                             "What is GEO", 
