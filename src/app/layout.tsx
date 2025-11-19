@@ -18,6 +18,7 @@ const sourceSans = Source_Sans_3({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL(siteConfig.url),
   title: {
     default: `AI SEO & Generative Engine Optimization for Brands - ${siteConfig.name}`,
     template: "%s | NotionX",
@@ -27,21 +28,33 @@ export const metadata: Metadata = {
   keywords: [
     "AI SEO",
     "Generative Engine Optimization",
+    "GEO",
     "AI Marketing",
     "SEO for AI Search",
+    "ChatGPT SEO",
+    "Perplexity optimization",
+    "AI search visibility",
     "NotionX",
   ],
+  authors: [{ name: siteConfig.name }],
+  creator: siteConfig.name,
+  publisher: siteConfig.name,
+  formatDetection: {
+    email: false,
+    address: false,
+    telephone: false,
+  },
   openGraph: {
     title: `AI SEO & Generative Engine Optimization for Brands - ${siteConfig.name}`,
-    description:"NotionX helps brands get discovered in AI search results.",
+    description: "NotionX helps brands get discovered in AI search results.",
     url: siteConfig.url,
     siteName: siteConfig.name,
     images: [
       {
-        url: `${siteConfig.url}${siteConfig.paths.images}/og-image.jpg`,
+        url: `${siteConfig.url}${siteConfig.paths.images}/notionX.webp`,
         width: 1200,
         height: 630,
-        alt: "NotionX AI SEO",
+        alt: "NotionX AI SEO - Get discovered in AI search results",
       },
     ],
     locale: "en_US",
@@ -49,18 +62,28 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "NotionX – AI SEO for Brands",
-    description:"Discover how NotionX helps brands rank in AI-powered search engines.",
-    images: [`${siteConfig.url}${siteConfig.paths.images}/og-image.jpg`],
+    title: "NotionX — AI SEO for Brands",
+    description: "Discover how NotionX helps brands rank in AI-powered search engines.",
+    images: [`${siteConfig.url}${siteConfig.paths.images}/notionX.webp`],
     creator: "@notionxai",
+    site: "@notionxai",
+  },
+  robots: {
+    index: true,
+    follow: true,
+    nocache: false,
+    googleBot: {
+      index: true,
+      follow: true,
+      noimageindex: false,
+      'max-video-preview': -1,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+    },
   },
   alternates: {
     canonical: siteConfig.url,
   },
-  icons: {
-    icon: "/images/favicon.ico",
-  },
-  metadataBase: new URL("https://dev-notionx-v2.netlify.app/"),
 };
 
 export default function RootLayout({
@@ -69,23 +92,45 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
 
+  // Organization Schema
   const orgSchema = {
     "@context": "https://schema.org",
     "@type": "Organization",
-    name: siteConfig.name,
-    url: `${siteConfig.url}/`,
-    logo: `${siteConfig.url}${siteConfig.logo}`,
-    sameAs: Object.values(siteConfig.social),
+    "@id": `${siteConfig.url}/#organization`,
+    "name": siteConfig.name,
+    "url": `${siteConfig.url}/`,
+    "logo": {
+      "@type": "ImageObject",
+      "url": `${siteConfig.url}/images/logo/navbar-logo.svg`,
+      "width": "250",
+      "height": "60"
+    },
+    "sameAs": Object.values(siteConfig.social),
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "contactType": "Customer Service",
+      "availableLanguage": ["English"]
+    }
   };
 
+  // Website Schema
   const websiteSchema = {
     "@context": "https://schema.org",
     "@type": "WebSite",
-    url: `${siteConfig.url}/`,
-    name: siteConfig.name,
-    potentialAction: {
+    "@id": `${siteConfig.url}/#website`,
+    "url": `${siteConfig.url}/`,
+    "name": siteConfig.name,
+    "description": "NotionX helps brands get discovered in AI search results through AI SEO and Generative Engine Optimization.",
+    "publisher": {
+      "@id": `${siteConfig.url}/#organization`
+    },
+    "inLanguage": "en-US",
+    "potentialAction": {
       "@type": "SearchAction",
-      target: `${siteConfig.url}/search?q={search_term_string}`,
+      "target": {
+        "@type": "EntryPoint",
+        "urlTemplate": `${siteConfig.url}/search?q={search_term_string}`
+      },
       "query-input": "required name=search_term_string",
     },
   };
@@ -93,26 +138,37 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
+        {/* Preconnect to improve performance */}
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="" />
+        <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
+        
+        {/* Fonts */}
         <link
           href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Source+Sans+Pro:wght@300;400;600;700&display=swap"
           rel="stylesheet"
         />
+
+        {/* Theme Color */}
+        <meta name="theme-color" content="#000000" />
+        
         {/* Google tag (gtag.js) */}
-        <script defer src="https://www.googletagmanager.com/gtag/js?id=G-KK4TC3HGNP"></script>
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-KK4TC3HGNP"></script>
         <script
           dangerouslySetInnerHTML={{
             __html: `
               window.dataLayer = window.dataLayer || [];
               function gtag(){window.dataLayer.push(arguments);}
               gtag('js', new Date());
-              gtag('config', 'G-KK4TC3HGNP', { send_page_view: false });
+              gtag('config', 'G-KK4TC3HGNP', { 
+                send_page_view: false,
+                anonymize_ip: true 
+              });
             `,
           }}
         />
 
-        {/* ✅ JSON-LD Schema for entire site */}
+        {/* JSON-LD Structured Data */}
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(orgSchema) }}
@@ -121,9 +177,12 @@ export default function RootLayout({
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteSchema) }}
         />
-
       </head>
       <body>
+        {/* Skip to main content for accessibility */}
+        <a href="#main-content" className="sr-only focus:not-sr-only focus:absolute focus:top-0 focus:left-0 focus:z-50 focus:p-4 focus:bg-white focus:text-black">
+          Skip to main content
+        </a>
         {children}
       </body>
     </html>

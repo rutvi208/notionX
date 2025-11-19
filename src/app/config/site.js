@@ -2,7 +2,7 @@
 
 export const siteConfig = {
     name: "NotionX",
-    url: process.env.NEXT_PUBLIC_SITE_URL ,
+    url: process.env.NEXT_PUBLIC_SITE_URL || "https://dev-notionx-v2.netlify.app",
     
     // Useful paths
     paths: {
