@@ -246,7 +246,7 @@ const Blog5 = () => {
     <div>
         <ScrollToTop />
         <ScrollButton/>
-        <div className='min-h-screen bg-[radial-gradient(circle_at_top,rgba(246,238,234)_0%,rgba(246,239,235)_60%,white_70%)]'>
+        <div className='min-h-screen bg-[radial-gradient(circle_at_top,rgba(246,238,234)_0%,rgba(246,239,235)_5%,white_15%)]'>
 
             <div className=''>
                 <Navbar />
