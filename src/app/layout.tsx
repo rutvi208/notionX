@@ -84,6 +84,12 @@ export const metadata: Metadata = {
   alternates: {
     canonical: siteConfig.url,
   },
+  icons: {
+    icon: [
+      { url: "/images/favicon.ico" },
+      { url: "/images/favicon16.png", sizes: "16x16", type: "image/png" },
+    ],
+  }
 };
 
 export default function RootLayout({
