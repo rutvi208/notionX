@@ -305,7 +305,7 @@ const Blog2 = () => {
                     />
                     <div className="my-10 sm:my-12 lg:mt-20 2xl:mt-24 container mx-auto justify-center place-items-center text-center ">
                         <h1 className="heading-font text-3xl lg:text-4xl xl:text-5xl sm:w-10/12 lg:w-10/12 2xl:w-8/12">Best ChatGPT SEO Agency & Services for AI Search Ranking</h1>
-                        <div className='flex flex-wrap justify-between items-center gap-3 sm:gap-5 mt-4 sm:mt-8 text-[#878483]'>
+                        <div className='flex flex-wrap justify-center items-center gap-3 sm:gap-5 mt-4 sm:mt-8 text-[#878483]'>
                             <a href='#AuthorBlock' className='content-font text-xs'>Manthan D.</a>
                             <p className='text-2xl sm:text-3xl whitespace-nowrap'> · </p>
                             <p className='content-font text-xs'>Oct 13, 2025 &nbsp; | &nbsp; {readingTime}</p>
