@@ -298,7 +298,7 @@ const Blog1 = () => {
                             "how to appear in ChatGPT search results", 
                             "how to track ChatGPT visibility in search results"
                         ]}
-                        wordCount="1214"
+                        wordCount={1214}
                         
                     />
                     <FAQSchema faqs={faqs} />
@@ -595,7 +595,7 @@ const Blog1 = () => {
                     </div>
 
                     {/* read more blogs */}
-                    <div className='bg-[#FAF7F5]'>
+                    <section className='bg-[#FAF7F5]'>
                         <div className='container mx-auto py-16 sm:py-20 lg:py-28 justify-center place-items-center'>
                             <div className='mb-10 sm:mb-16'>
                                 <p className="heading-font font-semibold text-xl sm:text-2xl lg:text-3xl text-center tracking-[-0.05rem]">Relevant Knowledge Base</p>
@@ -637,7 +637,7 @@ const Blog1 = () => {
                                 ))}
                             </div>
                         </div>
-                    </div>
+                    </section>
                 <Footer/>
             </div>
         </div>

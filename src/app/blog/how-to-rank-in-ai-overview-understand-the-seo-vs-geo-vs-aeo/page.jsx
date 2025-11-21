@@ -254,7 +254,7 @@ const Blog4 = () => {
                             "GEO vs SEO vs AEO", 
                             "SEO vs. GEO"
                         ]}
-                        wordCount="1208"
+                        wordCount={1208}
                         
                     />
                     <div className="my-10 sm:my-12 lg:mt-20 2xl:mt-24 container mx-auto justify-center place-items-center text-center ">
@@ -667,7 +667,7 @@ const Blog4 = () => {
                     </div>
 
                     {/* read more blogs */}
-                    <div className='bg-[#FAF7F5]'>
+                    <section className='bg-[#FAF7F5]'>
                         <div className='container mx-auto py-16 sm:py-20 lg:py-28 justify-center place-items-center'>
                             <div className='mb-10 sm:mb-16'>
                                 <p className="heading-font font-semibold text-xl sm:text-2xl lg:text-3xl text-center tracking-[-0.05rem]">Relevant Knowledge Base</p>
@@ -709,7 +709,7 @@ const Blog4 = () => {
                                 ))}
                             </div>
                         </div>
-                    </div>
+                    </section>
                 <Footer/>
             </div>
         </div>
