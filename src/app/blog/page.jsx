@@ -378,7 +378,7 @@ const KnowledgeHub = () => {
                       {/* Article Footer */}
                       <footer className='flex sm:flex-col sm:space-y-1 lg:space-y-0 lg:flex-row justify-between items-center mt-auto'>
                         {/* Publication Date and Read Time */}
-                        <div className='text-[#878483] content-font text-xs'>
+                        <div className='text-[#444444] content-font text-xs'>
                           <span className="author">
                             By <strong>{blog.authorName}</strong>
                           </span>
