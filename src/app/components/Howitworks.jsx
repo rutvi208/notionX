@@ -12,7 +12,7 @@ const Howitworks = () => {
           
           {/* Left Text Section */}
           <header>
-            <h2 id="how-it-works-heading" className="text-5xl lg:text-6xl xl:text-[4rem] sm:leading-14 lg:leading-16 xl:leading-20 font-medium tracking-[-0.16rem] text-[var(--foreground)] heading-font sm:w-8/12 xl:w-6/12 2xl:w-6/12">
+            <h2 id="how-it-works-heading" className="text-5xl lg:text-6xl xl:text-[4rem] sm:leading-14 lg:leading-16 xl:leading-20 font-medium tracking-[-0.16rem] text-[var(--foreground)] subheading-font sm:w-8/12 xl:w-6/12 2xl:w-6/12">
               Google's 10 <span className="font-light text-[#1A0DAB]">Blue Links</span> Don't Matter Anymore
             </h2>
           </header>

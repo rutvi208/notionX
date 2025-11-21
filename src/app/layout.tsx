@@ -8,8 +8,8 @@ const bricolage = Bricolage_Grotesque({
   // Bricolage is a variable font — no need to pass weights; still you can pass if needed
   display: "swap",
   variable: "--font-bricolage",
-  preload: true, // Ensures font is prioritized
-  adjustFontFallback: true, // Reduces layout shift
+  preload: true,
+  adjustFontFallback: false, // Changed to false to prevent automatic adjustments
 });
 
 const sourceSans = Source_Sans_3({
@@ -17,8 +17,8 @@ const sourceSans = Source_Sans_3({
   weight: ["400", "600", "700"],
   display: "swap",
   variable: "--font-source-sans-pro", // keep your existing var name if you like
-  preload: true, // Ensures font is prioritized
-  adjustFontFallback: true, // Reduces layout shift
+  preload: true,
+  adjustFontFallback: false, // Changed to false to prevent automatic adjustments
 });
 
 export const metadata: Metadata = {
@@ -148,8 +148,15 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${bricolage.variable} ${sourceSans.variable}`}>
       <head>
+        
         <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
         
+        {/* Fonts */}
+        {/* <link
+          href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Source+Sans+Pro:wght@300;400;600;700&display=swap"
+          rel="stylesheet"
+        /> */}
+
         {/* Theme Color */}
         <meta name="theme-color" content="#000000" />
         

@@ -8,7 +8,7 @@
   --pastelbrown: #FDF8F5;
   --mudbrown: #6E4C40;
   /* --font-bricolage: 'Bricolage Grotesque', sans-serif;
-  --font-source-sans-pro: 'Source Sans Pro', sans-serif; */
+  --font-source-sans-pro: 'Source Sans 3', sans-serif; */
 }
 
 @theme inline {
@@ -35,7 +35,37 @@ html {
 
 .heading-font {
   font-family: var(--font-bricolage);
-  letter-spacing: -0.025em;
+  letter-spacing: -0.047em;
+}
+
+.hero-font {
+  font-family: var(--font-bricolage);
+  letter-spacing: -0.15rem;
+}
+@media (min-width: 1024px) {
+  .hero-font {
+    letter-spacing: -0.3rem; /* apply only on large screens */
+  }
+}
+@media (min-width: 1200px) {
+  .hero-font {
+    letter-spacing: -0.43rem; /* apply only on large screens */
+  }
+}
+
+.subheading-font {
+  font-family: var(--font-bricolage);
+  letter-spacing: -0.23rem;
+}
+@media (min-width: 1024px) {
+  .subheading-font {
+    letter-spacing: -0.25rem; /* apply only on large screens */
+  }
+}
+@media (min-width: 1200px) {
+  .subheading-font {
+    letter-spacing: -0.28rem; /* apply only on large screens */
+  }
 }
 
 .content-font {

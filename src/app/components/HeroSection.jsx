@@ -41,7 +41,7 @@ const HeroSection = () => {
                                     & Capture More Customers Before Your Competitors Even Show Up
                                 </h1> */}
 
-                                <h1 className="text-[2.5rem] md:text-[2.625rem] lg:text-6xl xl:text-[5.375rem] 2xl:w-10/12 leading-[2.6rem] lg:leading-[4rem] xl:leading-[5.25rem] tracking-[-0.115rem] lg:tracking-[-0.16rem] font-light text-[var(--foreground)] heading-font">
+                                <h1 className="text-[2.5rem] md:text-[2.625rem] lg:text-6xl xl:text-[5.375rem] 2xl:w-10/12 leading-[2.6rem] lg:leading-[4rem] xl:leading-[5.25rem] tracking-[-0.115rem] lg:tracking-[-0.16rem] font-light text-[var(--foreground)] hero-font">
                                     Own the Top Spot in <span className="font-semibold">AI Search </span>
                                     Before Anyone Else Can
                                 </h1>
