@@ -12,7 +12,7 @@ import Semrush from '@/../public/images/Blog-page/semrush.webp';
 import Ahrefs from '@/../public/images/Blog-page/ahrefs.webp';
 import Profound from '@/../public/images/Blog-page/profound.webp';
 import Rankability from '@/../public/images/Blog-page/rankability.webp';
-import AuthorImage from '@/../public/images/Blog-page/AuthorImage.jpg';
+import AuthorImage from '@/../public/images/Blog-page/Author-Image.webp';
 import SharePopup from '@/app/components/SharePopup';
 import { getReadingTime } from "@/app/components/getReadingTime";
 import AuditCTA from '@/app/components/AuditCTA';

@@ -9,7 +9,7 @@ import Blog1Thumbnail from '@/../public/images/Blog-page/Blog1-Thumbnail.webp';
 import Blog2Thumbnail from '@/../public/images/Blog-page/Blog2-Thumbnail.webp';
 import Blog3Thumbnail from '@/../public/images/Blog-page/Blog3-Thumbnail.webp';
 import Blog4Banner from '@/../public/images/Blog-page/blog4-banner-seo-geo-aeo.png';
-import AuthorImage from '@/../public/images/Blog-page/AuthorImage.jpg';
+import AuthorImage from '@/../public/images/Blog-page/Author-Image.webp';
 import SharePopup from '@/app/components/SharePopup';
 import { getReadingTime } from "@/app/components/getReadingTime";
 import AuditCTA from '@/app/components/AuditCTA';

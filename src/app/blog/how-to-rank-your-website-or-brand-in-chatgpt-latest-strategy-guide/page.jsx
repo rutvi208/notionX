@@ -11,7 +11,7 @@ import Blog1Banner from '@/../public/images/Blog-page/blog1-banner-how-to-rank-s
 import Blog2Thumbnail from '@/../public/images/Blog-page/Blog2-Thumbnail.webp';
 import Blog3Thumbnail from '@/../public/images/Blog-page/Blog3-Thumbnail.webp';
 import Blog4Thumbnail from '@/../public/images/Blog-page/Blog4-Thumbnail.webp';
-import AuthorImage from '@/../public/images/Blog-page/AuthorImage.jpg';
+import AuthorImage from '@/../public/images/Blog-page/Author-Image.webp';
 import SharePopup from '@/app/components/SharePopup';
 import { getReadingTime } from "@/app/components/getReadingTime";
 import AuditCTA from '@/app/components/AuditCTA';

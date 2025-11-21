@@ -14,7 +14,7 @@ import BirdMarketingLogo from '@/../public/images/Blog-page/Bird.webp';
 import WOWBixLogo from '@/../public/images/Blog-page/wowbix.webp';
 import EmbarqueLogo from '@/../public/images/Blog-page/embarque.webp';
 import PricingTable from '@/../public/images/Blog-page/notionX-price.webp';
-import AuthorImage from '@/../public/images/Blog-page/AuthorImage.jpg';
+import AuthorImage from '@/../public/images/Blog-page/Author-Image.webp';
 import SharePopup from '@/app/components/SharePopup';
 import BlogSchema from "@/app/components/BlogSchema";
 import BreadcrumbSchema from "@/app/components/BreadcrumbSchema";
