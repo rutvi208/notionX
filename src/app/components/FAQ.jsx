@@ -75,16 +75,18 @@ const Faq = () => {
               {faqs.map((faq, index) => (
                 
                   <div key={index} className="rounded-lg border border-[var(--stroke)] text-lg lg:text-xl px-6">
-                    <dt>
+                    <dt id={`faq-question-${index}`}>
                       {/* Question */}
                       <button
                         onClick={() => toggleFAQ(index)}
                         className="w-full flex flex-row items-center justify-between py-4 text-left cursor-pointer"
                         aria-expanded={openIndex === index}
                         aria-controls={`faq-answer-${index}`}
-                        id={`faq-question-${index}`}
+                        //id={`faq-question-${index}`}
                         >
-                        <span className="content-font">{faq.question}</span>
+                        <h2 className={`header-font transition-colors duration-300 ${
+                            openIndex === index ? "text-[var(--cta)]" : "text-[var(--foreground)]"
+                          }`}>{faq.question}</h2>
                         <span className="text-[#AD8775] text-2xl 2xl:text-3xl" aria-hidden="true">
                             {openIndex === index ? "-" : "+"}
                         </span>
