@@ -72,19 +72,19 @@ export const metadata: Metadata = {
     creator: "@notionxai",
     site: "@notionxai",
   },
-  robots: {
-    index: true,
-    follow: true,
-    nocache: false,
-    googleBot: {
-      index: true,
-      follow: true,
-      noimageindex: false,
-      'max-video-preview': -1,
-      'max-image-preview': 'large',
-      'max-snippet': -1,
-    },
-  },
+  // robots: {
+  //   index: true,
+  //   follow: true,
+  //   nocache: false,
+  //   googleBot: {
+  //     index: true,
+  //     follow: true,
+  //     noimageindex: false,
+  //     'max-video-preview': -1,
+  //     'max-image-preview': 'large',
+  //     'max-snippet': -1,
+  //   },
+  // },
   alternates: {
     canonical: siteConfig.url,
   },

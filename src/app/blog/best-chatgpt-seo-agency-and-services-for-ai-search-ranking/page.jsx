@@ -91,7 +91,7 @@ const blogPosts = [
   },
   {
     id: 3,
-    href: "how-ai-overviews-are-stealing-your-traffic-recovery-&-ranking-strategies-for-2025",
+    href: "how-ai-overviews-are-stealing-your-traffic-recovery-and-ranking-strategies-for-2025",
     image: Blog5Thumbnail,
     tag: "#trending",
     title: "How AI Overviews Are Stealing Your Traffic: Recovery & Ranking Strategies for 2025!",

@@ -26,7 +26,7 @@ import ScrollButton from '@/app/components/ScrollButton';
 export const metadata = generateBlogMetadata({
     title: "How AI Overviews Are Stealing Your Traffic: Recovery & Ranking Strategies for 2025!",
     description: "The digital marketing landscape is experiencing its biggest transformation. A new era of search results has been introduced in the three decades since the commencement of Google. This complete scenario has made it challenging to capture online traffic in 2025.",
-    slug: "how-ai-overviews-are-stealing-your-traffic-recovery-&-ranking-strategies-for-2025",
+    slug: "how-ai-overviews-are-stealing-your-traffic-recovery-and-ranking-strategies-for-2025",
     imageName: "blog5-banner-ai-overviews-2025.webp", 
     author: "Manthan D.", 
     section: "AI Overviews Optimization",
@@ -83,7 +83,7 @@ const breadcrumbs = [
     },
     {
         name: "How AI Overviews Are Stealing Your Traffic Recovery & Ranking Strategies for 2025.",
-        url: `${siteConfig.url}${siteConfig.paths.blog}/how-ai-overviews-are-stealing-your-traffic-recovery-&-ranking-strategies-for-2025`
+        url: `${siteConfig.url}${siteConfig.paths.blog}/how-ai-overviews-are-stealing-your-traffic-recovery-and-ranking-strategies-for-2025`
     }
 ];
 
@@ -254,7 +254,7 @@ const Blog5 = () => {
                 <Navbar />
                 <BreadcrumbSchema breadcrumbs={breadcrumbs} />
                 <BlogSchema
-                        url={`${siteConfig.url}${siteConfig.paths.blog}/how-ai-overviews-are-stealing-your-traffic-recovery-&-ranking-strategies-for-2025`}
+                        url={`${siteConfig.url}${siteConfig.paths.blog}/how-ai-overviews-are-stealing-your-traffic-recovery-and-ranking-strategies-for-2025`}
                         headline="How AI Overviews Are Stealing Your Traffic Recovery & Ranking Strategies for 2025."
                         description="The digital marketing landscape is experiencing its biggest transformation. A new era of search results has been introduced in the three decades since the commencement of Google. This complete scenario has made it challenging to capture online traffic in 2025."
                         image={`${siteConfig.url}${siteConfig.paths.blogImages}/blog5-banner-ai-overviews-2025.webp`}

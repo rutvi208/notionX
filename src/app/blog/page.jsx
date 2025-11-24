@@ -71,7 +71,7 @@ const blogPosts = [
   },
   {
     id: 5,
-    href: "blog/how-ai-overviews-are-stealing-your-traffic-recovery-&-ranking-strategies-for-2025",
+    href: "blog/how-ai-overviews-are-stealing-your-traffic-recovery-and-ranking-strategies-for-2025",
     image: Blog5Thumbnail,
     tag: "#trending",
     title: "How AI Overviews Are Stealing Your Traffic Recovery & Ranking Strategies for 2025.",
@@ -106,17 +106,17 @@ export const metadata = {
   alternates: {
     canonical: `${siteConfig.url}${siteConfig.paths.blog}`,
   },
-  robots: {
-    index: true,
-    follow: true,
-    googleBot: {
-      index: true,
-      follow: true,
-      'max-video-preview': -1,
-      'max-image-preview': 'large',
-      'max-snippet': -1,
-    },
-  },
+  // robots: {
+  //   index: true,
+  //   follow: true,
+  //   googleBot: {
+  //     index: true,
+  //     follow: true,
+  //     'max-video-preview': -1,
+  //     'max-image-preview': 'large',
+  //     'max-snippet': -1,
+  //   },
+  // },
 };
 
 const KnowledgeHub = () => {
