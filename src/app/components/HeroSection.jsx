@@ -74,7 +74,7 @@ const HeroSection = () => {
                                     />
                                 </div> */}
                                 <div className="relative w-[380px] h-[340px] sm:h-[300px] lg:w-[500px] xl:w-[600px] lg:h-[360px]">
-                                    <Image
+                                    {/* <Image
                                          src={HeroMobile}
                                         alt="Hero Image"
                                         priority
@@ -83,7 +83,18 @@ const HeroSection = () => {
                                         quality={65}
                                         fill
                                         className="object-contain sm:hidden"
-                                    />
+                                    /> */}
+                                    <div className="absolute inset-0 sm:hidden flex items-center justify-center">
+                                        <Image
+                                            src={HeroMobile}
+                                            alt="Hero Image"
+                                            quality={65}
+                                            width={380}
+                                            height={340}
+                                            className="object-contain"
+                                            sizes="(max-width: 640px) 380px"
+                                        />
+                                    </div>
                                     <Image
                                          src={HeroVisual}
                                         alt="Hero Image"
