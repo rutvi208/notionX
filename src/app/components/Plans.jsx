@@ -6,10 +6,10 @@ import Star from '@/../public/images/Plans/Star.png';
 import { FiCheckCircle } from "react-icons/fi";
 import { AiOutlineUsergroupAdd } from "react-icons/ai";
 import { FiShield } from "react-icons/fi";
-import Knowtion from '@/../public/images/Plans/Knowtion.webp';
-import Firelands from '@/../public/images/Plans/Firelands.webp';
-import CimconSoftwares from '@/../public/images/Plans/Cimcon.webp';
-import KenGanley from '@/../public/images/Plans/KenGanley.webp';
+import Knowtion from '@/../public/images/Plans/Knowtion.svg';
+import Firelands from '@/../public/images/Plans/Firelands.svg';
+import CimconSoftwares from '@/../public/images/Plans/Cimcon.svg';
+import KenGanley from '@/../public/images/Plans/KenGanley.svg';
 import Malish from '@/../public/images/Plans/Malish.svg';
 
 const Plans = () => {

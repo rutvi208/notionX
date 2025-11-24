@@ -88,6 +88,9 @@ const HeroSection = () => {
                                         <Image
                                             src={HeroMobile}
                                             alt="Hero Image"
+                                            priority
+                                            fetchPriority="high"
+                                            loading="eager"
                                             quality={65}
                                             width={380}
                                             height={340}
