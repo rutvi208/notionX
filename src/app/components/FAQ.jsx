@@ -71,10 +71,10 @@ const Faq = () => {
               <h2 id="faq-heading" className="heading-font text-center font-semibold text-3xl sm:text-4xl lg:text-5xl tracking-[-0.06rem]">Quick Answers</h2>
               <p className="text-lg lg:text-xl text-center content-font mt-3">Everything you need to know about GEO and AI search optimization.</p>
             </header>    
-            <dl className="grid grid-cols-1 lg:grid-cols-2 gap-3 lg:gap-5 my-16 lg:my-20">
+            <dl className="grid grid-cols-1 lg:grid-cols-2 gap-3 lg:gap-5 my-16 lg:my-20 items-start">
               {faqs.map((faq, index) => (
-                <div key={index} className="self-start">
-                  <div className="rounded-lg border border-[var(--stroke)] text-lg lg:text-xl px-6">
+                
+                  <div key={index} className="rounded-lg border border-[var(--stroke)] text-lg lg:text-xl px-6">
                     <dt>
                       {/* Question */}
                       <button
@@ -97,17 +97,17 @@ const Faq = () => {
                           role="region"
                           aria-labelledby={`faq-question-${index}`}
                           className={`overflow-hidden transition-all duration-300 ease-in-out ${
-                              openIndex === index ? "max-h-max" : "max-h-0"
+                              openIndex === index ? "max-h-[400px]" : "max-h-0"
                           }`}
                       >
-                        <div className="pb-4">
-                            <p className="text-base lg:text-lg xl:text-xl text-[#333]">
+                        
+                            <p className="text-base pb-4 lg:text-lg xl:text-xl text-[#333]">
                             {faq.answer}
                             </p>
-                        </div>
+                        
                       </dd>
                   </div>
-                </div>
+                
               ))}
             </dl> 
           </div>

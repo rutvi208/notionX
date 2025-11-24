@@ -625,7 +625,7 @@ const Blog1 = () => {
                                         {/* Image */}
                                         <div
                                             className='w-auto lg:h-44 rounded-t-xl sm:rounded-t-[0.875rem] overflow-hidden'>
-                                            <Image src={blog.image} alt={blog.title} className="object-cover h-full" />
+                                            <Image src={blog.image} alt="AI SEO & GEO strategy - NotionX blog post" className="object-cover h-full" />
                                         </div>
 
                                         {/* Content */}

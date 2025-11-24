@@ -67,11 +67,11 @@ setOpenIndex(openIndex === index ? null : index);
                             openIndex === index ? "max-h-max" : "max-h-0"
                         }`}
                         >
-                        <div className="pb-4">
-                            <h3 className="content-font text-lg lg:text-xl text-[#333]">
+                        
+                            <h3 className="content-font pb-4 text-lg lg:text-xl text-[#333]">
                             {faq.answer}
                             </h3>
-                        </div>
+                        
                         </div>
                     </div>
                     </div>
