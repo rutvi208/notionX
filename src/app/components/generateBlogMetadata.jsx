@@ -35,6 +35,7 @@ export function generateBlogMetadata({
       twitter: {
         title: `${title}`,
         description,
+        url,
         images: [imageUrl],
       },
       alternates: {

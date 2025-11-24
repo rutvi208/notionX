@@ -146,13 +146,7 @@ const homeSchema = {
     "name": "AI SEO and Generative Engine Optimization"
   },
   "publisher": {
-    "@type": "Organization",
-    "@id": `${siteConfig.url}/#organization`,
-    "name": siteConfig.name,
-    "logo": {
-      "@type": "ImageObject",
-      "url": `${siteConfig.url}/images/logo/navbar-logo.svg`
-    }
+    "@id": `${siteConfig.url}/#organization`
   },
   "inLanguage": "en-US",
   "potentialAction": {

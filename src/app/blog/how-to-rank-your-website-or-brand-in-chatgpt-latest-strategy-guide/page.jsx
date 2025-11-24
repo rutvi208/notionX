@@ -21,6 +21,7 @@ import { siteConfig } from "@/app/config/site";
 import BreadcrumbSchema from "@/app/components/BreadcrumbSchema";
 import BlogSchema from "@/app/components/BlogSchema";
 import FAQSchema from '@/app/components/FAQSchema';
+import AuthorSchema from "@/app/components/AuthorSchema";
 import ScrollProgressBar from '@/app/components/ScrollProgressBar';
 import ScrollToTop from '@/app/components/ScrollToTop';
 import ScrollButton from '@/app/components/ScrollButton';
@@ -114,6 +115,11 @@ const faqs = [
     question: "How to rank on ChatGPT in 2025?",
     answer:
       "Stay updated with - AI trends. Optimize for conversational relevance. Adapt as ChatGPT's algorithms evolve.",
+  },
+  {
+    question: "How to Rank on ChatGPT in 2025 and Beyond.",
+    answer:
+      "So, to rank in ChatGPT search, begin with clear and helpful content that answers real questions. Get your brand mentioned by trusted sources. And build authority through backlinks. Leverage natural language and structured data. Better make your content AI-friendly. Keep your brand active across digital platforms. So, ChatGPT can easily recognize and recommend you.",
   }
 ];
 
@@ -279,8 +285,8 @@ const Blog1 = () => {
                         datePublished="2025-09-12T09:00:00Z"
                         dateModified="2025-09-12T09:00:00Z" 
                         authorName="Manthan D."
-                        authorUrl={siteConfig.url}
-                        publisherLogo={`${siteConfig.url}/images/logo/navbar-logo.svg`}
+                        authorUrl={`${siteConfig.url}/authors/manthan`}
+                        // publisherLogo={`${siteConfig.url}/images/logo/navbar-logo.svg`}
                         articleBody={articleBody}
                         articleSection="ChatGPT Ranking Strategies"
                         keywords={[
@@ -302,6 +308,12 @@ const Blog1 = () => {
                         ]}
                         wordCount={1214}
                         
+                    />
+                    <AuthorSchema
+                        name="Manthan D."
+                        url={`${siteConfig.url}/authors/manthan`}
+                        role="SEO Strategist"
+                        image={`${siteConfig.url}${siteConfig.paths.blogImages}/Author-Image.webp`}
                     />
                     <FAQSchema faqs={faqs} />
                     <div className="my-10 sm:my-12 lg:mt-20 2xl:mt-24 container mx-auto justify-center place-items-center text-center">

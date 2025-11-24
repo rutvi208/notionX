@@ -1,3 +1,4 @@
+import { siteConfig } from "@/app/config/site";
 export default function BlogSchema({
     url,
     headline,
@@ -7,7 +8,7 @@ export default function BlogSchema({
     dateModified,
     authorName,
     authorUrl,
-    publisherLogo,
+    // publisherLogo,
     articleBody,
     articleSection,
     keywords = [],
@@ -20,6 +21,10 @@ export default function BlogSchema({
       mainEntityOfPage: {
         "@type": "WebPage",
         "@id": url,
+      },
+      "isPartOf": {
+        "@type": "WebSite",
+        "@id": `${siteConfig.url}/#website`
       },
       headline,
       description,
@@ -36,16 +41,9 @@ export default function BlogSchema({
         name: authorName,
         url: authorUrl,
       },
-      publisher: {
-        "@type": "Organization",
-        name: "NotionX",
-        logo: {
-          "@type": "ImageObject",
-          url: publisherLogo,
-          width: 250,
-          height: 60,
-        },
-      },
+      "publisher": {
+        "@id": `${siteConfig.url}/#organization`
+      }, 
       url,
       articleBody,
       articleSection,

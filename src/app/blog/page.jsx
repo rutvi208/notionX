@@ -145,7 +145,6 @@ const KnowledgeHub = () => {
       "@id": `${siteConfig.url}${siteConfig.paths.blog}#breadcrumb`
     },
     "publisher": {
-      "@type": "Organization",
       "@id": `${siteConfig.url}/#organization`
     },
     "inLanguage": "en-US",
@@ -164,16 +163,9 @@ const KnowledgeHub = () => {
     name: "NotionX Blog",
     headline: "The Future of Search Is Here",
     description: "Insights and strategies on AI SEO, GEO, and AI-powered brand discovery.",
-    publisher: {
-      "@type": "Organization",
-      name: siteConfig.name,
-      logo: {
-        "@type": "ImageObject",
-        url: `${siteConfig.url}/images/logo/navbar-logo.svg`,
-        width: 600,
-        height: 60
-      },
-    },
+    "publisher": {
+      "@id": `${siteConfig.url}/#organization`
+    },    
     blogPost: blogPosts.map(post => ({
       "@type": "BlogPosting",
       headline: post.title,
@@ -189,18 +181,13 @@ const KnowledgeHub = () => {
         "@type": "Person",
         name: post.authorName
       },
-      publisher: {
-        "@type": "Organization",
-        name: siteConfig.name,
-        logo: {
-          "@type": "ImageObject",
-          url: `${siteConfig.url}/images/logo/navbar-logo.svg`
-        }
-      },
-      mainEntityOfPage: {
-        "@type": "WebPage",
-        "@id": `${siteConfig.url}/blog/${post.slug}`
-      },
+      "publisher": {
+        "@id": `${siteConfig.url}/#organization`
+      },     
+      // mainEntityOfPage: {
+      //   "@type": "WebPage",
+      //   "@id": `${siteConfig.url}/blog/${post.slug}`
+      // },
       // keywords: post.tag,
       // articleSection: post.tag,
       "inLanguage": "en-US"

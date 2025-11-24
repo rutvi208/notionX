@@ -21,6 +21,7 @@ import { generateBlogMetadata } from '@/app/components/generateBlogMetadata';
 import { siteConfig } from "@/app/config/site";
 import BreadcrumbSchema from "@/app/components/BreadcrumbSchema";
 import BlogSchema from "@/app/components/BlogSchema";
+import AuthorSchema from "@/app/components/AuthorSchema";
 import ScrollProgressBar from '@/app/components/ScrollProgressBar';
 import ScrollToTop from '@/app/components/ScrollToTop';
 import ScrollButton from '@/app/components/ScrollButton';
@@ -260,8 +261,8 @@ const Blog3 = () => {
                         datePublished="2025-09-25T09:00:00Z"
                         dateModified="2025-09-25T09:00:00Z"
                         authorName="Manthan D."
-                        authorUrl={siteConfig.url}
-                        publisherLogo={`${siteConfig.url}/images/logo/navbar-logo.svg`}
+                        authorUrl={`${siteConfig.url}/authors/manthan`}
+                        // publisherLogo={`${siteConfig.url}/images/logo/navbar-logo.svg`}
                         articleBody={articleBody}
                         articleSection="AI Rank Tracking Tools"
                         keywords={[
@@ -275,6 +276,12 @@ const Blog3 = () => {
                         ]}
                         wordCount={1423}
                         
+                    />
+                     <AuthorSchema
+                        name="Manthan D."
+                        url={`${siteConfig.url}/authors/manthan`}
+                        role="SEO Strategist"
+                        image={`${siteConfig.url}${siteConfig.paths.blogImages}/Author-Image.webp`}
                     />
                     <div className="my-10 sm:my-12 lg:mt-20 2xl:mt-24 container mx-auto justify-center place-items-center text-center ">
                         <h1 className="heading-font text-3xl lg:text-4xl xl:text-5xl sm:w-10/12 lg:w-10/12 2xl:w-8/12">Complete Guide to ChatGPT Rank Tracking Tools in 2025!</h1>
