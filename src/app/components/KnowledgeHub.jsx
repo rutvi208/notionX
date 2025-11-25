@@ -6,6 +6,7 @@ import { HiMiniArrowSmallRight } from "react-icons/hi2";
 import Blog1Thumbnail from '@/../public/images/Blog-page/Blog1-Thumbnail.webp';
 import Blog2Thumbnail from '@/../public/images/Blog-page/Blog2-Thumbnail.webp';
 import Blog3Thumbnail from '@/../public/images/Blog-page/Blog3-Thumbnail.webp';
+import AuthorImage from '@/../public/images/Blog-page/Author-Image.webp';
 
 const CaseStudy = () => {
 
@@ -19,21 +20,13 @@ const CaseStudy = () => {
             desc: "In the age of AI-powered search, visibility in Chat GPT is becoming - as crucial as ranking on Google. With 700 million weekly users interacting with Chat GPT - brands and websites must adapt to this new paradigm.",
             date: "Sep 12, 2025",
             readTime: "6 mins read",
+            dateISO: "2025-09-12", // Added for proper datetime attribute
             authorName: "Manthan D.",
+            authorRole: "SEO Strategist",
+            authorImage: AuthorImage,
         },
         {
             id: 2,
-            href: "/blog/best-chatgpt-seo-agency-and-services-for-ai-search-ranking",
-            image: Blog3Thumbnail,
-            tag: "#trending",
-            title: "Best ChatGPT SEO Agency & Services for AI Search Ranking",
-            desc: "With ChatGPT, Perplexity, and other AI search engines altering how people search, companies face a new contest. If AI-powered search cannot find your content - your brand does not exist. Traditional SEO tactics will not earn you a spot in AI-powered answers.",
-            date: "Oct 13, 2025",
-            readTime: "6 mins read",
-            authorName: "Manthan D.",
-        },
-        {
-            id: 3,
             href: "/blog/complete-guide-to-chatgpt-rank-tracking-tools-in-2025",
             image: Blog2Thumbnail,
             tag: "#trending",
@@ -41,7 +34,24 @@ const CaseStudy = () => {
             desc: "The way people search online is evolving. AI tools like ChatGPT now influence how content is discovered. Traditional rank tracking methods no longer capture the full picture.",
             date: "Sep 25, 2025",
             readTime: "8 mins read",
+            dateISO: "2025-09-12", // Added for proper datetime attribute
             authorName: "Manthan D.",
+            authorRole: "SEO Strategist",
+            authorImage: AuthorImage,
+        },
+        {
+            id: 3,
+            href: "/blog/best-chatgpt-seo-agency-and-services-for-ai-search-ranking",
+            image: Blog3Thumbnail,
+            tag: "#trending",
+            title: "Best ChatGPT SEO Agency & Services for AI Search Ranking",
+            desc: "With ChatGPT, Perplexity, and other AI search engines altering how people search, companies face a new contest. If AI-powered search cannot find your content - your brand does not exist. Traditional SEO tactics will not earn you a spot in AI-powered answers.",
+            date: "Oct 13, 2025",
+            readTime: "6 mins read",
+            dateISO: "2025-09-12", // Added for proper datetime attribute
+            authorName: "Manthan D.",
+            authorRole: "SEO Strategist",
+            authorImage: AuthorImage,
         },
         ];
   
@@ -83,7 +93,7 @@ const CaseStudy = () => {
                             <h3 className="heading-font font-medium text-lg lg:text-xl leading-5 sm:leading-6 tracking-[-0.06rem] my-2 hover:text-[var(--cta)]">{blog.title}</h3>
                             <p className="text-sm sm:text-base text-[#0f0a08d4] content-font mb-2 lg:mb-4">{blog.desc}</p>
 
-                            <div className='flex sm:flex-col sm:space-y-1 lg:space-y-0 lg:flex-row justify-between items-center mt-auto'>
+                            {/* <div className='flex sm:flex-col sm:space-y-1 lg:space-y-0 lg:flex-row justify-between items-center mt-auto'>
                                 <p className='text-[#444444] content-font text-xs'>by <strong>{blog.authorName}</strong> &nbsp; | &nbsp;{blog.date} &nbsp; | &nbsp; {blog.readTime}</p>
                                 <p className='cursor-pointer group text-[#db3a00] content-font text-sm sm:text-lg flex items-center font-bold hover:text-[var(--cta)] transition duration-300'>
                                 Read More
@@ -91,7 +101,53 @@ const CaseStudy = () => {
                                     <HiMiniArrowSmallRight />
                                 </span>
                                 </p>
+                            </div> */}
+                            {/* Article Footer */}
+                            <footer className='flex sm:flex-col sm:space-y-1 lg:space-y-0 lg:flex-row justify-between items-center mt-auto'>
+                            {/* Publication Date and Read Time */}
+                            
+                            <div className="flex items-center gap-2 text-[#444444] content-font text-xs">
+                                <Image
+                                src={blog.authorImage}
+                                alt={`${blog.authorName} profile picture`}
+                                width={24}
+                                height={24}
+                                className="rounded-full"
+                                />
+    
+                                <div>
+                                <span className="author block">
+                                    By <strong>{blog.authorName}</strong> — {blog.authorRole}
+                                </span>
+    
+                                <span className="">
+                                    <time dateTime={blog.dateISO}>{blog.date}</time>
+                                    <span aria-hidden="true"> • </span>
+                                    {blog.readTime}
+                                </span>
+                                </div>
                             </div>
+    
+                            
+                            {/* Read More Link */}
+                            <Link 
+                                href={blog.href}
+                                className='cursor-pointer group text-[var(--cta)] content-font text-sm sm:text-lg flex items-center font-bold hover:text-[var(--cta)] transition duration-300'
+                                aria-label={`Read more about ${blog.title}`}
+                            >
+                                <span>Read More</span>
+                                {/* Hidden descriptive text for SEO + screen readers */}
+                                <span className="sr-only">
+                                about {blog.title}
+                                </span>
+                                <span 
+                                className='text-[var(--cta)] ps-1 text-base sm:text-2xl transition-transform duration-300 ease-out group-hover:translate-x-1'
+                                aria-hidden="true"
+                                >
+                                <HiMiniArrowSmallRight />
+                                </span>
+                            </Link>
+                            </footer>
                         </div>
                     </div>
                     </Link>
