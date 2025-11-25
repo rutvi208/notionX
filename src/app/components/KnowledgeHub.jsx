@@ -74,84 +74,99 @@ const CaseStudy = () => {
             <div className='grid grid-col-1 sm:grid-cols-2 xl:grid-cols-3 gap-3 lg:gap-5 xl:gap-7 px-4 lg:px-8 2xl:px-0'>
 
                 {blogPosts.map((blog) => (
-                    <Link href={blog.href} rel="noopener noreferrer" key={blog.id} className='p-3 lg:p-4 border border-[var(--stroke)] rounded-xl sm:rounded-[1.25rem] overflow-hidden
+                    <article key={blog.id} className='p-3 lg:p-4 border border-[var(--stroke)] rounded-xl sm:rounded-[1.25rem] overflow-hidden
                     bg-[radial-gradient(ellipse_at_top_left,#FFF0E0_0%,#FCD0D4_30%,transparent_55%),radial-gradient(ellipse_at_bottom_right,#FFF0E0_0%,#FCD0D4_30%,transparent_55%)]'>
 
-                    <div className='flex flex-col gap-1 sm:gap-2 h-full items-stretch'>
+                        <div className='flex flex-col gap-1 sm:gap-2 h-full items-stretch'>
 
-                        {/* Image */}
-                        <div
-                        className='w-auto lg:h-44 rounded-t-xl sm:rounded-t-[0.875rem] overflow-hidden'>
-                        <Image src={blog.image} alt="AI SEO & GEO strategy - NotionX blog post" className="object-cover h-full" />
-                        </div>
-
-                        {/* Content */}
-                        <div
-                            className='bg-white flex flex-col justify-between flex-grow p-3 lg:p-4 rounded-b-xl sm:rounded-b-[0.875rem]'>
-
-                            <span className="text-sm text-left text-[var(--foreground)] content-font">{blog.tag}</span>
-                            <h3 className="heading-font font-medium text-lg lg:text-xl leading-5 sm:leading-6 tracking-[-0.06rem] my-2 hover:text-[var(--cta)]">{blog.title}</h3>
-                            <p className="text-sm sm:text-base text-[#0f0a08d4] content-font mb-2 lg:mb-4">{blog.desc}</p>
-
-                            {/* <div className='flex sm:flex-col sm:space-y-1 lg:space-y-0 lg:flex-row justify-between items-center mt-auto'>
-                                <p className='text-[#444444] content-font text-xs'>by <strong>{blog.authorName}</strong> &nbsp; | &nbsp;{blog.date} &nbsp; | &nbsp; {blog.readTime}</p>
-                                <p className='cursor-pointer group text-[#db3a00] content-font text-sm sm:text-lg flex items-center font-bold hover:text-[var(--cta)] transition duration-300'>
-                                Read More
-                                <span className='text-[#db3a00] ps-1 text-base sm:text-2xl transition-transform duration-300 ease-out group-hover:translate-x-1'>
-                                    <HiMiniArrowSmallRight />
-                                </span>
-                                </p>
-                            </div> */}
-
-                            {/* Article Footer */}
-                            <footer className='flex sm:flex-col sm:space-y-1 lg:space-y-0 lg:flex-row justify-between items-center mt-auto'>
-                            {/* Publication Date and Read Time */}
-                            
-                            <div className="flex items-center gap-2 text-[#444444] content-font text-xs">
-                                <Image
-                                src={blog.authorImage}
-                                alt={`${blog.authorName} profile picture`}
-                                width={24}
-                                height={24}
-                                className="rounded-full"
-                                />
-    
-                                <div>
-                                <span className="author block">
-                                    By <strong>{blog.authorName}</strong> — {blog.authorRole}
-                                </span>
-    
-                                <span className="">
-                                    <time dateTime={blog.dateISO}>{blog.date}</time>
-                                    <span aria-hidden="true"> • </span>
-                                    {blog.readTime}
-                                </span>
-                                </div>
-                            </div>
-    
-                            
-                            {/* Read More Link */}
-                            <Link 
-                                href={blog.href}
-                                className='cursor-pointer group text-[var(--cta)] content-font text-sm sm:text-lg flex items-center font-bold hover:text-[var(--cta)] transition duration-300 py-2 sm:py-0'
-                                aria-label={`Read more about ${blog.title}`}
-                            >
-                                <span>Read More</span>
-                                {/* Hidden descriptive text for SEO + screen readers */}
-                                <span className="sr-only">
-                                about {blog.title}
-                                </span>
-                                <span 
-                                className='text-[var(--cta)] ps-1 text-base sm:text-2xl transition-transform duration-300 ease-out group-hover:translate-x-1'
-                                aria-hidden="true"
+                            {/* Image */}
+                            <div
+                            className='w-auto lg:h-44 rounded-t-xl sm:rounded-t-[0.875rem] overflow-hidden'>
+                                <Link 
+                                    href={blog.href} 
+                                    rel="noopener noreferrer"
+                                    aria-label={`Read article: ${blog.title}`}
+                                    className="cursor-pointer"
                                 >
-                                <HiMiniArrowSmallRight />
-                                </span>
-                            </Link>
-                            </footer>
+                                <Image src={blog.image} alt="AI SEO & GEO strategy - NotionX blog post" className="object-cover h-full" />
+                                </Link>
+                            </div>
+
+                            {/* Content */}
+                            <div
+                                className='bg-white flex flex-col justify-between flex-grow p-3 lg:p-4 rounded-b-xl sm:rounded-b-[0.875rem]'>
+
+                                <span className="text-sm text-left text-[var(--foreground)] content-font">{blog.tag}</span>
+                                <h3 className="heading-font font-medium text-lg lg:text-xl leading-5 sm:leading-6 tracking-[-0.06rem] my-2 hover:text-[var(--cta)]">
+                                    <Link 
+                                    href={blog.href} 
+                                    rel="noopener noreferrer"
+                                    className="hover:text-[var(--cta)] transition-colors duration-200"
+                                    >
+                                    {blog.title}
+                                    </Link>
+                                </h3>
+                                <p className="text-sm sm:text-base text-[#0f0a08d4] content-font mb-2 lg:mb-4">{blog.desc}</p>
+
+                                {/* <div className='flex sm:flex-col sm:space-y-1 lg:space-y-0 lg:flex-row justify-between items-center mt-auto'>
+                                    <p className='text-[#444444] content-font text-xs'>by <strong>{blog.authorName}</strong> &nbsp; | &nbsp;{blog.date} &nbsp; | &nbsp; {blog.readTime}</p>
+                                    <p className='cursor-pointer group text-[#db3a00] content-font text-sm sm:text-lg flex items-center font-bold hover:text-[var(--cta)] transition duration-300'>
+                                    Read More
+                                    <span className='text-[#db3a00] ps-1 text-base sm:text-2xl transition-transform duration-300 ease-out group-hover:translate-x-1'>
+                                        <HiMiniArrowSmallRight />
+                                    </span>
+                                    </p>
+                                </div> */}
+
+                                {/* Article Footer */}
+                                <footer className='flex sm:flex-col sm:space-y-1 lg:space-y-0 lg:flex-row justify-between items-center mt-auto'>
+                                {/* Publication Date and Read Time */}
+                                
+                                <div className="flex items-center gap-2 text-[#444444] content-font text-xs">
+                                    <Image
+                                    src={blog.authorImage}
+                                    alt={`${blog.authorName} profile picture`}
+                                    width={24}
+                                    height={24}
+                                    className="rounded-full"
+                                    />
+        
+                                    <div>
+                                        <span className="author block">
+                                            By <strong>{blog.authorName}</strong> — {blog.authorRole}
+                                        </span>
+            
+                                        <span className="">
+                                            <time dateTime={blog.dateISO}>{blog.date}</time>
+                                            <span aria-hidden="true"> • </span>
+                                            {blog.readTime}
+                                        </span>
+                                    </div>
+                                </div>
+        
+                                
+                                {/* Read More Link */}
+                                <Link 
+                                    href={blog.href}
+                                    className='cursor-pointer group text-[var(--cta)] content-font text-sm sm:text-lg flex items-center font-bold hover:text-[var(--cta)] transition duration-300 py-2 sm:py-0'
+                                    aria-label={`Read more about ${blog.title}`}
+                                >
+                                    <span>Read More</span>
+                                    {/* Hidden descriptive text for SEO + screen readers */}
+                                    <span className="sr-only">
+                                    about {blog.title}
+                                    </span>
+                                    <span 
+                                    className='text-[var(--cta)] ps-1 text-base sm:text-2xl transition-transform duration-300 ease-out group-hover:translate-x-1'
+                                    aria-hidden="true"
+                                    >
+                                    <HiMiniArrowSmallRight />
+                                    </span>
+                                </Link>
+                                </footer>
+                            </div>
                         </div>
-                    </div>
-                    </Link>
+                    </article>
                 ))}
             </div>
         </div>

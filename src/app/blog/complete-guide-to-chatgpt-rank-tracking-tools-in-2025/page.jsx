@@ -630,23 +630,38 @@ const Blog3 = () => {
                             <div className='grid grid-col-1 sm:grid-cols-2 xl:grid-cols-3 gap-3 lg:gap-5 xl:gap-7 mx-4 sm:mx-0 lg:mx-5'>
                             
                                 {blogPosts.map((blog) => (
-                                    <Link href={blog.href} rel="noopener noreferrer" key={blog.id} className='p-3 lg:p-4 border border-[var(--stroke)] rounded-xl sm:rounded-[1.25rem] overflow-hidden
-                                        bg-[radial-gradient(ellipse_at_top_left,#FFF0E0_0%,#FCD0D4_30%,transparent_55%),radial-gradient(ellipse_at_bottom_right,#FFF0E0_0%,#FCD0D4_30%,transparent_55%)]'>
-                                        
+                                    <article key={blog.id} className='p-3 lg:p-4 border border-[var(--stroke)] rounded-xl sm:rounded-[1.25rem] overflow-hidden
+                                    bg-[radial-gradient(ellipse_at_top_left,#FFF0E0_0%,#FCD0D4_30%,transparent_55%),radial-gradient(ellipse_at_bottom_right,#FFF0E0_0%,#FCD0D4_30%,transparent_55%)]'>
+
                                         <div className='flex flex-col gap-1 sm:gap-2 h-full items-stretch'>
 
                                             {/* Image */}
                                             <div
-                                                className='w-auto lg:h-44 rounded-t-xl sm:rounded-t-[0.875rem] overflow-hidden'>
+                                            className='w-auto lg:h-44 rounded-t-xl sm:rounded-t-[0.875rem] overflow-hidden'>
+                                                <Link 
+                                                    href={blog.href} 
+                                                    rel="noopener noreferrer"
+                                                    aria-label={`Read article: ${blog.title}`}
+                                                    className="cursor-pointer"
+                                                >
                                                 <Image src={blog.image} alt="AI SEO & GEO strategy - NotionX blog post" className="object-cover h-full" />
+                                                </Link>
                                             </div>
 
                                             {/* Content */}
                                             <div
                                                 className='bg-white flex flex-col justify-between flex-grow p-3 lg:p-4 rounded-b-xl sm:rounded-b-[0.875rem]'>
-                                                
+
                                                 <span className="text-sm text-left text-[var(--foreground)] content-font">{blog.tag}</span>
-                                                <h2 className="heading-font font-medium text-lg lg:text-xl leading-5 sm:leading-6 tracking-[-0.06rem] my-2 hover:text-[var(--cta)]">{blog.title}</h2>
+                                                <h2 className="heading-font font-medium text-lg lg:text-xl leading-5 sm:leading-6 tracking-[-0.06rem] my-2 hover:text-[var(--cta)]">
+                                                    <Link 
+                                                    href={blog.href} 
+                                                    rel="noopener noreferrer"
+                                                    className="hover:text-[var(--cta)] transition-colors duration-200"
+                                                    >
+                                                    {blog.title}
+                                                    </Link>
+                                                </h2>
                                                 <p className="text-sm sm:text-base text-[#0f0a08d4] content-font mb-2 lg:mb-4">{blog.desc}</p>
 
                                                 {/* Article Footer */}
@@ -697,7 +712,7 @@ const Blog3 = () => {
                                                 </footer>
                                             </div>
                                         </div>
-                                    </Link>
+                                    </article>
                                 ))}
                             </div>
                         </div>
