@@ -10,47 +10,102 @@ import ProcessBg2 from '@/../public/images/OurProcess/Process-bg2.webp';
 import ProcessBg3 from '@/../public/images/OurProcess/Process-bg3.webp';
 import ProcessBg4 from '@/../public/images/OurProcess/Process-bg4.webp';
 
-const processSchema = {
-  "@context": "https://schema.org",
-  "@type": "HowTo",
-  "name": "How to Optimize for AI Search with GEO",
-  "description": "Our 4-step process to dominate AI-powered search results",
-  "totalTime": "PT12W",
-  "estimatedCost": {
-    "@type": "MonetaryAmount",
-    "currency": "USD",
-    "value": "1499"
-  },
-  "step": [
-    {
-      "@type": "HowToStep",
-      "position": 1,
-      "name": "GEO Process",
-      "text": "How we get your business featured in AI responses.",
-      "itemListElement": [
-        {
-          "@type": "AIVisibilityAudit",
-          "text": "We analyze your current AI presence and identify critical citation opportunities."
-        },
-        {
-          "@type": "AISchemaDevelopment",
-          "text": "We create structured data that AI engines prioritize for citation."
-        },
-        {
-          "@type": "CitationBuilding",
-          "text": "We establish your business as the authoritative source across the web."
-        },
-        {
-          "@type": "AIMonitoringAndOptimization",
-          "text": "We continuously track and improve your AI visibility."
-        },
-      ]
-    }
-    // ... repeat for other steps
-  ]
-}
-
 const Process = () => {
+
+  const processSchema = {
+      "@context": "https://schema.org",
+      "@type": "HowTo",
+      "name": "How to Optimize for AI Search with GEO",
+      "description": "Our 4-step process to dominate AI-powered search results",
+      "totalTime": "PT12W",
+      "estimatedCost": {
+        "@type": "MonetaryAmount",
+        "currency": "USD",
+        "value": "1499"
+      },
+      "step": [
+        {
+          "@type": "HowToStep",
+          "position": 1,
+          "name": "AI Visibility Audit",
+          "text": "We analyze your current AI presence and identify critical citation opportunities.",
+          "itemListElement": [
+            {
+              "@type": "HowToDirection",
+              "text": "AI mention tracking"
+            },
+            {
+              "@type": "HowToDirection",
+              "text": "Competitor citation analysis"
+            },
+            {
+              "@type": "HowToDirection",
+              "text": "AI answer gap identification"
+            }
+          ]
+        },
+        {
+          "@type": "HowToStep",
+          "position": 2,
+          "name": "AI Schema Development",
+          "text": "We create structured data that AI engines prioritize for citation.",
+          "itemListElement": [
+            {
+              "@type": "HowToDirection",
+              "text": "LLM-optimized content creation"
+            },
+            {
+              "@type": "HowToDirection",
+              "text": "Entity relationship mapping"
+            },
+            {
+              "@type": "HowToDirection",
+              "text": "Prompt-aligned website updates"
+            }
+          ]
+        },
+        {
+          "@type": "HowToStep",
+          "position": 3,
+          "name": "Citation Building",
+          "text": "We establish your business as the authoritative source across the web.",
+          "itemListElement": [
+            {
+              "@type": "HowToDirection",
+              "text": "AI training dataset inclusion"
+            },
+            {
+              "@type": "HowToDirection",
+              "text": "Strategic content partnerships"
+            },
+            {
+              "@type": "HowToDirection",
+              "text": "Authority signal amplification"
+            }
+          ]
+        },
+        {
+          "@type": "HowToStep",
+          "position": 4,
+          "name": "AI Monitoring & Optimization",
+          "text": "We continuously track and improve your AI visibility.",
+          "itemListElement": [
+            {
+              "@type": "HowToDirection",
+              "text": "Weekly AI mention reports"
+            },
+            {
+              "@type": "HowToDirection",
+              "text": "Prompt engineering updates"
+            },
+            {
+              "@type": "HowToDirection",
+              "text": "Competitive position defense"
+            }
+          ]
+        }
+      ]
+  }
 
     const processSteps = [
         {

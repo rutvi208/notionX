@@ -2,34 +2,44 @@
 import Image from 'next/image';
 import TesstimonialBg from '@/../public/images/backgrounds/Testimonial-Bg.webp';
 
-const casestudySchema = {
-  "@context": "https://schema.org",
-  "@type": "ItemList",
-  "name": "NotionX Client Success Stories",
-  "description": "Real results from our GEO optimization services",
-  "itemListElement": [
-    {
-      "@type": "ListItem",
-      "position": 1,
-      "item": {
-        "@type": "Architecture",
-        "headline": "Extension Architecture: AI Growth Unlocked in 3.5 Months",
-        "description": "33% increase in AI mentions, 110 AI Overview appearances",
-        "datePublished": "2025-11-15",
-        "author": {
-          "@type": "Organization",
-          "name": "NotionX"
-        },
-        "publisher": {
-          "@id": "https://notionx.com/#organization"
-        }
-      }
-    }
-    // ... repeat for other case studies
-  ]
-}
 
 const CaseStudy = () => {
+
+    const casestudySchema = {
+      "@context": "https://schema.org",
+      "@type": "ItemList",
+      "name": "NotionX Client Success Stories",
+      "description": "Real results from our GEO optimization services",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "item": {
+            "@type": "Article",
+            "@id": `${siteConfig.url}/#casestudy-extension-architecture`,
+            "headline": "Extension Architecture: AI Growth Unlocked in 3.5 Months",
+            "description": "33% increase in AI mentions, 110 AI Overview appearances, and 51 ChatGPT mentions for London-based architectural design firm",
+            "articleBody": "Despite a solid SEO foundation and strong brand presence, their content wasn't breaking through into Google AI Overviews and other AI search engines. We optimized AI-focused content clusters, enhanced internal linking, and expanded schema markup to boost AI Overview indexing and drive ChatGPT mentions.",
+            "datePublished": "2025-11-15",
+            "author": {
+              "@type": "Organization",
+              "name": "NotionX",
+              "@id": `${siteConfig.url}/#organization`
+            },
+            "publisher": {
+              "@id": `${siteConfig.url}/#organization`
+            },
+            "about": {
+              "@type": "Service",
+              "name": "GEO Optimization Services",
+              "serviceType": "AI Search Optimization"
+            },
+            "keywords": ["GEO", "AI SEO", "ChatGPT optimization", "AI Overviews", "Architecture industry"]
+          }
+        }
+      ]
+    };
+    
     return (
         <section aria-labelledby="case-study-heading">
             {/* Enhanced Structured Data */}

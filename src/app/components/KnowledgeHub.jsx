@@ -8,17 +8,57 @@ import Blog2Thumbnail from '@/../public/images/Blog-page/Blog2-Thumbnail.webp';
 import Blog3Thumbnail from '@/../public/images/Blog-page/Blog3-Thumbnail.webp';
 import AuthorImage from '@/../public/images/Blog-page/Author-Image.webp';
 
-const knowledgeHubSchema = {
-  "@context": "https://schema.org",
-  "@type": "KnowledgeHub",
-  "name": "Master AI Search Optimization",
-  "description": "Learn how to dominate ChatGPT, Perplexity, and Google AI Overviews",
-  "provider": {
-    "@id": "https://notionx.com/#organization"
-  }
-}
+// const knowledgeHubSchema = {
+//   "@context": "https://schema.org",
+//   "@type": "KnowledgeHub",
+//   "name": "Master AI Search Optimization",
+//   "description": "Learn how to dominate ChatGPT, Perplexity, and Google AI Overviews",
+//   "provider": {
+//     "@id": "https://notionx.com/#organization"
+//   }
+// }
 
-const CaseStudy = () => {
+const KnowledgeHub = () => {
+
+    // Schema for Knowledge Hub section
+    const knowledgeHubSchema = {
+        "@context": "https://schema.org",
+        "@type": "CollectionPage",
+        "@id": `${siteConfig.url}/blog#collection`,
+        "name": "Knowledge Hub",
+        "description": "Expert insights on dominating AI-powered search and becoming the answer customers discover.",
+        "url": `${siteConfig.url}/blog`,
+        "isPartOf": {
+        "@id": `${siteConfig.url}/#website`
+        },
+        "about": {
+        "@type": "Thing",
+        "name": "AI SEO and Generative Engine Optimization"
+        },
+        "hasPart": blogPosts.map((post) => ({
+        "@type": "BlogPosting",
+        "@id": `${siteConfig.url}${post.href}#article`,
+        "headline": post.title,
+        "description": post.desc,
+        "image": `${siteConfig.url}${post.image}`,
+        "datePublished": post.dateISO,
+        "author": {
+            "@type": "Person",
+            "name": post.authorName,
+            "jobTitle": post.authorRole
+        },
+        "publisher": {
+            "@id": `${siteConfig.url}/#organization`
+        },
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": `${siteConfig.url}${post.href}`
+        },
+        "keywords": post.tag.replace('#', ''),
+        "articleSection": "AI SEO",
+        "inLanguage": "en-US"
+        }))
+    };
 
     const blogPosts = [
         {
@@ -197,4 +237,4 @@ const CaseStudy = () => {
   );
 };
 
-export default CaseStudy;
+export default KnowledgeHub;
