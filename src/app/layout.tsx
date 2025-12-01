@@ -223,12 +223,45 @@ export default function RootLayout({
     }
   }
 
+  //GEO Strategy Call
+  const bookGeoStrategyCallSchema = {
+    "@context": "https://schema.org",
+    "@type": "Event",
+    "name": "Free GEO Strategy Call",
+    "description": "Discover how to rank #1 in AI search results",
+    "startDate": "2025-02-01T10:00:00-05:00",
+    "endDate": "2025-02-01T10:30:00-05:00",
+    "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+    "eventStatus": "https://schema.org/EventScheduled",
+    "location": {
+      "@type": "VirtualLocation",
+      "url": "https://cal.com/notionx/20min"
+    },
+    "organizer": {
+      "@id": "https://notionx.com/#organization"
+    },
+    "offers": {
+      "@type": "Offer",
+      "price": "0",
+      "priceCurrency": "USD",
+      "availability": "https://schema.org/InStock",
+      "url": "https://cal.com/notionx/20min"
+    }
+  }
+
   return (
     <html lang="en" className={`${bricolage.variable} ${sourceSans.variable}`}>
       <head>
         
         <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
-        
+        <link rel="sitemap" type="application/xml" href="/sitemap.xml" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+        <meta name="googlebot" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+        <meta name="bingbot" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+
+        <meta name="GPTBot" content="index, follow" />
+        <meta name="ChatGPT-User" content="index, follow" />
+        <meta name="Google-Extended" content="index, follow" />
         {/* Fonts */}
         {/* <link
           href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Source+Sans+Pro:wght@300;400;600;700&display=swap"
