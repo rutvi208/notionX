@@ -1,19 +1,22 @@
-import HeroSection from '@/app/components/HeroSection';
-import Whyus from "@/app/components/Whyus";
-import Howitworks from '@/app/components/Howitworks';
-import Plans from '@/app/components/Plans';
-import Process from '@/app/components/Process';
-import GeoSeo from '@/app/components/GeoSeo';
-import CaseStudy from '@/app/components/CaseStudy';
-import Cta from '@/app/components/CTA';
-import Faq from '@/app/components/FAQ';
-import Footer from '@/app/components/Footer';
-import ScrollToTop from '@/app/components/ScrollToTop';
-import ScrollButton from '@/app/components/ScrollButton';
+import dynamic from 'next/dynamic';
 import type { Metadata } from "next";
 import { siteConfig } from '@/app/config/site';
-import FAQSchema from '@/app/components/FAQSchema';
-import KnowledgeHub from '@/app/components/KnowledgeHub';
+
+// Dynamically import components to prevent circular dependencies
+const HeroSection = dynamic(() => import('@/app/components/HeroSection'), { ssr: true });
+const Whyus = dynamic(() => import('@/app/components/Whyus'), { ssr: true });
+const Howitworks = dynamic(() => import('@/app/components/Howitworks'), { ssr: true });
+const Plans = dynamic(() => import('@/app/components/Plans'), { ssr: true });
+const Process = dynamic(() => import('@/app/components/Process'), { ssr: true });
+const GeoSeo = dynamic(() => import('@/app/components/GeoSeo'), { ssr: true });
+const CaseStudy = dynamic(() => import('@/app/components/CaseStudy'), { ssr: true });
+const Cta = dynamic(() => import('@/app/components/CTA'), { ssr: true });
+const KnowledgeHub = dynamic(() => import('@/app/components/KnowledgeHub'), { ssr: true });
+const Faq = dynamic(() => import('@/app/components/FAQ'), { ssr: true });
+const Footer = dynamic(() => import('@/app/components/Footer'), { ssr: true });
+const ScrollToTop = dynamic(() => import('@/app/components/ScrollToTop'), { ssr: true });
+const ScrollButton = dynamic(() => import('@/app/components/ScrollButton'), { ssr: true });
+const FAQSchema = dynamic(() => import('@/app/components/FAQSchema'), { ssr: true });
 
 const faqs = [
   {

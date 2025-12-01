@@ -36,29 +36,29 @@ const KnowledgeHub = () => {
         "@type": "Thing",
         "name": "AI SEO and Generative Engine Optimization"
         },
-        "hasPart": blogPosts.map((post) => ({
-        "@type": "BlogPosting",
-        "@id": `${siteConfig.url}${post.href}#article`,
-        "headline": post.title,
-        "description": post.desc,
-        "image": `${siteConfig.url}${post.image}`,
-        "datePublished": post.dateISO,
-        "author": {
-            "@type": "Person",
-            "name": post.authorName,
-            "jobTitle": post.authorRole
-        },
-        "publisher": {
-            "@id": `${siteConfig.url}/#organization`
-        },
-        "mainEntityOfPage": {
-            "@type": "WebPage",
-            "@id": `${siteConfig.url}${post.href}`
-        },
-        "keywords": post.tag.replace('#', ''),
-        "articleSection": "AI SEO",
-        "inLanguage": "en-US"
-        }))
+        // "hasPart": blogPosts.map((post) => ({
+        // "@type": "BlogPosting",
+        // "@id": `${siteConfig.url}${post.href}#article`,
+        // "headline": post.title,
+        // "description": post.desc,
+        // "image": `${siteConfig.url}${post.image}`,
+        // "datePublished": post.dateISO,
+        // "author": {
+        //     "@type": "Person",
+        //     "name": post.authorName,
+        //     "jobTitle": post.authorRole
+        // },
+        // "publisher": {
+        //     "@id": `${siteConfig.url}/#organization`
+        // },
+        // "mainEntityOfPage": {
+        //     "@type": "WebPage",
+        //     "@id": `${siteConfig.url}${post.href}`
+        // },
+        // "keywords": post.tag.replace('#', ''),
+        // "articleSection": "AI SEO",
+        // "inLanguage": "en-US"
+        // }))
     };
 
     const blogPosts = [
