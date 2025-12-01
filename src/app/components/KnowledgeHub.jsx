@@ -7,6 +7,7 @@ import Blog1Thumbnail from '@/../public/images/Blog-page/Blog1-Thumbnail.webp';
 import Blog2Thumbnail from '@/../public/images/Blog-page/Blog2-Thumbnail.webp';
 import Blog3Thumbnail from '@/../public/images/Blog-page/Blog3-Thumbnail.webp';
 import AuthorImage from '@/../public/images/Blog-page/Author-Image.webp';
+import { siteConfig } from "@/app/config/site";
 
 // const knowledgeHubSchema = {
 //   "@context": "https://schema.org",

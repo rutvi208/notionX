@@ -1,7 +1,7 @@
 
 import Image from 'next/image';
 import TesstimonialBg from '@/../public/images/backgrounds/Testimonial-Bg.webp';
-
+import { siteConfig } from "@/app/config/site";
 
 const CaseStudy = () => {
 
@@ -39,7 +39,7 @@ const CaseStudy = () => {
         }
       ]
     };
-    
+
     return (
         <section aria-labelledby="case-study-heading">
             {/* Enhanced Structured Data */}
