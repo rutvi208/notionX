@@ -11,7 +11,7 @@ import Blog1Banner from '@/../public/images/Blog-page/blog1-banner-how-to-rank-s
 import Blog2Thumbnail from '@/../public/images/Blog-page/Blog2-Thumbnail.webp';
 import Blog3Thumbnail from '@/../public/images/Blog-page/Blog3-Thumbnail.webp';
 import Blog4Thumbnail from '@/../public/images/Blog-page/Blog4-Thumbnail.webp';
-import AuthorImage from '@/../public/images/Blog-page/Author-Image.webp';
+import AuthorImage from '@/../public/images/Blog-page/ManthanDesai_blogAuthor.webp';
 import SharePopup from '@/app/components/SharePopup';
 import { getReadingTime } from "@/app/components/getReadingTime";
 import AuditCTA from '@/app/components/AuditCTA';
@@ -322,7 +322,7 @@ const Blog1 = () => {
                         name="Manthan D."
                         url={`${siteConfig.url}/authors/manthan`}
                         role="SEO Strategist"
-                        image={`${siteConfig.url}${siteConfig.paths.blogImages}/Author-Image.webp`}
+                        image={`${siteConfig.url}${siteConfig.paths.blogImages}/ManthanDesai_blogAuthor.webp`}
                     />
                     <FAQSchema faqs={faqs} />
                     <div className="my-10 sm:my-12 lg:mt-20 2xl:mt-24 container mx-auto justify-center place-items-center text-center">
@@ -575,7 +575,7 @@ const Blog1 = () => {
                                 className='object-contain'
                             />
                         </div> */}
-                        <div id='AuthorBlock' className='mb-10 sm:mb-12 lg:max-w-5xl sm:w-[45rem] mx-auto container scroll-m-5 sm:scroll-m-10'>
+                        <div id='AuthorBlock' className='mb-10 sm:mb-12 lg:max-w-5xl sm:w-[40rem] mx-auto container scroll-m-5 sm:scroll-m-10'>
                             <div className="px-[1px] py-[1px] rounded-xl sm:rounded-[20px] bg-[radial-gradient(circle_at_center,#FF4E18_40%,#FEE7DF)]">
                                 {/* flex flex-row space-x-3 sm:space-x-8 */}
                                 <div className="p-5 grid grid-flow-row sm:grid-cols-3 gap-5 sm:gap-10 items-start rounded-xl sm:rounded-[20px] bg-[#FAF7F5]">
@@ -583,7 +583,7 @@ const Blog1 = () => {
                                         <Image
                                             src={AuthorImage}
                                             alt="Author Image"
-                                            className='w-40 sm:h-full object-cover rounded-xl sm:rounded-2xl'
+                                            className='w-32 sm:h-full object-cover rounded-xl sm:rounded-2xl'
                                         />
                                     </div>
                                     <div className='sm:col-span-2'>
@@ -595,14 +595,14 @@ const Blog1 = () => {
                                                     </span>
 
                                                     <Link 
-                                                        href="https://linkedin.com" 
+                                                        href="https://www.linkedin.com/in/manthandesai/" 
                                                         target="_blank" 
                                                         className="cursor-pointer text-[var(--foreground)] text-xl"
                                                     >
                                                         <AiOutlineLinkedin />
                                                     </Link>
                                                 </div>    
-                                                <p className="content-font text-base sm:text-lg">Content & Authority Building Specialist</p>
+                                                {/* <p className="content-font text-base sm:text-lg">Content & Authority Building Specialist</p> */}
                                             </div>
                                         <p className="content-font text-base sm:text-lg mt-2.5 sm:mt-5">Leverage natural language and structured data. Better make your content AI-friendly.</p>
                                         {/* <div className='flex flex-row text-[var(--foreground)] space-x-4 text-2xl mt-5'>

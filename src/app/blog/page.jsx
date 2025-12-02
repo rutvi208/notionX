@@ -10,7 +10,7 @@ import Blog3Thumbnail from '@/../public/images/Blog-page/Blog3-Thumbnail.webp';
 import Blog4Thumbnail from '@/../public/images/Blog-page/Blog4-Thumbnail.webp';
 import Blog5Thumbnail from '@/../public/images/Blog-page/Blog5-Thumbnail.webp';
 import { siteConfig } from "@/app/config/site";
-import AuthorImage from '@/../public/images/Blog-page/Author-Image.webp';
+import AuthorImage from '@/../public/images/Blog-page/ManthanDesai_blogAuthor.webp';
 
 const blogPosts = [
   {
@@ -389,8 +389,8 @@ const KnowledgeHub = () => {
                           <Image
                             src={blog.authorImage}
                             alt={`${blog.authorName} profile picture`}
-                            width={24}
-                            height={24}
+                            width={28}
+                            height={28}
                             className="rounded-full"
                           />
 
