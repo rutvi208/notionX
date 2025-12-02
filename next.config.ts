@@ -5,8 +5,6 @@ const nextConfig: NextConfig = {
   output: "export", // this enables `next export`
   images: {
     unoptimized: true, // required for static export when using next/image
-<<<<<<< HEAD
-=======
     qualities: [65],
   },
 
@@ -18,7 +16,6 @@ const nextConfig: NextConfig = {
     removeConsole: process.env.NODE_ENV === 'production' ? {
       exclude: ['error', 'warn'], // Keep error and warn logs
     } : false,
->>>>>>> v2/master
   },
 };
 

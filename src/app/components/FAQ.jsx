@@ -65,49 +65,6 @@ const Faq = () => {
     };
 
     return (
-<<<<<<< HEAD
-        <div>
-            <div className="container mx-auto place-items-center py-20 px-5 lg:px-8 2xl:px-0">
-                <h1 className="heading-font text-center font-semibold text-3xl sm:text-4xl lg:text-5xl tracking-[-0.06rem]">Quick Answers</h1>
-                <p className="text-lg lg:text-xl text-center content-font mt-3">Everything you need to know about GEO and AI search optimization.</p>
-                
-                <div className="grid grid-cols-1 lg:grid-cols-2 gap-3 lg:gap-5 my-16 lg:my-20">
-                    {faqs.map((faq, index) => (
-                        <div key={index} className="self-start">
-                        <div className="rounded-lg border border-[var(--stroke)] text-lg lg:text-xl px-6">
-                            {/* Question */}
-                            <button
-                            onClick={() => toggleFAQ(index)}
-                            className="w-full flex flex-row items-center justify-between py-4 text-left"
-                            >
-                            <p className="content-font">{faq.question}</p>
-                            <span className="text-[#AD8775] text-2xl 2xl:text-3xl">
-                                {openIndex === index ? "-" : "+"}
-                            </span>
-                            </button>
-
-                            {/* Answer */}
-                            <div
-                            className={`overflow-hidden transition-all duration-300 ease-in-out ${
-                                openIndex === index ? "max-h-max" : "max-h-0"
-                            }`}
-                            >
-                            <div className="pb-4">
-                                <p className="text-base lg:text-lg xl:text-xl text-[#333]">
-                                {faq.answer}
-                                </p>
-                            </div>
-                            </div>
-                        </div>
-                        </div>
-                    ))}
-                </div>
-                
-            </div>
-        </div>
-    )
-}
-=======
         <section aria-labelledby="faq-heading">
           <div className="container mx-auto place-items-center py-20 px-5 lg:px-8 2xl:px-0">
             <header className="text-center">
@@ -159,6 +116,5 @@ const Faq = () => {
         </section>
       )
   }
->>>>>>> v2/master
 
 export default Faq;
