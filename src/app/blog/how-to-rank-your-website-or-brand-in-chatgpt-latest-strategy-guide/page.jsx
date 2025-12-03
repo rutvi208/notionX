@@ -35,51 +35,51 @@ export const metadata = generateBlogMetadata({
     section: "ChatGPT Ranking Strategies",
     publishedTime: "2025-09-12T00:00:00Z",
     modifiedTime:"2025-09-12T00:00:00Z",
-    keywords: ["how to rank in ChatGPT search", "how do you rank your website in ChatGPT", "how to rank on ChatGPT", "how to rank in ChatGPT", "how to rank on ChatGPT in 2025", "how to rank website on ChatGPT", "how to rank brand on ChatGPT in 2025", "how to rank a brand on ChatGPT", "how to rank on ChatGPT for brand mentions", "where does my brand rank in ChatGPT", "how to rank on ChatGPT for brands in 2025", "how to rank in ChatGPT search results", "how products and services appear in ChatGPT search results", "how to appear in ChatGPT search results", "how to track ChatGPT visibility in search results"],
+    keywords: ["how to rank in ChatGPT search", "how do you rank your website in ChatGPT", "how to rank on ChatGPT", "how to rank in ChatGPT", "how to rank on ChatGPT in 2026", "how to rank website on ChatGPT", "how to rank brand on ChatGPT in 2026", "how to rank a brand on ChatGPT", "how to rank on ChatGPT for brand mentions", "where does my brand rank in ChatGPT", "how to rank on ChatGPT for brands in 2026", "how to rank in ChatGPT search results", "how products and services appear in ChatGPT search results", "how to appear in ChatGPT search results", "how to track ChatGPT visibility in search results"],
   });
 
 const blogPosts = [
 
   {
     id: 1,
-    href: "complete-guide-to-chatgpt-rank-tracking-tools-in-2025",
+    href: "complete-guide-to-chatgpt-rank-tracking-tools-in-2026",
     image: Blog2Thumbnail,
-    tag: "#trending",
-    title: "Complete Guide to ChatGPT Rank Tracking Tools in 2025!",
+    //tag: "#trending",
+    title: "Complete Guide to ChatGPT Rank Tracking Tools in 2026!",
     desc: "The way people search online is evolving. AI tools like ChatGPT now influence how content is discovered. Traditional rank tracking methods no longer capture the full picture.",
     date: "Sep 25, 2025",
     readTime: "8 mins read",
     dateISO: "2025-09-25", // Added for proper datetime attribute
     authorName: "Manthan D.",
-    authorRole: "SEO Strategist",
+    //authorRole: "SEO Strategist",
     authorImage: AuthorImage,
   },
   {
     id: 2,
     href: "best-chatgpt-seo-agency-and-services-for-ai-search-ranking",
     image: Blog3Thumbnail,
-    tag: "#trending",
+    //tag: "#trending",
     title: "Best ChatGPT SEO Agency & Services for AI Search Ranking",
     desc: "With ChatGPT, Perplexity, and other AI search engines altering how people search, companies face a new contest. If AI-powered search cannot find your content - your brand does not exist. Traditional SEO tactics will not earn you a spot in AI-powered answers.",
     date: "Oct 13, 2025",
     readTime: "6 mins read",
     dateISO: "2025-10-13", // Added for proper datetime attribute
     authorName: "Manthan D.",
-    authorRole: "SEO Strategist",
+    //authorRole: "SEO Strategist",
     authorImage: AuthorImage,
   },
   {
     id: 3,
     href: "how-to-rank-in-ai-overview-understand-the-seo-vs-geo-vs-aeo",
     image: Blog4Thumbnail,
-    tag: "#trending",
+    //tag: "#trending",
     title: "How to Rank in AI Overview : Understand the SEO vs GEO vs AEO",
-    desc: "What if the way we search the internet is transformed by 2025? Imagine asking a question and receiving not merely any answer. However, the precise one that you require—instantly delivered by AI-enabled tools.",
+    desc: "What if the way we search the internet is transformed by 2026? Imagine asking a question and receiving not merely any answer. However, the precise one that you require—instantly delivered by AI-enabled tools.",
     date: "Oct 25, 2025",
     readTime: "7 mins read",
     dateISO: "2025-10-25", // Added for proper datetime attribute
     authorName: "Manthan D.",
-    authorRole: "SEO Strategist",
+    //authorRole: "SEO Strategist",
     authorImage: AuthorImage,
   },
 ];
@@ -121,12 +121,12 @@ const faqs = [
       "Use brand monitoring tools and citation trackers. Regular audits can help you. Better spot gaps and improve performance.",
   },
   {
-    question: "How to rank on ChatGPT in 2025?",
+    question: "How to rank on ChatGPT in 2026?",
     answer:
       "Stay updated with - AI trends. Optimize for conversational relevance. Adapt as ChatGPT's algorithms evolve.",
   },
   {
-    question: "How to Rank on ChatGPT in 2025 and Beyond.",
+    question: "How to Rank on ChatGPT in 2026 and Beyond.",
     answer:
       "So, to rank in ChatGPT search, begin with clear and helpful content that answers real questions. Get your brand mentioned by trusted sources. And build authority through backlinks. Leverage natural language and structured data. Better make your content AI-friendly. Keep your brand active across digital platforms. So, ChatGPT can easily recognize and recommend you.",
   }
@@ -241,11 +241,11 @@ Tools to Monitor ChatGPT Performance.
 
 Use AI analytics platforms that track performance and conversational visibility. These tools help you answer questions like "where does my brand rank in ChatGPT?" To improve rankings, brands should focus on messaging and engagement.
 
-Future-Proofing Your ChatGPT Search Strategies in 2025!
+Future-Proofing Your ChatGPT Search Strategies in 2026!
 
 As AI evolves - so should your strategy. Let us explore how to future-proof your search strategy.
 
-How to Rank on ChatGPT in 2025.
+How to Rank on ChatGPT in 2026.
 
 Ranking on ChatGPT requires to:
 
@@ -254,9 +254,9 @@ Ranking on ChatGPT requires to:
 - Continuously learn and adapt - Test new formats and monitor results.
 - Set KPIs - Define goals for mentions, citations, and engagement.
 
-How to Rank on ChatGPT for Brands in 2025.
+How to Rank on ChatGPT for Brands in 2026.
 
-Focus on brand engagement, content clarity, and structured data. These elements will define how to rank brand on ChatGPT in 2025 and beyond.
+Focus on brand engagement, content clarity, and structured data. These elements will define how to rank brand on ChatGPT in 2026 and beyond.
 
 Moving Forward: Your Roadmap to ChatGPT Ranking Success!
 
@@ -266,7 +266,7 @@ If you need professional help? Explore our consulting services at notionX to bui
 
 You can even try our AI-Powered GEO Auditor (Beta Version) tool to analyze your website performance for traditional search engines and AI-steered platforms.
 
-Pro Tips - How to Rank on ChatGPT in 2025 and Beyond.
+Pro Tips - How to Rank on ChatGPT in 2026 and Beyond.
 
 So, to rank in ChatGPT search, begin with clear and helpful content that answers real questions. Get your brand mentioned by trusted sources. And build authority through backlinks.
 
@@ -303,13 +303,13 @@ const Blog1 = () => {
                             "how do you rank your website in ChatGPT", 
                             "how to rank on ChatGPT", 
                             "how to rank in ChatGPT", 
-                            "how to rank on ChatGPT in 2025", 
+                            "how to rank on ChatGPT in 2026", 
                             "how to rank website on ChatGPT", 
-                            "how to rank brand on ChatGPT in 2025", 
+                            "how to rank brand on ChatGPT in 2026", 
                             "how to rank a brand on ChatGPT", 
                             "how to rank on ChatGPT for brand mentions", 
                             "where does my brand rank in ChatGPT", 
-                            "how to rank on ChatGPT for brands in 2025", 
+                            "how to rank on ChatGPT for brands in 2026", 
                             "how to rank in ChatGPT search results", 
                             "how products and services appear in ChatGPT search results", 
                             "how to appear in ChatGPT search results", 
@@ -321,14 +321,14 @@ const Blog1 = () => {
                     <AuthorSchema
                         name="Manthan D."
                         url={`${siteConfig.url}/authors/manthan`}
-                        role="SEO Strategist"
+                        //role="SEO Strategist"
                         image={`${siteConfig.url}${siteConfig.paths.blogImages}/ManthanDesai_blogAuthor.webp`}
                     />
                     <FAQSchema faqs={faqs} />
                     <div className="my-10 sm:my-12 lg:mt-20 2xl:mt-24 container mx-auto justify-center place-items-center text-center">
                         <h1 className="heading-font text-3xl lg:text-4xl xl:text-5xl sm:w-10/12 lg:w-10/12 2xl:w-8/12">How to Rank Your Website or Brand in ChatGPT: Latest Strategy Guide</h1>
                         <div className='flex flex-wrap justify-center items-center gap-3 sm:gap-5 mt-4 sm:mt-8 text-[#878483]'>
-                            <a href='#AuthorBlock' className='content-font text-xs whitespace-nowrap'>Manthan D.</a>
+                            <h2 className='content-font text-xs whitespace-nowrap'>Manthan D.</h2>
                             <span className='text-2xl sm:text-3xl'> · </span>
                             <p className='content-font text-xs whitespace-nowrap'>Sep 12, 2025 &nbsp; | &nbsp; {readingTime}</p>
                             <span className='text-2xl sm:text-3xl'> · </span>
@@ -340,7 +340,7 @@ const Blog1 = () => {
                             </div>
                         </div>
 
-                        <div className='flex flex-col lg:max-w-5xl sm:w-[56.25rem] mx-auto my-8 sm:my-10 container'>
+                        {/* <div className='flex flex-col lg:max-w-5xl sm:w-[56.25rem] mx-auto my-8 sm:my-10 container'>
 
                             <div className="p-[1px] mx-4 sm:mx-0 overflow-hidden rounded-xl sm:rounded-[20px] bg-[radial-gradient(circle_at_center,#FF4E18_40%,#FEE7DF)]">
                                 <div className="py-3 sm:py-5 px-4 sm:px-16 rounded-b-xl sm:rounded-b-[20px] bg-[#FAF7F5]">
@@ -349,9 +349,9 @@ const Blog1 = () => {
                                     </p>
                                 </div>
                             </div>
-                        </div>
+                        </div> */}
 
-                        <section className='mx-auto container overflow-hidden rounded-lg lg:rounded-xl h-auto md:h-[24rem] sm:w-[56.25rem] px-4 lg:px-0'>
+                        <section className='mx-auto my-8 sm:my-10 container overflow-hidden rounded-lg lg:rounded-xl h-auto md:h-[24rem] sm:w-[56.25rem] px-4 lg:px-0'>
                             <Image
                                 src={Blog1Banner}
                                 alt="Hero Background"
@@ -379,7 +379,7 @@ const Blog1 = () => {
                                     <li className='hover:underline'><a href="#how-geo-targeted">How Geo-Targeted Strategies Help You Rank in ChatGPT Search Results.</a></li>
                                     <li className='hover:underline'><a href="#how-to-rank-products">How to Rank Products and Services in ChatGPT Search!</a></li>
                                     <li className='hover:underline'><a href="#how-to-track">How to Track ChatGPT Visibility and Improve Rankings!</a></li>
-                                    <li className='hover:underline'><a href="#future-proofing">Future-Proofing Your ChatGPT Search Strategies in 2025!</a></li>
+                                    <li className='hover:underline'><a href="#future-proofing">Future-Proofing Your ChatGPT Search Strategies in 2026!</a></li>
                                     <li className='hover:underline'><a href="#moving-forward">Moving Forward: Your Roadmap to ChatGPT Ranking Success!</a></li>
                                 </ul>
                             </section>
@@ -512,10 +512,10 @@ const Blog1 = () => {
 
                             {/* future-proofing */}
                             <section id="future-proofing" className='mb-10 sm:mb-12 scroll-mt-10 sm:scroll-mt-16'>
-                                <h2 className="heading-font font-semibold text-2xl sm:text-3xl tracking-[-0.05rem]">Future-Proofing Your ChatGPT Search Strategies in 2025!</h2>
+                                <h2 className="heading-font font-semibold text-2xl sm:text-3xl tracking-[-0.05rem]">Future-Proofing Your ChatGPT Search Strategies in 2026!</h2>
                                 <p className="mt-2 sm:mt-4 content-font text-lg lg:text-xl tracking-[-0.05rem]">As AI evolves - so should your strategy. Let us explore how to future-proof your search strategy.</p>
                                 <div className='my-8'>
-                                    <h3 className="flex flex-row items-center heading-font text-[#222222] font-medium text-xl sm:text-2xl tracking-[-0.05rem]"><Image src={BlackArrow} alt="Black Arrow icon" className='me-2'/>How to Rank on ChatGPT in 2025.</h3>
+                                    <h3 className="flex flex-row items-center heading-font text-[#222222] font-medium text-xl sm:text-2xl tracking-[-0.05rem]"><Image src={BlackArrow} alt="Black Arrow icon" className='me-2'/>How to Rank on ChatGPT in 2026.</h3>
                                     <p className="ms-5 mt-2 sm:mt-4 content-font text-lg lg:text-xl tracking-[-0.05rem]">Ranking on ChatGPT requires to -</p>
                                     <ul className="ms-12 mt-2 sm:mt-4 space-y-2 content-font list-disc list-outside text-lg lg:text-xl tracking-[-0.05rem]">
                                         <li>Follow AI algorithm updates - Stay informed about changes.</li>
@@ -525,8 +525,8 @@ const Blog1 = () => {
                                     </ul>
                                 </div>
                                 <div className=''>
-                                    <h3 className="flex flex-row items-center heading-font text-[#222222] font-medium text-xl sm:text-2xl tracking-[-0.05rem]"><Image src={BlackArrow} alt="Black Arrow icon" className='me-2'/>How to Rank on ChatGPT for Brands in 2025.</h3>
-                                    <p className="ms-5 mt-2 sm:mt-4 content-font text-lg lg:text-xl tracking-[-0.05rem]">Focus on - brand engagement, content clarity, and structured data. These elements will define - how to rank brand on ChatGPT in 2025 and beyond.</p>
+                                    <h3 className="flex flex-row items-center heading-font text-[#222222] font-medium text-xl sm:text-2xl tracking-[-0.05rem]"><Image src={BlackArrow} alt="Black Arrow icon" className='me-2'/>How to Rank on ChatGPT for Brands in 2026.</h3>
+                                    <p className="ms-5 mt-2 sm:mt-4 content-font text-lg lg:text-xl tracking-[-0.05rem]">Focus on - brand engagement, content clarity, and structured data. These elements will define - how to rank brand on ChatGPT in 2026 and beyond.</p>
                                 </div>
                             </section>
 
@@ -551,7 +551,7 @@ const Blog1 = () => {
                                 <div className="py-3 sm:py-5 px-4 sm:px-10 rounded-b-xl sm:rounded-b-[20px] bg-[#FAF7F5] space-y-3 sm:space-y-5">
                                     <div className='flex flex-col space-y-1.5 border-l-[2px] border-l-[var(--cta)] ps-2 lg:ps-4'>
                                         <div className="content-font text-sm text-left text-[#222222] flex flex-row space-x-1 items-center"><p>Checklist</p>  <GiCheckMark /></div>
-                                        <h2 className="heading-font font-bold text-2xl sm:text-[28px]">How to Rank on ChatGPT in 2025 and Beyond.</h2>
+                                        <h2 className="heading-font font-bold text-2xl sm:text-[28px]">How to Rank on ChatGPT in 2026 and Beyond.</h2>
                                     </div>
                                     <p className="content-font text-sm sm:text-base">
                                         So, to rank in ChatGPT search, begin with clear and helpful content that answers real questions. Get your brand mentioned by trusted sources. And build authority through backlinks.
@@ -575,9 +575,8 @@ const Blog1 = () => {
                                 className='object-contain'
                             />
                         </div> */}
-                        <div id='AuthorBlock' className='mb-10 sm:mb-12 lg:max-w-5xl sm:w-[40rem] mx-auto container scroll-m-5 sm:scroll-m-10'>
+                        {/* <div id='AuthorBlock' className='mb-10 sm:mb-12 lg:max-w-5xl sm:w-[40rem] mx-auto container scroll-m-5 sm:scroll-m-10'>
                             <div className="px-[1px] py-[1px] rounded-xl sm:rounded-[20px] bg-[radial-gradient(circle_at_center,#FF4E18_40%,#FEE7DF)]">
-                                {/* flex flex-row space-x-3 sm:space-x-8 */}
                                 <div className="p-5 grid grid-flow-row sm:grid-cols-3 gap-5 sm:gap-10 items-start rounded-xl sm:rounded-[20px] bg-[#FAF7F5]">
                                     <div className='sm:col-span-1 h-full'>
                                         <Image
@@ -588,7 +587,7 @@ const Blog1 = () => {
                                     </div>
                                     <div className='sm:col-span-2'>
                                         <div className='border-l-[2px] border-l-[var(--cta)] pb-[1px] ps-2 lg:ps-4'>
-                                                {/* Name + LinkedIn inline */}
+                                                
                                                 <div className="flex items-center gap-2">
                                                     <span className="heading-font font-bold text-2xl sm:text-[28px]">
                                                                 Manthan D.
@@ -602,18 +601,17 @@ const Blog1 = () => {
                                                         <AiOutlineLinkedin />
                                                     </Link>
                                                 </div>    
-                                                {/* <p className="content-font text-base sm:text-lg">Content & Authority Building Specialist</p> */}
                                             </div>
-                                        <p className="content-font text-base sm:text-lg mt-2.5 sm:mt-5">Leverage natural language and structured data. Better make your content AI-friendly.</p>
-                                        {/* <div className='flex flex-row text-[var(--foreground)] space-x-4 text-2xl mt-5'>
-                                            <Link href='#' className='cursor-pointer'><AiOutlineLinkedin /></Link>
-                                            <Link href='#' className='cursor-pointer'><AiOutlineInstagram /></Link>
-                                            <Link href='#' className='cursor-pointer'><AiOutlineMail /></Link>
-                                        </div> */}
+                                        <p className="content-font text-base sm:text-lg mt-2.5 sm:mt-5">Leverage natural language and structured data. Better make your content AI-friendly.</p>    
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        </div> */}
+                        {/* <div className='flex flex-row text-[var(--foreground)] space-x-4 text-2xl mt-5'>
+                            <Link href='#' className='cursor-pointer'><AiOutlineLinkedin /></Link>
+                            <Link href='#' className='cursor-pointer'><AiOutlineInstagram /></Link>
+                            <Link href='#' className='cursor-pointer'><AiOutlineMail /></Link>
+                        </div> */}
                         <AuditCTA />
                     </div>
 
@@ -648,7 +646,7 @@ const Blog1 = () => {
                                             <div
                                                 className='bg-white flex flex-col justify-between flex-grow p-3 lg:p-4 rounded-b-xl sm:rounded-b-[0.875rem]'>
 
-                                                <span className="text-sm text-left text-[var(--foreground)] content-font">{blog.tag}</span>
+                                                {/* <span className="text-sm text-left text-[var(--foreground)] content-font">{blog.tag}</span> */}
                                                 <h2 className="heading-font font-medium text-lg lg:text-xl leading-5 sm:leading-6 tracking-[-0.06rem] my-2 hover:text-[var(--cta)]">
                                                     <Link 
                                                     href={blog.href} 
@@ -684,7 +682,7 @@ const Blog1 = () => {
                         
                                                     <div>
                                                     <span className="author block">
-                                                        By <strong>{blog.authorName}</strong> — {blog.authorRole}
+                                                        By <strong>{blog.authorName}</strong>
                                                     </span>
                         
                                                     <span className="">
