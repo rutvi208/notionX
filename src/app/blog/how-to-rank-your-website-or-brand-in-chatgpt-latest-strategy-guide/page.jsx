@@ -3,7 +3,7 @@ import Footer from '@/app/components/Footer';
 import BlogFAQ from '@/app/components/BlogFAQ';
 import { HiMiniShare, HiMiniArrowSmallRight } from "react-icons/hi2";
 import { GiCheckMark } from "react-icons/gi";
-import { AiOutlineLinkedin } from "react-icons/ai";
+//import { AiOutlineLinkedin } from "react-icons/ai";
 import BlackArrow from '@/../public/images/Blog-page/Black-Arrow.svg';
 import Link from "next/link";
 import Image from 'next/image';
@@ -25,6 +25,7 @@ import AuthorSchema from "@/app/components/AuthorSchema";
 import ScrollProgressBar from '@/app/components/ScrollProgressBar';
 import ScrollToTop from '@/app/components/ScrollToTop';
 import ScrollButton from '@/app/components/ScrollButton';
+import AskAISection from '@/app/components/AskAISection';
 
 export const metadata = generateBlogMetadata({
     title: "How to Rank Your Website or Brand in ChatGPT: Latest Strategy Guide",
@@ -719,6 +720,10 @@ const Blog1 = () => {
                                 ))}
                             </div>
                         </div>
+                    </section>
+
+                    <section aria-label="Ask AI Section">
+                        <AskAISection/>
                     </section>
                 <Footer/>
             </div>

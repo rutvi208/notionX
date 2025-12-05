@@ -27,6 +27,7 @@ import AskAI from '@/app/components/AskAI';
 import ScrollProgressBar from '@/app/components/ScrollProgressBar';
 import ScrollToTop from '@/app/components/ScrollToTop';
 import ScrollButton from '@/app/components/ScrollButton';
+import AskAISection from '@/app/components/AskAISection';
 
 export const metadata = generateBlogMetadata({
     title: "Best ChatGPT SEO Agency & Services for AI Search Ranking",
@@ -842,6 +843,10 @@ const Blog2 = () => {
                                 ))}
                             </div>
                         </div>
+                    </section>
+
+                    <section aria-label="Ask AI Section" className='mt-10 lg:mt-20 xl:mt-28'>
+                        <AskAISection/>
                     </section>
                 <Footer/>
             </div>

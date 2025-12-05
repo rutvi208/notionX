@@ -11,6 +11,9 @@ import Blog4Thumbnail from '@/../public/images/Blog-page/Blog4-Thumbnail.webp';
 import Blog5Thumbnail from '@/../public/images/Blog-page/Blog5-Thumbnail.webp';
 import { siteConfig } from "@/app/config/site";
 import AuthorImage from '@/../public/images/Blog-page/ManthanDesai_blogAuthor.webp';
+// import dynamic from 'next/dynamic';
+// const AskAISection = dynamic(() => import('@/app/components/AskAISection'), { ssr: true });
+import AskAISection from '@/app/components/AskAISection';
 
 const blogPosts = [
   {
@@ -434,7 +437,11 @@ const KnowledgeHub = () => {
             </div>
 
             
-           </section>
+          </section>
+           
+          <section aria-label="Ask AI Section">
+            <AskAISection/>
+          </section>
 
            {/* Footer Component */}
            <Footer />
