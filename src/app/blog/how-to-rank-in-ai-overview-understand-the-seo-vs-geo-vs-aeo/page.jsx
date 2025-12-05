@@ -22,6 +22,7 @@ import AuthorSchema from "@/app/components/AuthorSchema";
 import ScrollProgressBar from '@/app/components/ScrollProgressBar';
 import ScrollToTop from '@/app/components/ScrollToTop';
 import ScrollButton from '@/app/components/ScrollButton';
+import AskAISection from '@/app/components/AskAISection';
 
 export const metadata = generateBlogMetadata({
     title: "How to Rank in AI Overview: Understand the SEO vs GEO vs AEO",
@@ -773,6 +774,10 @@ const Blog4 = () => {
                                 ))}
                             </div>
                         </div>
+                    </section>
+
+                    <section aria-label="Ask AI Section" className='mt-10 lg:mt-20 xl:mt-28'>
+                        <AskAISection/>
                     </section>
                 <Footer/>
             </div>

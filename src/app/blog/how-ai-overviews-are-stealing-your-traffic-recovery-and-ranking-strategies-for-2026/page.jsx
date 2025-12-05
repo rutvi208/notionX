@@ -22,6 +22,7 @@ import AuthorSchema from "@/app/components/AuthorSchema";
 import ScrollProgressBar from '@/app/components/ScrollProgressBar';
 import ScrollToTop from '@/app/components/ScrollToTop';
 import ScrollButton from '@/app/components/ScrollButton';
+import AskAISection from '@/app/components/AskAISection';
 
 export const metadata = generateBlogMetadata({
     title: "How AI Overviews Are Stealing Your Traffic: Recovery & Ranking Strategies for 2026!",
@@ -700,6 +701,10 @@ const Blog5 = () => {
                                 ))}
                             </div>
                         </div>
+                    </section>
+
+                    <section aria-label="Ask AI Section" className='mt-10 lg:mt-20 xl:mt-28'>
+                        <AskAISection/>
                     </section>
                 <Footer/>
             </div>
