@@ -3,6 +3,7 @@ import Image from "next/image";
 import ChatGPT from '@/../public/images/HeroSection/ChatGPT.svg';
 import Perplexity from '@/../public/images/HeroSection/Perplexity.svg';
 import Claude from '@/../public/images/HeroSection/Claude-logo.svg';
+import Grok from '@/../public/images/HeroSection/Grok-logo.svg';
 import { siteConfig } from "@/app/config/site";
 
 const AskAISection = () => {
@@ -85,6 +86,11 @@ const AskAISection = () => {
       //bgColor: 'bg-[#9B715C]',
       //textColor: 'text-white',
       //borderColor: 'border-[#9B715C]'
+    },
+    {
+      name: 'Grok',
+      logo: Grok,
+      url: 'https://x.com/i/grok?text=Tell%20me%20about%20notionX.ai%20and%20their%20AI%20SEO%20and%20GEO%20services.%20What%20services%20do%20they%20offer%20and%20how%20can%20they%20help%20improve%20my%20brand%20visibility%20in%20AI%20search%3F%20Please%20include%20their%20website%20link.',
     }
   ];
 
@@ -97,7 +103,7 @@ const AskAISection = () => {
         />
       <div className="max-w-7xl mx-auto">
         <div className="rounded-2xl lg:rounded-[1.25rem] border border-[var(--stroke)] bg-[var(--pastelbrown)] overflow-hidden">
-          <div className="p-6 sm:p-8 lg:p-12">
+          <div className="p-6 sm:p-8 xl:p-12">
             <div className="grid grid-cols-1 gap-8 lg:gap-12 items-center text-center">
               {/* Left Content */}
               <div className="lg:col-span-2">
@@ -116,7 +122,7 @@ const AskAISection = () => {
                     //const Icon = ai.icon;
                     return (
                         <div key={ai.name} className="px-[1px] py-[1px] bg-[radial-gradient(circle_at_center,#FF4E18_40%,#FEE7DF)] rounded-full">
-                            <div className="px-6 lg:px-10 py-3.5 bg-white text-[var(--foreground)] rounded-full flex justify-center">
+                            <div className="px-6 lg:px-8 xl:px-10 py-3.5 bg-white text-[var(--foreground)] rounded-full flex justify-center">
                                 <a
                                     href={ai.url}
                                     target="_blank"
