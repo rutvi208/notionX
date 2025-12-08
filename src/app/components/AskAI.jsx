@@ -34,7 +34,7 @@ export default function AskAI() {
                 id="middle-cta-heading"
                 className="heading-font text-xl lg:text-2xl mb-4 sm:mb-8 text-[var(--foreground)]"
             >
-                Ask AI to summarise this article
+                Ask AI to summarise this article..
             </h3>
             <div className="grid grid-cols-2 sm:flex justify-center items-center gap-6 sm:gap-10">
                 <button
