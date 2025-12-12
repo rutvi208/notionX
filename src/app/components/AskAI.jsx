@@ -73,7 +73,7 @@ export default function AskAI() {
                 </button>
                 <button
                     onClick={() => handleAIClick('grok')}
-                    className="flex items-center gap-2 cursor-pointer -ms-3 col-span-2 sm:col-span-1 justify-center sm:justify-start"
+                    className="flex items-center gap-2 cursor-pointer"
                     aria-label="Summarize this article with Grok"
                 >
                     <Image src={Grok} alt="Grok Logo" className="h-6 w-6 lg:h-8 lg:w-8" />
